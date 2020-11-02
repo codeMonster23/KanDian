@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+      <meta charset="utf-8">
+    	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    	<meta name="viewport" content="width=device-width, initial-scale=1">
+    	<title>收益管理-充值记录</title>
+    	<link href="../css/public/bootstrap.min.css" rel="stylesheet">  
+    	<link href="../css/public/backstage.css" rel="stylesheet">  
+    	<link href="../css/public/common.css" rel="stylesheet">  
+    	<link href="../css/accountManage/style.css" rel="stylesheet">  
+      <script type="text/javascript" src="../js/jquery-1.10.1.min.js"></script>
+    	<script type="text/javascript" src="../laydate/laydate.js"></script>
+    	<!--[if lt IE 9]>
+      		<script src="js/html5.js"></script>
+      		<script src="js/respond.js"></script>
+      <![endif]-->
+    </head>
+    <body>
+    <div class="container-fluid">
+      <div class="row main">
+        <div class="col-sm-10 content">
+          <div class="row">
+            <div class="breadcrumb-nav">
+              <a href="">首页></a>
+              <a href="">收益管理></a>
+              <a href="">充值记录</a>
+            </div>
+            <div class="audit">
+              <div class="works" style="height:70px;">
+                <div class="col-sm-10 col-sm-offset-1">
+                  <div class="row">
+                    <div class="col-sm-10 col-sm-offset-1 padding0">
+                      <div class="row search-box">
+                        <div class="col-sm-2 padding0">
+                          <div class="dropdown">
+                            <a href="" class="btn btn-default dropdown-toggle" data-toggle="dropdown">订单编号<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                              <li><a href="">看典号名称</a></li>
+                              <li><a href="">看典号code</a></li>
+                            </ul>
+                          </div><!--dropdown-->
+                        </div><!--col-sm-2-->
+                        <div class="col-sm-10 padding0 pdl20">
+                          <div class="input-group">
+                            <input type="text" class="form-control search-input">
+                            <div class="input-group-btn"> 
+                              <button class="btn btn-search">搜索</button>
+                            </div>
+                          </div>
+                        </div><!--col-sm-10-->
+                      </div><!--search-box-->
+                    </div><!--col-sm-10-->
+                  </div>
+                </div>
+              </div>
+              <div class="tab-nav clearfix">
+                <a href="" class="active">全部</a>
+                <a href="">今日</a>
+                <a href="">昨日</a>
+                <a href="">本周</a>
+                <a href="">本月</a>
+                <a href="" class="last">年度</a>
+              </div>
+              <div class="audit-status">
+                <div class="calendar">
+                  <ul class="inline">
+                    <li class="inline">从</li>
+                    <li class="inline laydate-icon" id="start" style="width:90px;">2016-4-14</li>
+                    <li class="inline">至</li>
+                    <li class="inline laydate-icon" id="end" style="width:90px;">2016-4-14</li>
+                    <li><a href="" class=" skip">跳转</a></li>
+                  </ul>
+                </div>
+                <div class="pull-left">
+                    <span class="pull-left">充值方式：</span>
+                    <div class="dropdown">
+                      <a href="" class="btn btn-default dropdown-toggle" data-toggle="dropdown">全部<span class="caret"></span></a>
+                      <ul class="dropdown-menu">
+                        <li class="active"><a href="">待审核（初审）</a></li>
+                        <li><a href="">待审核（政审）</a></li>
+                        <li><a href="">待审核（质审）</a></li>
+                        <li><a href="">待审核（终审）</a></li>
+                      </ul>
+                    </div><!--dropdown-->
+                </div>   
+                <div class="pull-left" style="margin-left:10px">
+                    <span class="pull-left">来源：</span>
+                    <div class="dropdown">
+                      <a href="" class="btn btn-default dropdown-toggle" data-toggle="dropdown"  style="margin-left:0">全部<span class="caret"></span></a>
+                      <ul class="dropdown-menu">
+                        <li><a href="">已发布</a></li>
+                        <li><a href="">未发布</a></li>
+                        <li><a href="">已下架</a></li>
+                      </ul>
+                    </div><!--dropdown-->
+                </div> 
+                <div class="pull-right record">
+                  <span>共<i> 189654 </i>条记录</span> | <span>总计金额<i> 189654 </i>元</span>
+                </div>   
+              </div>
+              <table class="table table-responsive audit-table">
+                <thead>
+                  <tr>
+                    <th><input type="checkbox"></th>
+                    <th>序号</th>
+                    <th>订单编号</th>
+                    <th>用户名</th>
+                    <th>充值金额</th>
+                    <th>赠券</th>
+                    <th>充值方式</th>
+                    <th>来源</th>
+                    <th class="last">充值时间</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><input type="checkbox"></td>
+                    <td>01</td>
+                    <td>5426ASD6</td>
+                    <td>summer</td>
+                    <td>50.00</td>
+                    <td>0</td>
+                    <td>支付宝</td>
+                    <td>安卓</td>
+                    <td>2019.02.13 18:25:36</td>
+                  </tr>
+                  <tr>
+                    <td><input type="checkbox"></td>
+                    <td>02</td>
+                    <td>5426ASD6</td>
+                    <td>summer</td>
+                    <td>50.00</td>
+                    <td>0</td>
+                    <td>支付宝</td>
+                    <td>安卓</td>
+                    <td>2019.02.13 18:25:36</td>
+                  </tr>
+                  <tr class="last">
+                    <td><input type="checkbox"></td>
+                    <td>03</td>
+                    <td>5426ASD6</td>
+                    <td>summer</td>
+                    <td>50.00</td>
+                    <td>0</td>
+                    <td>支付宝</td>
+                    <td>安卓</td>
+                    <td>2019.02.13 18:25:36</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row footer">
+        <div class="col-sm-10 col-sm-offset-2 text-center">
+            ©《中国学术期刊（光盘版）》电子杂志社有限公司
+        </div>
+      </div>
+    </div>
+    <script type="text/javascript" src="../js/bootstrap.min.js"></script>
+    <script type="text/javascript">
+      $(".table tr:even").css("background-color","#f5f5f5");
+      !function(){
+      laydate.skin('molv');//切换皮肤
+      laydate({elem: '.calendar'});//绑定元素
+      }();
+      //日期范围限制
+      var start = {
+          elem: '#start',
+          format: 'YYYY-MM-DD',
+          min: laydate.now(), //设定最小日期为当前日期
+          max: '2099-06-16', //最大日期
+          istime: true,
+          istoday: false,
+          choose: function(datas){
+                end.min = datas; //开始日选好后，重置结束日的最小日期
+                end.start = datas //将结束日的初始值设定为开始日
+          }
+      };
+      var end = {
+          elem: '#end',
+          format: 'YYYY-MM-DD',
+          min: laydate.now(),
+          max: '2099-06-16',
+          istime: true,
+          istoday: false,
+          choose: function(datas){
+              start.max = datas; //结束日选好后，充值开始日的最大日期
+          }
+      };
+      laydate(start);
+      laydate(end);
+    </script>
+    </body>
+</html>

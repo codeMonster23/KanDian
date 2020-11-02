@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+      <meta charset="utf-8">
+    	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    	<meta name="viewport" content="width=device-width, initial-scale=1">
+    	<link href="../css/public/bootstrap.min.css" rel="stylesheet">  
+      <link href="../css/public/backstage.css" rel="stylesheet">  
+      <link href="../css/commentManage/style.css" rel="stylesheet">  
+      <script type="text/javascript" src="../js/jquery-1.10.1.min.js"></script>
+    	<!--[if lt IE 9]>
+      		<script src="js/html5.js"></script>
+      		<script src="js/respond.js"></script>
+    	<![endif]-->
+    </head>
+    <body>
+    <div class="modal fade comment-modal1">
+       <div class="modal-dialog">
+          	<div class="modal-content">
+             	<div class="modal-header">
+                	<button type="button" class="close" data-dismiss="modal">&times;</button>
+                	<h4 class="modal-title">评论内容</h4>
+             	</div>
+             	<div class="modal-body">
+                <p>一开始我还为华丽的辞藻，荒诞的情节，冗长的姓氏感到烦躁不堪啊但随着故事的深入展开，我才发现我错了。一开始我还为华丽的辞藻啊荒诞的情节，冗长的姓氏感到烦躁不堪，但随着故事的深入展开，我才发现但随着故事的深入展开，我才发现阿四大啊啊啊大我错了</p>
+                <img src="../imagesTemp/commentManage/cover.jpg">
+              </div>
+             	<div class="modal-footer">
+                 <button type="button" class="btn btn-save" data-dismiss="modal">确定</button>
+             	</div>
+          	</div>
+      	</div>
+    </div><
+    <script type="text/javascript" src="../js/bootstrap.min.js"></script>
+    <script type="text/javascript">
+      $('.modal').modal('show');
+    </script>
+    </body>
+</html>

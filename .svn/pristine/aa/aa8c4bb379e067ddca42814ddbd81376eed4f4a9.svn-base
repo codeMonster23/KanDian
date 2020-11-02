@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+      <meta charset="utf-8">
+    	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    	<meta name="viewport" content="width=device-width, initial-scale=1">
+    	<title>作品管理</title>
+    	<link href="../css/public/bootstrap.min.css" rel="stylesheet">  
+      <link href="../css/public/backstage.css" rel="stylesheet">  
+      <link href="../css/public/common.css" rel="stylesheet">  
+    	<link href="../css/accountManage/style.css" rel="stylesheet">  
+    	<link href="../css/worksManage/style.css" rel="stylesheet">  
+      <script type="text/javascript" src="../js/jquery-1.10.1.min.js"></script>
+    	<!--[if lt IE 9]>
+      		<script src="js/html5.js"></script>
+      		<script src="js/respond.js"></script>
+      <![endif]-->
+    </head>
+    <body>
+    <div class="container-fluid">
+      <div class="row main">
+        <div class="col-sm-10 content">
+          <div class="row">
+            <div class="breadcrumb-nav">
+              <a href="">首页></a>
+              <a href="">作品管理></a>
+              <a href="">精选推荐</a>
+            </div>
+            <div class="audit">
+              <div class="topnav">
+                <ul class="clearfix">
+                  <li><a href="" class="active">作品精选推荐</a></li>
+                  <li><a href="">微刊精选推荐</a></li>
+                </ul>
+              </div>
+              <div class="section">
+                <div class="works">
+                  <div class="col-sm-10 col-sm-offset-1">
+                    <div class="row works-search">
+                      <div class="col-sm-10 col-sm-offset-1 padding0">
+                        <div class="row search-box">
+                          <div class="col-sm-2 padding0">
+                            <div class="dropdown">
+                              <a href="" class="btn btn-default dropdown-toggle" data-toggle="dropdown">作品名称<span class="caret"></span></a>
+                              <ul class="dropdown-menu">
+                                <li class="active"><a href="">作品编码</a></li>
+                                <li><a href="">主编真实姓名</a></li>
+                                <li><a href="">主编昵称</a></li>
+                                <li><a href="">主编用户名</a></li>
+                                <li><a href="">初审编辑</a></li>
+                              </ul>
+                            </div><!--dropdown-->
+                          </div><!--col-sm-2-->
+                          <div class="col-sm-10 padding0 pdl20">
+                            <div class="input-group">
+                              <input type="text" class="form-control search-input">
+                              <div class="input-group-btn"> 
+                                <button class="btn btn-search">搜索</button>
+                              </div>
+                            </div>
+                          </div><!--col-sm-10-->
+                        </div><!--search-box-->
+                      </div><!--col-sm-10-->
+                    </div>
+                    <div class="row works-classify">
+                      <div class="col-sm-10 col-sm-offset-1 padding0">
+                        <div class="pull-left clearfix">
+                          <span class="works-classify-title pull-left">作品类型：</span>
+                          <div class="dropdown pull-left">
+                            <a href="" class="btn btn-default dropdown-toggle" data-toggle="dropdown">全部<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                              <li><a href="">图文</a></li>
+                              <li><a href="">音频</a></li>
+                              <li><a href="">视频</a></li>
+                              <li><a href="">图集</a></li>
+                            </ul>
+                          </div><!--dropdown-->
+                        </div>
+                        <div class="pull-left clearfix">
+                          <span class="works-classify-title pull-left">作品分类：</span>
+                          <div class="dropdown pull-left">
+                            <a href="" class="btn btn-default dropdown-toggle" data-toggle="dropdown">一级分类<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                              <li><a href="">生活休闲</a></li>
+                              <li><a href="">教育教学</a></li>
+                              <li><a href="">经济管理</a></li>
+                              <li><a href="">政法军事</a></li>
+                              <li><a href="">人文社科</a></li>
+                              <li><a href="">医药卫生</a></li>
+                            </ul>
+                          </div><!--dropdown-->
+                        </div>
+                        <div class="pull-left clearfix">
+                          <span class="works-classify-title pull-left">推荐状态：</span>
+                          <div class="dropdown pull-left">
+                            <a href="" class="btn btn-default dropdown-toggle" data-toggle="dropdown">全部<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                              <li><a href="">免费</a></li>
+                              <li><a href="">付费</a></li>
+                            </ul>
+                          </div><!--dropdown-->
+                        </div>
+                      </div><!--col-sm-10-->
+                    </div> 
+                  </div>
+                </div>
+                <table class="table table-responsive audit-table">
+                  <thead>
+                    <tr>
+                      <th>序号</th>
+                      <th>CODE</th>
+                      <th>作品名称</th>
+                      <th>类型</th>
+                      <th>价格</th>
+                      <th>看典号</th>
+                      <th>分类</th>
+                      <th>发布时间</th>
+                      <th>发布状态</th>
+                      <th>是否精选</th>
+                      <th class="last">操作</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>01</td>
+                      <td>5426ASD6</td>
+                      <td><a href="">古代为什么会出现世袭制？</a></td>
+                      <td>图文</td>
+                      <td>5.00</td>
+                      <td>中国知网（文艺号）</td>
+                      <td><a href="">诸子百家</a></td>
+                      <td>2019.02.13<br>18:25:36</td>
+                      <td><a href="" class="btn btn-orange">未发布</a></td>
+                      <td>否</td>
+                      <td>[<a href="">推荐</a>]</td>
+                    </tr>
+                    <tr>
+                      <td>02</td>
+                      <td>5426ASD6</td>
+                      <td><a href="">古代为什么会出现世袭制？</a></td>
+                      <td>图文</td>
+                      <td>5.00</td>
+                      <td>中国知网（文艺号）</td>
+                      <td><a href="">诸子百家</a></td>
+                      <td>2019.02.13<br>18:25:36</td>
+                      <td><a href="" class="btn btn-darkGreen">已发布</a></td>
+                      <td>否</td>
+                      <td>[<a href="">取消推荐</a>]</td>
+                    </tr>
+                    <tr>
+                      <td>03</td>
+                      <td>5426ASD6</td>
+                      <td><a href="">古代为什么会出现世袭制？</a></td>
+                      <td>图文</td>
+                      <td>5.00</td>
+                      <td>中国知网（文艺号）</td>
+                      <td><a href="">诸子百家</a></td>
+                      <td>2019.02.13<br>18:25:36</td>
+                      <td><a href="" class="btn btn-lightGrey">已发布</a></td>
+                      <td>否</td>
+                      <td>[<a href="">推荐</a>]</td>
+                    </tr>
+                    <tr class="last">
+                      <td>04</td>
+                      <td>5426ASD6</td>
+                      <td><a href="">古代为什么会出现世袭制？</a></td>
+                      <td>图文</td>
+                      <td>5.00</td>
+                      <td>中国知网（文艺号）</td>
+                      <td><a href="">诸子百家</a></td>
+                      <td>2019.02.13<br>18:25:36</td>
+                      <td><a href="" class="btn btn-grey">永久下架</a></td>
+                      <td>否</td>
+                      <td>[<a href="">精选</a>]</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row footer">
+        <div class="col-sm-10 col-sm-offset-2 text-center">
+            ©《中国学术期刊（光盘版）》电子杂志社有限公司
+        </div>
+      </div>
+    </div>
+    <script type="text/javascript" src="../js/bootstrap.min.js"></script>
+    <script type="text/javascript">
+      $(".table tr:even").css("background-color","#f5f5f5");
+    </script>
+    </body>
+</html>

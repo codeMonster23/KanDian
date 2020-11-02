@@ -1,0 +1,17 @@
+/* 修改版式 */
+@media (min-width: 768px){
+    .comment-modal1 .modal-dialog {width: 522px;}
+}
+.comment-modal1 .modal-body{
+    line-height: 30px;
+    padding: 10px 13px;
+    border: 1px solid #c3c3c3;
+    background-color: #fff;
+    font-size: 14px;
+}
+.comment-modal1 .modal-body p{
+    margin: 0;
+}
+.comment-modal1 .modal-body img{
+    margin: 10px 0;
+}

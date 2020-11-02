@@ -1,0 +1,131 @@
+@charset "utf-8";
+.w1200Auto{
+    width: 1200px;
+    margin: 0 auto;
+}
+.s1{
+    height: 630px;
+    background: url("../../images/loginAndReg/s1.jpg") no-repeat top center;
+}
+.logo-img{
+    float: left;
+    margin: 8px 20px 0 0;
+    /* box-shadow: 5px 5px 5px rgba(0,0,0,.2); */
+}
+.logo-name{
+    font: 36px/75px '微软雅黑';
+    color: #fff;
+}
+.s1 .form{
+    position: absolute;
+    top: 187px;
+    right: 16px;
+    width: 340px;
+    height: 380px;
+    padding: 0 28px;
+    background: #fff;
+    border-radius: 5px;
+}
+.s1 .form h1{
+    margin-top: 27px;
+    font-size: 20px;
+    font-weight: normal;
+    font-family: '微软雅黑';
+}
+.s1 .form .item{
+    width: 340px;
+    margin-top: 15px;
+}
+.s1 .form .item input {
+    width: 293px;
+    height: 48px;
+    line-height: 48px;
+    padding-left: 45px;
+    border: 1px solid #dcdcdc;
+    border-radius: 5px;
+    background:  url("../../images/loginAndReg/icon1.png") no-repeat 14px center;
+}
+.s1 .form .item input.active{
+    border-color: #e58e27;
+}
+.s1 .form .pwd input{
+    background-image: url("../../images/loginAndReg/icon2.png");
+}
+.s1 .form .verifyCode input{
+    width: 172px;
+    padding-left: 16px;
+    background: none;
+}
+.s1 .form .error{
+    position: absolute;
+    bottom: 110px;
+    color: #eb0000;
+}
+.s1 .loginBtn{
+    display: block;
+    height: 50px;
+    margin: 40px auto 0;
+    border-radius: 25px;
+    background: #f75959;
+    color: #fff;
+    font: 18px/50px '微软雅黑';
+    text-align: center;
+}
+.s2{
+    height: 468px;
+    background: #fff url("../../images/loginAndReg/s2.jpg") no-repeat top center;
+}
+.s3{
+    height: 448px;
+    background: #ffba05 url("../../images/loginAndReg/s3.jpg") no-repeat top center;
+}
+.s4{
+    height: 516px;
+    background: #fff url("../../images/loginAndReg/s4.jpg") no-repeat top center;
+}
+.s5{
+    height: 448px;
+    background: #e4eeff url("../../images/loginAndReg/s5.jpg") no-repeat top center;
+}
+.s6{
+    height: 522px;
+    background: #fff url("../../images/loginAndReg/s6.jpg") no-repeat top center;
+}
+.s7{
+    height: 509px;
+    background: url("../../images/loginAndReg/s7.jpg") no-repeat top center;
+}
+.s8{
+    position: relative;
+    height: 459px;
+    background: url("../../images/loginAndReg/s8.jpg") no-repeat top center;
+    text-align: center;
+}
+.s8 h1{
+    padding: 85px 0 32px;
+    font-size: 40px;
+    font-weight: normal;
+    font-family: '微软雅黑';
+}
+.s8 .btn{
+    display: block;
+    width: 200px;
+    height: 50px;
+    margin: 0 auto;
+    border-radius: 25px;
+    background: #f75959;
+    color: #fff;
+    font: 22px/50px '微软雅黑';
+}
+.s8 .copyright{
+    position: absolute;
+    bottom: 50px;    
+    width: 100%;
+}
+.s8 p{
+    color: #333;
+    font: 14px/24px '微软雅黑';
+}
+::-ms-clear, ::-ms-reveal{
+    display: none;
+}

@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>书刊商城</title>
+    <link href="../css/public/bootstrap.min.css" rel="stylesheet">
+    <link href="../css/public/backstage.css" rel="stylesheet">
+    <link href="../css/public/common.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="../css/bookShop/bookShop.css"/>
+    <script type="text/javascript" src="../js/jquery-1.10.1.min.js"></script>
+    <script type="text/javascript" src="../laydate/laydate.js"></script>
+    <!--[if lt IE 9]>
+      		<script src="js/html5.js"></script>
+      		<script src="js/respond.js"></script>
+      <![endif]-->
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row main">
+            <div class="col-sm-10 content bookShop">
+                <div class="row">
+                    <div class="breadcrumb-nav">
+                        <a href="">首页></a>
+                        <a href="">书刊商城></a>
+                        <a href="">书刊管理</a>
+                    </div>
+                    <div class="audit">
+                        <div class="works">
+                            <div class="col-sm-8">
+                                <div class="col-sm-3 padding0">
+                                    <div class="dropdown">
+                                        <a href="" class="btn btn-default dropdown-toggle" data-toggle="dropdown">全部期刊
+                                            <span class="caret"></span>
+                                        </a>
+                                        <ul class="dropdown-menu">
+                                            <li>
+                                                <a href="">图书名称</a>
+                                            </li>
+                                            <li>
+                                                <a href="">code</a>
+                                            </li>
+                                            <li>
+                                                <a href="">出版社名称</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <!--dropdown-->
+                                </div>
+                                <!--col-sm-2-->
+                                <div class="col-sm-9 padding0">
+                                    <div class="input-group">
+                                        <input type="text" class="form-control search-input" placeholder="输入关键词，检索作品">
+                                        <div class="input-group-btn">
+                                            <button class="btn btn-search">搜索</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--col-sm-10-->
+                            </div>
+                            <div class="col-sm-2 clearfix">
+                                <span class="works-classify-title pull-left">期刊分类：</span>
+                                <div class="dropdown dropdown2 pull-left">
+                                    <a href="" class="btn btn-default dropdown-toggle" data-toggle="dropdown">全部类型
+                                        <span class="caret"></span>
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li>
+                                            <a href="">折扣图书</a>
+                                        </li>
+                                        <li>
+                                            <a href="">免费图书</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <!--dropdown-->
+                            </div>
+                            <div class="col-sm-2 clearfix">
+                                <span class="works-classify-title pull-left">是否为会员优惠：</span>
+                                <div class="dropdown dropdown2 pull-left">
+                                    <a href="" class="btn btn-default dropdown-toggle" data-toggle="dropdown">全部类型
+                                        <span class="caret"></span>
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li>
+                                            <a href="">折扣图书</a>
+                                        </li>
+                                        <li>
+                                            <a href="">免费图书</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <!--dropdown-->
+                            </div>
+                        
+                        </div>
+                        <div class="tabNavWrap clearfix">
+                            <div class="tab-nav pull-left clearfix">
+                                <a href="" class="active">图书</a>
+                                <a href="" class="last">期刊</a>
+                            </div>
+                            <div class="btns pull-right clearfix">
+                                <a href="">添加书刊</a>
+                            </div>
+                        </div>
+                        <table class="table table-responsive audit-table">
+                            <thead>
+                                <tr>
+                                    <th>序号</th>
+                                    <th>名称</th>
+                                    <th>CODE</th>
+                                    <th>ISBN</th>
+                                    <th>出版社</th>
+                                    <th>分类</th>
+                                    <th>上传时间</th>
+                                    <th>价格</th>
+                                    <th>是否为会员优惠</th>
+                                    <th class="last">操作</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>1</td>
+                                    <td>女人女人</td>
+                                    <td>DZ1909010003</td>
+                                    <td>978-7-5520-0379-6</td>
+                                    <td>中国文史出版社</td>
+                                    <td>尝试科普——养生</td>
+                                    <td>2019-12-27 15:11:26</td>
+                                    <td>¥20.00</td>
+                                    <td>是</td>
+                                    <td class="table-handle clearfix">
+                                        <div class="table-price">
+                                            <a href="#"  class="handle-btn-price">详情</a>
+                                            
+                                           
+                                        </div>
+                                        <div class="table-del">
+                                            <span class="handle-btn-del">删除</span>
+                                            <div class="table-popover-del">
+                                                <p>删除后数据无法恢复，是否确认删除？</p>
+                                                <p class="popover-del-btngroup">
+                                                    <span class="popover-btn-confirm">确定</span>
+                                                    <span class="popover-btn-cancel">取消</span>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>2</td>
+                                    <td>女人女人</td>
+                                    <td>DZ1909010003</td>
+                                    <td>978-7-5520-0379-6</td>
+                                    <td>中国文史出版社</td>
+                                    <td>尝试科普——养生</td>
+                                    <td>2019-12-27 15:11:26</td>
+                                    <td>¥20.00</td>
+                                    <td>否</td>
+                                    <td class="table-handle clearfix">
+                                        <div class="table-price">
+                                            <a href="#"  class="handle-btn-price">详情</a>
+                                            
+                                           
+                                        </div>
+                                        <div class="table-del">
+                                            <span class="handle-btn-del">删除</span>
+                                            <div class="table-popover-del">
+                                                <p>删除后数据无法恢复，是否确认删除？</p>
+                                                <p class="popover-del-btngroup">
+                                                    <span class="popover-btn-confirm">确定</span>
+                                                    <span class="popover-btn-cancel">取消</span>
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <span class="set">设为会员优惠</span>
+                                    </td>
+                                </tr>
+                                <tr class="last">
+                                    <td>3</td>
+                                    <td>女人女人</td>
+                                    <td>DZ1909010003</td>
+                                    <td>978-7-5520-0379-6</td>
+                                    <td>中国文史出版社</td>
+                                    <td>尝试科普——养生</td>
+                                    <td>2019-12-27 15:11:26</td>
+                                    <td>¥20.00</td>
+                                    <td>否</td>
+                                    <td class="table-handle clearfix">
+                                        <div class="table-price">
+                                            <a href="#"  class="handle-btn-price">详情</a>
+                                            
+                                           
+                                        </div>
+                                        <div class="table-del">
+                                            <span class="handle-btn-del">删除</span>
+                                            <div class="table-popover-del">
+                                                <p>删除后数据无法恢复，是否确认删除？</p>
+                                                <p class="popover-del-btngroup">
+                                                    <span class="popover-btn-confirm">确定</span>
+                                                    <span class="popover-btn-cancel">取消</span>
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <span class="set">设为会员优惠</span>
+                                    </td>
+                                </tr>            
+                            </tbody>
+                        </table>
+                        <div class="page">
+              <ul>
+                <li class="width-58"><a href="">首页</a></li>
+                <li class="width-58"><a href="">上一页</a></li>
+                <li><a href="" class="cur">1</a></li>
+                <li><a href="">2</a></li>
+                <li><a href="">3</a></li>
+                <li><a href="">4</a></li>
+                <li><a href="">5</a></li>
+                <li><a href="">6</a></li>
+                <li>...</li>
+                <li><a href="">987</a></li>
+                <li class="width-58"><a href="">下一页</a></li>
+                <li class="width-58"><a href="">末页</a></li>
+                <li class="width-58 border0 ">跳转到：</li>
+                <li class="border0 width-80">
+                  <div class="input-group page-input">
+                    <input type="text" class="form-control txt">
+                    <div class="input-group-btn"> 
+                        <button class="btn btn-search btn-identify">确定</button>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+                        
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row footer">
+            <div class="col-sm-10 col-sm-offset-2 text-center">
+                ©《中国学术期刊（光盘版）》电子杂志社有限公司
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="../js/bootstrap.min.js"></script>
+    <script type="text/javascript">
+        $(".table tr:odd").css("background-color", "#f5f5f5");
+
+        $('.bookShop [class^=handle-btn]').click(function(e) {
+            e.stopPropagation();
+            $('[class^=table-popover]').hide();
+            $(this).next().show();
+        });
+        $(document).click(function() {
+            $('[class^=table-popover]').hide();
+        });
+    </script>
+</body>
+
+</html>

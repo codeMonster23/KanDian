@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,height=device-height,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<title>看典</title>
+        <link rel="stylesheet" type="text/css" href="../css/public/public.css"/>
+        <link rel="stylesheet" type="text/css" href="../css/loginAndReg/login.css"/>
+        <script src="../js/jQuery-v1.11.1.js"></script>
+	</head>
+	<body>
+        <div class="s1">
+            <div class="w1200Auto clearfix positionR">
+                <a href="" class="logo-img"><img src="../images/loginAndReg/logo.png" width="75"  height="75" alt=""></a>
+                <h2 class="logo-name">万选号</h2>
+                <div class="form">
+                    <h1>登录</h1>
+                    <div class="item"><input type="text" placeholder="账号"></div>
+                    <div class="item pwd"><input type="password" placeholder="密码"></div>
+                    <div class="item verifyCode clearfix">
+                        <input type="text" placeholder="请输入验证码">
+                        <img class="right" src="">
+                    </div>
+                    <div class="error">用户名或密码不正确</div>
+                    <a href="javascript;;" class="loginBtn">登录</a>
+                </div>
+            </div>
+        </div>
+        <div class="s2"></div>
+        <div class="s3"></div>
+        <div class="s4"></div>
+        <div class="s5"></div>
+        <div class="s6"></div>
+        <div class="s7"></div>
+        <div class="s8">
+            <h1>现在就开始吧</h1>
+            <a href="javascript;;" class="btn">登录</a>
+            <div class="copyright">
+                <p>数字出版：《中国学术期刊（光盘版）》电子杂志社有限公司</p>
+                <p>京ICP证040431号 网络出版服务许可证（总）网出证（京）字第271号 京公网安备11010802020460号</p>
+            </div>
+        </div>
+        <script>
+            var input = $('.s1 .form .item input');
+            input.focus( function(){
+                $(this).addClass('active')
+            })
+            input.blur( function(){
+                $(this).removeClass('active')
+            })
+            $('.s8 .btn').click(function (e) { 
+                e.preventDefault();
+                $('body,html').animate({scrollTop: 0}, 200);
+            });
+        </script>
+	</body>
+</html>

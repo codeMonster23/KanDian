@@ -1,0 +1,8 @@
+@charset "utf-8";
+/*header*/
+.header{ height: 71px; background-color: #434343;font-family: "microsoft yahei";}
+.header .slogan{ line-height: 71px; color: #ffffff; font-size: 28px; padding-left: 20px; }
+.header .dropwrap{ margin-right: 22px; position: relative; padding-top: 22px;}
+.header .dropwrap .name{ display: block; height: 30px; line-height: 30px; color:#ffffff; padding-left: 16px; padding-right: 47px; background: #0FA652 url(../../images/header-and-footer/hf-icon1.png) no-repeat 130px center; border-radius: 14px; font-size: 14px;}
+/*footer*/
+.footer{ height: 40px; line-height: 40px; text-align: center; color: #ffffff;font-family: "microsoft yahei"; background-color: #434343;}

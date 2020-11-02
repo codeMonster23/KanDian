@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<link rel="stylesheet" href="../css/public/public.css">
+        <link rel="stylesheet" href="../css/public/header-and-footer.css">
+		<link rel="stylesheet" href="../css/atlasManagement/jquery.mCustomScrollbar.css">
+		<link rel="stylesheet" href="../css/atlasManagement/style.css">
+    </head>
+    <body bgcolor="#000">
+    	<div class="header">
+	        <div class="left slogan">看典内容管理平台</div>
+	        <div class="right ewm"><img src="../images/header-and-footer/hfewm.jpg" width="39" height="39"></div>
+            <div class="right dropwrap">
+                <a href="javascript:;" class="name">清华大学出版社</a>
+                <ul style="display: none;">
+                    <li><a href="javascript:;">退出账号</a></li>
+                </ul>
+            </div>
+	    </div>
+		<div class="container clearfix">
+			<div class="left menu">
+				<a href="" class="item item1 cur">图片</a>
+				<a href="" class="item item2">封面模板</a>
+				<a href="" class="item item3">内页模板</a>
+				<a href="" class="item item4">音乐</a>
+			</div>
+			<div class="left sidebar">
+				<a href="" class="btn-manage"></a>
+				<div class="btnGroup">
+					<a href="" class="btn1">+添加图片</a>
+					<a href="">+添加分组</a>
+				</div>
+				<div class="listWrap">
+					<div class="add"></div>
+				</div>
+			</div>
+			<div class="left main" style="background: url(../imagesTemp/atlasManagement/skin01.jpg) repeat;">
+				<div class="display">
+					<div class="default">
+						<a href="" class="btn-add">+ 添加图片</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<script src="../js/jQuery-v1.11.1.js"></script>
+		<script src="../js/placeholder.js"></script>
+		<script src="../js/jquery.mCustomScrollbar.min.js"></script>
+		<script src="../js/atlasManagement/picLecture.js"></script>
+    </body>
+</html>

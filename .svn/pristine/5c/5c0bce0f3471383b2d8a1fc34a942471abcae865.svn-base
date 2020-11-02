@@ -1,0 +1,23 @@
+@charset "utf-8";
+div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, input, button, textarea, p, th, td, form, body { padding: 0px; margin: 0px; }
+body { font-family:"宋体"; font-size:12px; color:#000; }
+img { border:none; }
+strong,i { font-style:normal }
+ul, li, ol { list-style-type: none; }
+table { border-collapse: collapse; border-spacing: 0 }
+input::-moz-focus-inner {border:0;padding:0;margin:0;}
+input::-ms-clear {display:none;}
+input[type="button"] { cursor:pointer; }
+input, textarea { outline:none; border: none 0;  resize: none;}
+/*input { border:0; background-color:transparent;}*/
+.clearfix:after { content: "."; display: block; height: 0; clear: both; visibility: hidden; }
+.clearfix { zoom: 1; }
+a { text-decoration:none; outline:none; }
+a:hover { text-decoration:none; }
+.colorGrey{ color: #a6a6a6;}
+.left { float:left; }
+.right { float:right; }
+.positionR { position:relative; }
+.positionA { position:absolute; }
+.displayB { display:block; }
+.displayN { display:none; }

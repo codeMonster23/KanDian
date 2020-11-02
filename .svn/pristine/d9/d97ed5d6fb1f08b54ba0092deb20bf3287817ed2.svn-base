@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>书刊商城</title>
+    <link href="../css/public/bootstrap.min.css" rel="stylesheet">
+    <link href="../css/public/backstage.css" rel="stylesheet">
+    <link href="../css/public/common.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="../css/bookShop/bookShop.css"/>
+    <script type="text/javascript" src="../js/jquery-1.10.1.min.js"></script>
+    <script type="text/javascript" src="../laydate/laydate.js"></script>
+    <!--[if lt IE 9]>
+      		<script src="js/html5.js"></script>
+      		<script src="js/respond.js"></script>
+      <![endif]-->
+</head>
+
+<body>
+        <div class="modal fade modal10 kd-modal8">
+       <div class="modal-dialog">
+            <div class="modal-content ">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title">添加期刊</h4>
+                </div>
+                <div class="modal-body">
+                    <div class="bookTab"><a href="javascript:;" class="cur">按code上传</a>|<a href="javascript:;">表格上传</a></div>
+                    <div class="tabcWrap">
+                    	<div class="tabc t1" style="display: block;">
+                    		<p class="p1">请输入期刊Code，多个Code请用英文分号隔开</p>
+                    	    <input type="text" class="inputCode" />
+                    	</div>
+                    	<div class="tabc t2">
+                            <p class="p1">批量上传数据：如第一次使用请先下载模板！模板链接：<a href="">书刊商城上传期刊模板.xls</a></p>
+                            <div class="upload">
+                                <label for="">Excel数据上传：</label>
+                                <div class="fileWrap">
+                                	<a href="javascript:;">选择文件</a>
+                                	<input type="" name="" id="" value="" placeholder="未选择任何文件"/>
+                                </div>
+                                <a href="javascript:;" class="upbtn">上传数据</a>
+                            </div> 
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer por">
+                 <button type="button" class="btn btn-save" data-dismiss="modal">确定</button>
+                 <button type="button" class="btn btn-cancel" data-dismiss="modal">取消</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="../js/bootstrap.min.js"></script>
+    <script type="text/javascript">
+         $('.modal').modal('show');
+         $('.bookTab a').click(function(){
+             //let index=$(".bookTab a").index(this)
+             let index=$(this).index()
+             console.log(index)
+             $(this).addClass('cur').siblings().removeClass('cur')
+             $('.tabcWrap .tabc').eq(index).show().siblings().hide()
+         })
+    </script>
+</body>
+
+</html>

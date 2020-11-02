@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>书刊商城</title>
+    <link href="../css/public/bootstrap.min.css" rel="stylesheet">
+    <link href="../css/public/backstage.css" rel="stylesheet">
+    <link href="../css/public/common.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="../css/bookShop/bookShop.css"/>
+    <script type="text/javascript" src="../js/jquery-1.10.1.min.js"></script>
+    <script type="text/javascript" src="../laydate/laydate.js"></script>
+    <!--[if lt IE 9]>
+      		<script src="js/html5.js"></script>
+      		<script src="js/respond.js"></script>
+      <![endif]-->
+</head>
+
+<body>
+        <div class="modal fade modal10 kd-modal8">
+       <div class="modal-dialog">
+            <div class="modal-content ">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title">设置会员优惠书刊</h4>
+                </div>
+                <div class="modal-body">
+                    <table border="" cellspacing="" cellpadding="">
+                    	<tr>
+                    	    <th>类型</th>
+                    	    <th>名称</th>
+                    	    <th>CODE</th>
+                    	    <th>ISBN</th>
+                    	    <th>出版社</th>
+                    	    <th>价格</th>
+                    	    <th>促销价</th>
+                    	    <th width="140">操作</th>
+                    	</tr>
+                    	<tr>
+                    	    <td>图书</td>
+                    	    <td>女人女人</td>
+                    	    <td>DZ1909010003</td>
+                    	    <td>978-7-5520-0379-6</td>
+                    	    <td>电子出版社</td>
+                    	    <td>20</td>
+                    	    <td>-</td>
+                    	    <td class="table-handle clearfix">
+                    	        <div class="table-price">
+                                            <span class="handle-btn-price">调价</span>
+                                            <div class="table-popover-price">
+                                                <span>打折
+                                                    <input type="text" value="5">折</span>
+                                                <span class="popover-btn-confirm">确定</span>
+                                                <span class="popover-btn-cancel">取消</span>
+                                            </div>
+                                        </div>
+                    	        <span class="free">设为免费</span>
+                    	    </td>
+                    	</tr>
+                    </table>
+                </div>
+                <div class="modal-footer por">
+                 <button type="button" class="btn btn-save" data-dismiss="modal">确定</button>
+                 <button type="button" class="btn btn-cancel" data-dismiss="modal">取消</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="../js/bootstrap.min.js"></script>
+    <script type="text/javascript">
+         $('.modal').modal('show');
+         $('[class^=handle-btn]').click(function(e) {
+            e.stopPropagation();
+            $('[class^=table-popover]').hide();
+            $(this).next().show();
+        });
+        $(document).click(function() {
+            $('[class^=table-popover]').hide();
+        });
+    </script>
+</body>
+
+</html>

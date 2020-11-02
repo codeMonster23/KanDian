@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,height=device-height,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<title>看典</title>
+        <link rel="stylesheet" type="text/css" href="../css/public/public.css"/>
+        <link rel="stylesheet" type="text/css" href="../css/public/header-and-footer.css"/>
+        <link rel="stylesheet" type="text/css" href="../css/myBookshelf/bookshelf.css"/>
+        <script src="../js/jquery-1.8.2.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../js/divSelect.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../js/jquery.promptToggle.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../js/wordLimit.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+	    <!--header-->
+	    <div class="header">
+	        <div class="left slogan">看典内容管理平台</div>
+	        <div class="right ewm"><img src="../images/header-and-footer/hfewm.jpg" width="39" height="39"></div>
+            <div class="right dropwrap">
+                <a href="javascript:;" class="name">清华大学出版社</a>
+                <ul>
+                    <li><a href="javascript:;">退出账号</a></li>
+                </ul>
+            </div>
+	    </div>
+        <!--main-->	    
+        <div class="content">
+            <!--sidebar-->
+            <div class="sideMenu">
+                <div class="avatar">
+                    <img src="../imagesTemp/worksManagement/avatar.png" width="100" height="100">
+                    <h1>清华大学出版社</h1>
+               </div>
+                <div class="sideList">
+                    <div class="nav nav1">
+                        <a href="javascript:;">首页</a>   
+                    </div>
+                    <div class="nav nav2">
+                        <a href="javascript:;">主页设置</a>   
+                    </div>
+                     <div class="nav nav3">
+                        <a href="javascript:;">作品管理</a>   
+                    </div>
+                    <ul>
+                        <li><a href="javascript:;">全部作品</a></li>
+                        <li><a href="javascript:;">图文作品</a></li>
+                        <li><a href="javascript:;">音频作品</a></li>
+                        <li><a href="javascript:;">视频作品</a></li>
+                        <li><a href="javascript:;">图集作品</a></li>
+                    </ul>
+                    <div class="nav nav4">
+                        <a href="javascript:;" class="cur">微刊管理</a>   
+                    </div>
+                    <div class="nav nav5 click">
+                        <a href="javascript:;" class="cur">我的书架</a>   
+                    </div>
+                    <ul>
+                        <li><a href="javascript:;" class="cur">我的期刊</a></li>
+                        <li><a href="javascript:;">我的图书</a></li>
+                    </ul>
+                    <div class="nav nav6">
+                        <a href="javascript:;">评论管理</a>   
+                    </div>
+                    <div class="nav nav7">
+                        <a href="javascript:;">朗读管理</a>   
+                    </div>
+                    <div class="nav nav8">
+                        <a href="javascript:;">收益管理</a>   
+                    </div>
+                    <ul>
+                        <li><a href="javascript:;">收益总览</a></li>
+                        <li><a href="javascript:;">订单明细</a></li>
+                    </ul>
+                </div>
+ 
+            </div>
+        	<!--contentBox-->
+        	<div class="contentBox">
+        	       <div class="manageWrap bookshelfWrap">
+        	       	   <h1 class="ct">我的期刊</h1>
+                       <div class="exhibition exxq">
+                       	    <img src="../imagesTemp/myBookshelf/img.jpg" width="240" height="315" />
+                       	    <div class="info left">
+                       	    	<h1>创业邦<span>2018年11期</span></h1>
+                       	    	<p>复合影响因子：0  |  综合影响因子：0</p>
+                       	    	<div class="item">
+                       	    		<div class="dl left">
+                       	    			<label>主&nbsp;&nbsp;　办：</label>
+                       	    			<span>湖南大学</span>
+                       	    		</div>
+                       	    		<div class="left">
+                       	    			<label>ISSN：</label>
+                                        <span>1674-3601</span>
+                       	    		</div>
+                       	    	</div>
+                       	    	<div class="item">
+                                    <div class="dl left">
+                                        <label>周&nbsp;&nbsp;　刊：</label>
+                                        <span>月刊</span>
+                                    </div>
+                                    <div class="left">
+                                        <label>CN：</label>
+                                        <span>43-1489/F</span>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="dl left">
+                                        <label>出 版 地：</label>
+                                        <span>北京市</span>
+                                    </div>
+                                    <div class="left">
+                                        <label>创刊时间：</label>
+                                        <span>2007（收录年度2010-2019）</span>
+                                    </div>
+                                </div>
+                                <a href="javascript:;" class="olread">在线阅读</a>                                           	                        </div>
+                       </div>
+                       <div class="catalogue">
+                        <h1></h1>	
+                        <div class="chapters">
+                        	<div class="title">01  融资事件</div>
+                        	<div class="item">
+                        		<a href="#" class="name">时薪小程序  如何切入共享人才市场</a>
+                        		<div class="right">
+                        			<span class="author">胡晨霞</span>
+                        			<a href="javascript:;" class="download"></a>
+                        		</div>
+                        	</div>
+                        	<div class="item">
+                                <a href="#" class="name">时薪小程序  如何切入共享人才市场</a>
+                                <div class="right">
+                                    <span class="author">胡晨霞</span>
+                                    <a href="javascript:;" class="download"></a>
+                                </div>
+                            </div>
+                            <div class="title">02  融资事件</div>
+                            <div class="item">
+                                <a href="#" class="name">时薪小程序  如何切入共享人才市场人才市场人才市场</a>
+                                <div class="right">
+                                    <span class="author">胡晨霞</span>
+                                    <a href="javascript:;" class="download"></a>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <a href="#" class="name">时薪小程序</a>
+                                <div class="right">
+                                    <span class="author">胡晨霞</span>
+                                    <a href="javascript:;" class="download"></a>
+                                </div>
+                            </div>
+                            <div class="title">03  融资事件</div>
+                            <div class="item">
+                                <a href="#" class="name">时薪小程序  如何切入共享人才市场人才市场人才市场</a>
+                                <div class="right">
+                                    <span class="author">胡晨霞</span>
+                                    <a href="javascript:;" class="download"></a>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <a href="#" class="name">时薪小程序  如何切人才市场人才市场</a>
+                                <div class="right">
+                                    <span class="author">胡晨霞</span>
+                                    <a href="javascript:;" class="download"></a>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <a href="#" class="name">人才市场</a>
+                                <div class="right">
+                                    <span class="author">胡晨霞</span>
+                                    <a href="javascript:;" class="download"></a>
+                                </div>
+                            </div>
+                            <div class="title">04  融资事件</div>
+                            <div class="item">
+                                <a href="#" class="name">时薪小程序  如何切人才市场人才市场</a>
+                                <div class="right">
+                                    <span class="author">杜颖；胡晨霞；连冉；钟士玉</span>
+                                    <a href="javascript:;" class="download"></a>
+                                </div>
+                            </div>
+                        </div>
+                       </div>
+        	       </div>
+                   
+        	</div>
+       
+        </div>   
+       <!--footer-->
+        <div class="footer">©&nbsp;&nbsp;2019中国知网&nbsp;京ICP证040431号</div>
+        <!--javascript-->
+        <script>
+            //头部
+           $(".header .dropwrap").click(function(e){
+               $(this).find("ul").slideToggle(200)
+               e.stopPropagation();
+           })
+           $(document).click(function(){
+             $(".header .dropwrap ul").slideUp(200)  
+            })
+            //左侧高度
+            var height=$(".content").height()            
+            $(".sideMenu").height(height) 
+            //side展开收起
+            $(".sideList .nav").click(function(){
+                $(this).addClass("click").siblings().removeClass("click")
+                $(this).toggleClass("toggle")
+                $(this).next("ul").slideToggle()
+            })
+          //调用模拟下拉
+        $.divselect($(".select p"),$(".select ul:not(.select2 ul)"),$(".select ul li:not(.select2 ul li)"));
+        $(".tools .select p").click(function(){
+            $(".lineHeight ul").hide() 
+        });
+        //分类下拉
+        $(".handle .all").click(function(){             
+            $(this).toggleClass("click")
+            $(".classify").slideToggle(300)
+            setTimeout(function(){height=$(".content").height()           
+            $(".sideMenu").height(height)},300)
+        })
+        //表格隔行变色
+        $("table tr:even").addClass("bg")
+        //条件筛选切换
+        $(".condition a").click(function(){
+            $(this).addClass("cur").siblings().removeClass("cur")
+        })
+        //分享框
+        $(".operate .share").click(function(){
+            $(".mask").show()
+            $(this).find(".sharebox").show()
+        })
+        $(".mask").click(function(){
+            $(this).hide()
+            $(".sharebox").hide()
+        })
+        //期刊年份
+        $(".years a").click(function(){
+         $(this).addClass("cur").siblings().removeClass("cur")   
+        })
+        </script>
+         //高级搜索
+        <script>
+                 (function(){
+                     $(".from").live("click",function(){
+                    var start = 1980; // 指定开始年份
+                    var end = new Date().getFullYear(); // 获取当前年份
+                     for(i=start;i<=end;i++)
+                    {$(".fromlist").append("<li>"+i+"年</li>")}})})()
+                </script> 
+        <script>
+                   (function(){
+                        $(".to").live("click",function(){
+                        var start = 1980; // 指定开始年份
+                        var end = new Date().getFullYear(); // 获取当前年份
+                        for(i=start;i<=end;i++)
+                            {$(".tolist .ndy").after("<li>"+i+"年</li>")}}) 
+                    })()
+                </script> 
+        <script>
+                (function(){  
+                                      
+                    $(".selects .item").live("click",
+                        function(){
+                        $(".selects .itemlist").hide()   
+                        $(this).siblings(".itemlist").show()
+                        $(this).parent(".selects").css({"z-index":"20"})//ie6、7修正
+                        $(this).parents(".selectwrap").css({"z-index":"10"})//ie6、7修正
+                            })
+                    $(".selects .itemlist").live("mouseover",
+                    function(){$(this).show();$(this).parent(".selects").css({"z-index":"20"});$(this).parents(".selectwrap").css({"z-index":"10"})}).live("mouseout",function(){
+                        $(this).hide()
+                        $(this).parent(".selects").css({"z-index":"1"})
+                        $(this).parents(".selectwrap").css({"z-index":"1"})
+                        }   
+                    )
+                    $(".selects .itemlist li").live("mouseover",
+                        function(){
+                            $(this).addClass("gray")    
+                            }).live("mouseout",
+                        function(){
+                            $(this).removeClass("gray") 
+                            }
+                    )
+                    $(".selects .itemlist li").live("click",
+                        function(){
+                        var Text=$(this).text() 
+                        $(this).parent(".selects .itemlist").siblings(".item").text(Text)    
+                        $(this).parent(".selects .itemlist").hide()  
+                        $(this).parent(".selects").css({"z-index":"1"})
+                        $(this).parents(".selectwrap").css({"z-index":"1"})
+                        $(this).parent(".selects .itemlist").removeClass("itemlistspec")
+                        $(this).parents(".selects").removeClass("selectspec")
+                        $(this).parent().siblings(".sweep").css({"display":"block"})
+                        $(this).parent().siblings("input").css({"display":"block"})
+                        $(this).parent().siblings(".yearwrap").css({"display":"none"})
+                         $(".searchwrap .search").removeClass("bd")
+                            })
+                    $(".selects .itemlist .fbsj").live("click",
+                        function(){
+                        $(this).parent(".selects .itemlist").addClass("itemlistspec")
+                        $(this).parents(".selects").addClass("selectspec")
+                        $(this).parent().siblings("input").css({"display":"none"})
+                        $(this).parent().siblings(".sweep").css({"display":"none"})
+                        $(this).parent().siblings(".yearwrap").css({"display":"block"})
+                        $(".searchwrap .search").addClass("bd")
+                            })
+                    })()
+            </script> 
+        <script>
+                (function(){
+                    $(".yearwrap .p").live("mouseover",
+                    function(){
+                            $(this).addClass("hoverp")}).live("mouseout",
+                    function(){
+                            $(this).removeClass("hoverp")})
+                    $(".yearwrap .p").live("click",
+                        function(){
+                            $(".yearwrap ul").css({"display":"none"})
+                            $(".yearwrap .p").removeClass("clickp")
+                            $(this).parents(".selectspec").css({"z-index":100})  
+                            $(this).parents(".selectwrap").css({"z-index":10})   
+                            $(this).siblings("ul").show(5)
+                            $(this).addClass("clickp")}//不触发body点击事件用live
+                    )
+                    $(".yearwrap ul li").live("mouseover",
+                        function(){
+                            $(this).addClass("hover")}).live("mouseout",function(){
+                            $(this).removeClass("hover")})
+                    $(".selects .yearwrap ul li").live("click",
+                        function(){
+                        var Text=$(this).text() 
+                        $(this).parent("ul").siblings(".p").children("b").text(Text)    
+                        $(this).parent("ul").hide() 
+                        $(".selects .itemlist").removeClass("itemlistspec")
+                            })      
+                        $(".selects .yearwrap ul").live("mouseover",function(){
+                        $(this).css({"display":"block"})}).live("mouseout",function(){
+                        $(this).css({"display":"none"})
+                        $(this).siblings(".p").removeClass("clickp")
+                        })
+                        $("body").click(
+                        function(){
+                        $(".selects ul").hide()
+                        $(".selects").css({"z-index":"1"})
+                        $(".selectwrap").css({"z-index":"1"})
+                        $(".yearwrap .p").removeClass("clickp") 
+                            })})()
+                </script> 
+	</body>
+</html>

@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="../../css/public/public.css"/>
+    <link rel="stylesheet" type="text/css" href="../../css/public/tailwind.css"/>
+    <link rel="stylesheet" type="text/css" href="../../css/homepageSetting/hps.css"/>
+    <link rel="stylesheet" type="text/css" href="../../js/layui/css/layui.css"/>
+    <title>Document</title>
+</head>
+<body>
+    <div class="mset">
+        <div class="mset-title">
+            图文推荐
+        </div>
+        <div class="mset-body">
+            <!-- 左标签，右输入框 -->
+            <div class="mset-item clearfix">
+                <div class="mset-label">栏目名称</div>
+                <input type="text" class="mset-input">
+            </div>
+            <!-- 左标签，右上下单选 -->
+            <div class="mset-item clearfix">
+                <div class="mset-label">更多入口</div>
+                <div class="mset-main">
+                    <div class="mset-double-input clearfix">
+                        <label class="left pt-4" ><input type="radio" name="door"> 显示</label>
+                        <div class="mset-double-link left ml-12">跳转链接: <span style="color: #38C646;">图文作品 | 茶道</span></div>
+                        <span class="mset-double-select left ml-6">
+                            <p>更换链接</p>
+                            <ul>
+                                <li class="border">作品频道</li>
+                                <li>微刊频道</li>
+                                <li>书店频道</li>
+                                <li class="border">作品页</li>
+                            <li>作品分组</li>
+                            <li>作品类型</li>
+                            <li class="border">作品页</li>
+                            <li>微刊频道</li>
+                            <li>书店频道</li>
+                            </ul>
+                        </span>
+                    </div>
+                    <div class="mt-7">
+                        <label><input type="radio" name="door"> 不显示</label>
+                    </div>
+                </div>
+            </div>
+            <!-- 左标签，右一个按钮加文字 -->
+            <div class="mset-item clearfix">
+                <div class="clearfix">
+                    <div class="mset-label">作品来源</div>
+                    <div class="mset-main clearfix">
+                        <div class="mset-add-btn left">
+                            + 添加文章
+                        </div>
+                        <span class="mset-add-text left ml-10">
+                            为保证阅读效果，最多可添加20个作品
+                        </span>
+                    </div>
+                </div>
+                
+
+                <div class="mset-selected mt-12">
+                    <div class="mset-selected-title">
+                        已选择作品(6/20)
+                    </div>
+                    <div class="mset-selected-main">
+                        <div class="mset-selected-item clearfix">
+                            <img src="../../images/homepageSetting/img1.png" alt="" class="left mset-selected-img">
+                            <div class="mset-selected-content left">
+                                基于核心素养的高中生教学设计汇编
+                            </div>
+                        </div>
+                        <div class="mset-selected-item mset-selected-item-select clearfix">
+                            <img src="../../images/homepageSetting/img1.png" alt="" class="left mset-selected-img">
+                            <div class="mset-selected-content left">
+                                基于核心素养的高中生教学设计汇编
+                            </div>
+                            <img src="../../images/homepageSetting/close-circle-fill.png" class="mset-selected-close"/>
+                        </div>
+                        <div class="mset-selected-item clearfix">
+                            <img src="../../images/homepageSetting/img1.png" alt="" class="left mset-selected-img">
+                            <div class="mset-selected-content left">
+                                基于核心素养的高中生教学设计汇编
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- 左标签，右三个单选 -->
+            <div class="mset-item clearfix">
+                <div class="mset-label">显示样式</div>
+                <div class="mset-main pt-4">
+                    <label  class="mset-radio ">
+                        <input type="radio" name="style"> 大图
+                    </label>
+                    <label class="mset-radio ml-10">
+                        <input type="radio" name="style"> 列表
+                    </label>
+                    <label class="mset-radio ml-10">
+                        <input type="radio" name="style"> 小图
+                    </label>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

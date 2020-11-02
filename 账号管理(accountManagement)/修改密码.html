@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,height=device-height,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<title>看典</title>
+        <link rel="stylesheet" type="text/css" href="../css/public/public.css"/>
+        <link rel="stylesheet" type="text/css" href="../css/public/header-and-footer.css"/>
+        <link rel="stylesheet" type="text/css" href="../css/accountManagement/am.css"/>
+        <script src="../js/jQuery-v1.11.1.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../js/divSelect.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../js/jquery.enplaceholder.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../js/wordLimit.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body bgcolor="#cccccc"> 
+        <div class="popmodal modal2">
+            <a href="javascript:;" class="close"></a>
+        	<h1>修改密码</h1>
+            <div class="mbody">
+            	<div class="row">
+            		<label>原密码：</label>
+            		<input type="password" placeholder="请输入原密码"/>
+            	</div>
+            	<p class="error">原密码不能为空</p>
+            	<div class="row">
+                    <label>新密码：</label>
+                    <input class="warn" type="password" placeholder="请输入新密码，至少6个字符，支持英文、数字格式"/>
+                </div>
+                <p class="error">新密码不能为空</p>
+                <div class="row">
+                    <label>再次确认：</label>
+                    <input type="password" placeholder="请输入新密码，至少6个字符，支持英文、数字格式"/>
+                </div>
+                <p class="error">密码不一致，请重新输入</p>
+            </div>
+            <div class="btns">
+            	<a href="javascript:;" class="a1">确定修改</a>
+            	<a href="javascript:;" class="a2">取消</a>
+            </div>
+        </div>
+        <!--javascript-->
+        <script>
+            //头部
+           $(".header .dropwrap").click(function(e){
+               $(this).find("ul").slideToggle(200)
+               e.stopPropagation();
+           })
+           $(document).click(function(){
+             $(".header .dropwrap ul").slideUp(200)  
+            })
+            //左侧高度
+            var height=$(".content").height()            
+            $(".sideMenu").height(height) 
+            //side展开收起
+            $(".sideList .nav").click(function(){
+                $(this).addClass("click").siblings().removeClass("click")
+                $(this).toggleClass("toggle")
+                $(this).next("ul").slideToggle()
+            })
+          //调用模拟下拉
+        $.divselect($(".select p"),$(".select ul:not(.select2 ul)"),$(".select ul li:not(.select2 ul li)"));
+        $(".tools .select p").click(function(){
+            $(".lineHeight ul").hide() 
+        });
+        //分类下拉
+        $(".handle .all").click(function(){             
+            $(this).toggleClass("click")
+            $(".classify").slideToggle(300)
+            setTimeout(function(){height=$(".content").height()           
+            $(".sideMenu").height(height)},300)
+        })
+        //表格隔行变色
+        $("table tr:even").addClass("bg")
+        //分享框
+        $(".operate .share").click(function(){
+            $(".mask").show()
+            $(this).find(".sharebox").show()
+        })
+        $(".mask").click(function(){
+            $(this).hide()
+            $(".sharebox").hide()
+        })
+     
+        </script>
+        
+	</body>
+</html>

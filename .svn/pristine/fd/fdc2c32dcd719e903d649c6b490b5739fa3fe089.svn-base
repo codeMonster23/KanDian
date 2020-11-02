@@ -1,0 +1,80 @@
+@charset "utf-8";
+.content .accWrap{ width: 1100px;}
+.content .accWrap .ct{ background-image: url(../../images/accountManagement/icon1.png);}
+.content .accWrap .section{ margin-bottom: 45px;}
+.content .accWrap .section h2{ position: relative; padding-left: 15px; padding-bottom: 6px; height: 28px; line-height: 28px; font-size: 16px; background: url(../../images/accountManagement/icon2.png) no-repeat left center; border-bottom: 1px solid #E5E5E5; margin-bottom: 30px; font-weight: normal;}
+.content .accWrap .section h2 span{ position: absolute; width: 121px; top: -1px; right: 134px; height: 28px; border: 1px solid #D8D8D8; border-radius: 3px; font-size: 14px; text-align:center;   }
+.content .accWrap .section h2 span:after{ position: absolute;content: "";width:6px; height:8px; top: 10px; right: -6px; background: url(../../images/accountManagement/icon3.png) no-repeat;}
+.content .accWrap .section h2 a{ position: absolute; top: -1px; right: 0; width: 122px; height: 28px; line-height: 28px; color: #1FAD61; font-size: 14px; background-color: #D4F6DB; text-align: center; border: 1px dashed #009A48;border-radius: 3px; }
+.content .accWrap .section h2 .disabled{ background-color: #EAEAEA; border: 1px solid #CBCBCB; color: #A7A7A7; cursor: default;}
+.content .accWrap .section .card{ padding-top:19px; padding-left: 29px; width:351px; height: 109px; background: url(../../images/accountManagement/bg.png) no-repeat;}
+.content .accWrap .section .card .item{ height: 30px; line-height: 30px;font-size: 14px; }
+.content .accWrap .section .card .item label{ float: left; color: #0fa652; font-weight: bold; margin-right: 15px;}
+.content .accWrap .section .card .item span{ float: left; margin-right: 18px;}
+.content .accWrap .section .card .item a{ float: left; line-height: 30px; color: #0fa652; padding-left: 20px; background:url(../../images/accountManagement/icon4.gif) no-repeat left center;}
+/*修改编辑账号*/
+.content .accWrap .section .editorcard{ padding-left: 29px; padding-top: 19px; width: 351px; height: 169px; background: url(../../images/accountManagement/bg1.png) no-repeat;}
+.content .accWrap .section table{ width: 100%; font-size: 14px; text-align: center;}
+.content .accWrap .section table th{ background-color: #1FAD61; height: 40px; border-right:1px solid #ffffff; color: #ffffff; font-weight: normal;}
+.content .accWrap table .last{ border-right: none;}
+.content .accWrap table td{ height: 43px;}
+.content .accWrap table tr.bg td{ background-color: #F1F1F1;}
+.content .accWrap table td div{ color: #a6a6a6;}
+.content .accWrap table td div .colorGrey{ color:#a6a6a6;}
+.content .accWrap table td a{ color: #1FAD61;}
+.content .accWrap .count{ line-height: 50px; color: #808080;}
+.content .accWrap .count strong{ color: #f87323; margin: 0 5px;}
+/*开通编辑账号*/
+.popmodal{position: relative; height: 316px; width: 560px; border-radius: 12px; background-color: #FFFFFF; font-family: "微软雅黑";}
+.popmodal h1{ height: 42px; line-height: 42px;padding-left: 16px; color: #ffffff; font-size: 16px; background-color: #1FAD61; border-top-left-radius: 12px; border-top-right-radius: 12px; font-weight: normal;}
+.popmodal .close{ position: absolute; top: 11px; right: 11px; width: 20px; height: 20px; background: url(../../images/accountManagement/close.png) no-repeat;}
+.popmodal .close:hover{ background-image: url(../../images/accountManagement/closeh.png);}
+.popmodal .items{ padding-left: 72px; padding-top: 47px; height: 137px; font-size: 14px;}
+.popmodal .items .item{ margin-bottom: 22px;}
+.popmodal .items .item label{ float: left; margin-right: 12px; line-height: 34px;}
+.popmodal .items .item input{ float: left; padding: 6px; line-height: 20px; height: 20px; border: 1px solid #BEBEBE; border-radius: 3px; width: 362px; transition: all .2s linear;}
+.popmodal .items .item input:focus{ border-color: #1FAD61; box-shadow: 0 0 5px #D7F0E2;}
+.popmodal .btns{ padding-top: 27px; height: 63px; background-color: #F1F1F1; border-bottom-left-radius: 12px; border-bottom-right-radius: 12px; text-align: center;}
+.popmodal .btns a{ display: inline-block; width: 98px; height: 34px; line-height: 34px; font-size: 14px; border: 1px solid #1FAD61; border-radius: 3px;}
+.popmodal .btns .a1{ color: #ffffff; background-color:#1FAD61; margin-right: 11px;}
+.popmodal .btns .a2{ color: #1FAD61; background-color: #ffffff;}
+.popmodal .btns .only{ width: 150px;}
+/*身份校验*/
+.modal1 { width: 488px; height: 350px;}
+.modal1 .mbody{ padding-top: 47px; padding-left: 58px; height:171px;}
+.modal1 .mbody .row{ height: 34px; margin-bottom: 10px;font-size: 14px;}
+.modal1 .mbody .row label{ float: left; width: 66px; line-height: 34px;}
+.modal1 .mbody .row .num{ float: left; line-height: 34px;}
+.modal1 .mbody .row input{ float: left; padding: 7px 6px 5px; width:166px; height: 20px; line-height: 20px; font-size: 14px; border: 1px solid #BEBEBE; border-radius: 3px; margin-right: 7px;}
+.modal1 .mbody .row .yzm{ float: left; width: 118px; height: 32px; text-align: center; line-height: 32px; color: #23ae60; background-color: #E0FFED; border: 1px solid #1FAD61; border-radius: 3px;}
+.modal1 .mbody .error{ padding-left: 75px; line-height: 28px; margin-top: -10px; color: #ee2c2c;}
+.modal1 .mbody .tips{ padding-left: 40px; padding-top: 34px; line-height: 38px; color: #a6a6a6;}
+/*修改密码*/
+.modal2{ width: 488px; height: 398px;}
+.modal2 .mbody{ padding-top: 58px; height: 208px; padding-left: 44px;}
+.modal2 .mbody .row{ height: 34px;}
+.modal2 .mbody .row label{ float: left; width: 80px; font-size: 14px; text-align: right; line-height: 34px;}
+.modal2 .mbody .row input{ float: left; padding: 7px 9px 5px; height: 20px; line-height: 20px; font-size: 12px; width:287px; border: 1px solid #BEBEBE; border-radius: 3px;}
+.modal2 .mbody .row input:focus{border-color: #1FAD61;box-shadow: 0 0 5px #DEF5E8;}
+.modal2 .mbody .row input.warn{border-color: #ED2C2C; }
+.modal2 .mbody .error{ height: 24px; line-height: 24px; color: #ee2c2c; padding-left:89px;}
+/*修改手机号*/
+.modal2 .mbody .row .short{ width: 160px; margin-right: 7px;}
+.modal2 .mbody .yzm{ float: left; width: 118px; height: 32px; text-align: center; line-height: 32px; color: #23ae60; background-color: #E0FFED; border: 1px solid #1FAD61; border-radius: 3px;}
+.modal2 .mbody .yzm.waiting{ border-color: #BEBEBE; background-color: #F1F1F1; color:#a5a5a5;}
+/*新增编辑账号*/
+.modal3{ width: 550px; height:633px;}
+.modal3 .mbody{ height:442px; padding-top: 58px; padding-left: 20px;}
+.modal3 .mbody .row{ height: 34px; font-size: 14px;}
+.modal3 .mbody .row label{ float: left; width:88px; text-align: right;line-height: 34px;}
+.modal3 .mbody .row label span{ color:#ee2c2c; }
+.modal3 .mbody .row input{ float: left; padding: 7px 9px 5px; height: 20px; line-height: 20px; font-size: 12px; width:287px; border: 1px solid #BEBEBE; border-radius: 3px;}
+.modal3 .mbody .row input.warn{border-color: #ED2C2C; }
+.modal3 .mbody .row input:focus{border-color: #1FAD61;box-shadow: 0 0 5px #DEF5E8;}
+.modal3 .mbody .error{ height: 24px; line-height: 24px; color: #ee2c2c; padding-left:89px;}
+.modal3 .mbody .row .text{ line-height: 34px; font-size: 14px;}
+/*重置密码成功*/
+.modal4{ height: 380px; width: 550px;}
+.modal4 .mbody{ height: 95px; padding-top: 195px; text-align: center; background: url(../../images/accountManagement/icon5.gif) no-repeat center 57px;}
+.modal4 .mbody h2{line-height: 34px; font-size: 20px;}
+.modal4 .mbody p{ line-height: 34px; color: #a6a6a6;}

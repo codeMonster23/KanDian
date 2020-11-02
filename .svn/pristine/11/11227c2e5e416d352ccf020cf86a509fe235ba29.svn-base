@@ -1,0 +1,495 @@
+    /* 修改版式 */
+    
+    @media (min-width: 768px) {
+        .kd-modal4 .modal-dialog {
+            width: 450px;
+        }
+    }
+    
+    .kd-modal4 .modal-body {
+        border: 1px solid #c3c3c3;
+        background-color: #fff;
+        text-align: center;
+    }
+    
+    .kd-modal4 .modal-body.qx {
+        text-align: left;
+    }
+    
+    .kd-modal4 .modal-body.qx p {
+        font-size: 14px;
+        line-height: 30px;
+    }
+    
+    .kd-modal4 .modal-body.qx label {
+        margin-left: 0;
+    }
+    
+    .kd-modal4 .modal-body label {
+        margin-bottom: 0;
+        margin: 0 20px;
+        font-weight: normal;
+        font-size: 14px;
+    }
+    
+    .audit .topnav {
+        height: 40px;
+        border-bottom: 1px solid #0c96e5;
+        overflow: visible;
+    }
+    
+    .audit .topnav ul {
+        overflow: visible;
+    }
+    
+    .audit .topnav ul a {
+        width: auto;
+        height: 39px;
+        line-height: 39px;
+        padding: 0 20px;
+        border: none;
+        border-right: 1px solid #fff;
+        background-color: #cce8f8;
+    }
+    
+    .audit .topnav ul a.active {
+        position: relative;
+        top: -3px;
+        height: 43px;
+        border: 1px solid #0092e5;
+        border-top-width: 3px;
+        border-bottom: none;
+        background: #fff;
+        color: #0092e5;
+    }
+    
+    .xjsq .audit-table thead tr th {
+        padding-left: 20px !important;
+        background-color: #0092e5;
+        color: #fff;
+        border: 0 none !important;
+        font-size: 16px;
+        font-weight: bold;
+    }
+    
+    .xjsq table tr td.active {
+        font-size: 14px;
+        font-weight: bold;
+        background-color: #f8f8f8;
+    }
+    
+    .xjsq table tr.last {
+        height: 90px;
+        vertical-align: top;
+    }
+    
+    .xjsq .advice-input {
+        width: 100%;
+        height: 136px;
+        border: 1px solid #ebebeb;
+        border-top: 2px solid #0092e5;
+        padding: 10px;
+    }
+    
+    .xjsq-btn a {
+        padding: 0;
+        border: none;
+        border-radius: 0;
+        display: inline-block;
+        width: 168px;
+        height: 42px;
+        line-height: 42px;
+        background: #0092e5;
+        color: #fff;
+        font-size: 16px;
+        margin: 40px 13px 242px;
+        font-family: "Microsoft Yahei";
+    }
+    
+    .xjsq-btn .btn2 {
+        background: #4c4c4c;
+    }
+    
+    .audit-progress {
+        background-color: #f7f7f7;
+        padding: 18px 30px 18px 45px;
+    }
+    
+    .audit-progress .status {
+        position: relative;
+        width: 132px;
+        height: 73px;
+        padding: 10px 0 0 12px;
+        margin-right: 36px;
+        background-color: #f89406;
+        color: #fff;
+        font-size: 14px;
+        font-weight: bold;
+    }
+    
+    .audit-progress ul {
+        margin-bottom: 8px;
+    }
+    
+    .audit-progress ul li {
+        float: left;
+        width: 146px;
+        height: 29px;
+        line-height: 29px;
+        background: url(../../images/worksManage/step2.png) no-repeat;
+        text-align: center;
+        color: #0092e5;
+    }
+    
+    .audit-progress ul li.step1 {
+        background: url(../../images/worksManage/step1.png) no-repeat;
+    }
+    
+    .audit-progress ul li.step2.active {
+        background: url(../../images/worksManage/step2-active.png) no-repeat;
+        color: #fff;
+    }
+    
+    .audit-progress ul li.step3.active {
+        background: url(../../images/worksManage/step3-active.png) no-repeat;
+        color: #fff;
+    }
+    
+    .audit-progress .txt {
+        font-size: 16px;
+        font-weight: bold;
+    }
+    
+    .progress-info span {
+        float: left;
+        width: 146px;
+        text-align: center;
+        margin-top: 8px;
+    }
+    
+    .progress-info p {
+        margin: 0;
+    }
+    
+    .worksDetail .tab-header {
+        width: 100%;
+        margin: 0;
+        padding-left: 35px;
+        border-bottom: 1px solid #0092e5;
+        background-color: #fff;
+    }
+    
+    .worksDetail .tab-header.active {
+        position: fixed;
+        top: 0;
+        z-index: 10;
+        padding-right: 288px;
+    }
+    
+    .worksDetail .tab-header-btns {
+        padding-top: 6px;
+    }
+    
+    .worksDetail .tab-header-btns a {
+        float: left;
+        width: 79px;
+        height: 27px;
+        line-height: 27px;
+        background: url(../../images/worksManage/btn-preview.jpg) no-repeat;
+        color: #4b4b4b;
+        text-align: center;
+        margin-left: 8px;
+    }
+    
+    .worksDetail .tab-nav a {
+        float: left;
+        width: 125px;
+        height: 40px;
+        line-height: 40px;
+        padding: 0 20px;
+        background-color: #cce8f8;
+        border-right: 1px solid #fff;
+        color: #4b4b4b;
+        font-size: 14px;
+        text-align: center;
+    }
+    
+    .worksDetail {
+        padding: 0;
+    }
+    
+    .worksDetail .tab-nav a.active {
+        width: 132px;
+        height: 40px;
+        border: 1px solid #0092e5;
+        border-top-width: 2px;
+        border-bottom: 1px solid #fff;
+        background-color: #fff;
+        color: #0092e5;
+        font-weight: bold;
+        position: relative;
+        bottom: -1px;
+    }
+    
+    .worksDetail .tab-nav a.border-0 {
+        border-right: 0;
+    }
+    
+    .worksDetail h2 {
+        font: 24px/98px "Microsoft Yahei";
+        margin: 0;
+        color: #4b4b4b;
+    }
+    
+    .audit-title {
+        margin-top: 10px;
+        height: 42px;
+        line-height: 42px;
+        font-size: 16px;
+        font-weight: bold;
+        color: #0092e5;
+    }
+    
+    .worksDetail .tab-content {
+        margin-left: 35px;
+        margin-bottom: 40px;
+    }
+    
+    .worksDetail .audit-table tr.last {
+        height: 40px;
+        border-bottom: 1px solid #ebebeb;
+    }
+    
+    .worksDetail .works-info .audit-table td {
+        font-size: 14px;
+    }
+    
+    .worksDetail .works-info .audit-table td.first {
+        font-weight: bold;
+    }
+    
+    .worksDetail .works-info .pic {
+        padding: 17px 0 22px 12px !important;
+    }
+    
+    .worksDetail .audit-table td a img {
+        margin: 0 7px;
+    }
+    
+    .worksDetail .audit-info table td {
+        height: 125px;
+        line-height: 125px !important;
+        font-size: 14px;
+    }
+    
+    .worksDetail .audit-info table td.last {
+        font-size: 12px;
+    }
+    
+    .worksDetail .audit-info table td p {
+        line-height: 25px;
+        margin-top: 6px;
+    }
+    
+    .worksDetail .audit-info .btn {
+        width: 96px;
+        height: 32px;
+        line-height: 32px;
+        border: 1px solid #acacac;
+        margin: 0 10px;
+        background: #fff;
+        color: #4b4b4b;
+        font-size: 14px;
+    }
+    
+    .worksDetail .audit-info .btn-pass {
+        border-color: #f89406;
+        background-color: #f89406;
+        color: #fff;
+    }
+    
+    .worksDetail .audit-info .btn-submit {
+        border-color: #0092e5;
+        background-color: #0092e5;
+        color: #fff;
+    }
+    
+    .update .works {
+        height: 125px;
+    }
+    
+    .update .works-classify {
+        padding: 20px 0 0 0;
+    }
+    
+    .update .audit-title span {
+        font-size: 12px;
+        font-weight: normal;
+        color: #4b4b4b;
+    }
+    
+    .add-title {
+        display: block;
+        width: 105px;
+        height: 32px;
+        line-height: 32px;
+        margin-top: 10px;
+        background: #0092e5;
+        color: #fff;
+        font-size: 14px;
+        font-weight: bold;
+        text-align: center;
+    }
+    
+    .add-box {
+        position: relative;
+        padding-left: 20px;
+        padding-bottom: 20px;
+        border: 1px solid #0092e5;
+    }
+    
+    .add-box .btn {
+        border-radius: 0;
+        font-weight: bold;
+    }
+    
+    .add-box .btn-primary {
+        border-color: #0092e5;
+        ;
+        background-color: #0092e5;
+    }
+    
+    .add-box .form-group {
+        margin-top: 15px;
+    }
+    
+    .add-box .upload,
+    .add-box .uploadBtn {
+        display: inline-block;
+        vertical-align: bottom;
+    }
+    
+    .add-box .upload img {
+        margin-right: 5px;
+    }
+    
+    .add-box .btns a {
+        margin-right: 5px;
+    }
+    
+    .add-box .btns .btn-default {
+        border-color: #0092e5;
+        color: #0092e5;
+    }
+    
+    .add-box .laydate {
+        width: 217px;
+        height: 34px;
+    }
+    
+    .add-box .input-group {
+        margin: 10px;
+    }
+    /*审核意见*/
+    
+    .kd-modal5 .modal-dialog {
+        width: 562px;
+    }
+    
+    .kd-modal5 .modal-body {
+        background-color: #ffffff;
+        border: 1px solid #D0D0D0;
+    }
+    
+    .kd-modal5 .modal-body p {
+        font-size: 14px;
+        line-height: 44px;
+        margin-bottom: 0;
+    }
+    
+    .kd-modal5 .modal-body textarea {
+        padding: 10px;
+        width: 100%;
+        border: 1px solid #DADADA;
+        height: 170px;
+        font-size: 14px;
+    }
+    
+    .modal-footerc .btn {
+        width: 114px;
+    }
+    /*作品指派*/
+    
+    .kd-modal6 .modal-dialog {
+        width: 452px;
+    }
+    
+    .kd-modal6 .modal-body {
+        background-color: #ffffff;
+        border: 1px solid #D0D0D0;
+        height: 260px;
+    }
+    
+    .kd-modal6 .modal-body p {
+        font-size: 14px;
+        line-height: 44px;
+        margin-bottom: 0;
+    }
+    
+    .kd-modal6 .modal-body label {
+        width: 64px;
+    }
+    
+    .tableWrap .audit-title {
+        font-weight: normal;
+    }
+    
+    .tableWrap .audit-title span {
+        float: left;
+    }
+    
+    .tableWrap .audit-title .edit {
+        float: left;
+        width: 11px;
+        height: 11px;
+        margin: 15px 10px 0 5px;
+        background: url("../../images/worksManage/icon1.png") no-repeat;
+    }
+    
+    .tableWrap .audit-title .select {
+        float: left;
+        width: 138px;
+        height: 20px;
+        margin-top: 11px;
+        border: 1px solid #ccc;
+        cursor: pointer;
+        background: url(../../../images/earningsManagement/icon5.png) no-repeat 125px center;
+        position: relative;
+    }
+    
+    .tableWrap .audit-title .select p {
+        padding-left: 10px;
+        font-size: 12px;
+        height: 20px;
+        width: 138px;
+        line-height: 20px;
+        color: #4b4b4b;
+    }
+    
+    .tableWrap .audit-title .select ul {
+        display: none;
+        position: absolute;
+        width: 138px;
+        border: 1px solid #ccc;
+        left: -1px;
+        top: 18px;
+        z-index: 99;
+        background-color: #fff;
+    }
+    
+    .tableWrap .audit-title .select li {
+        padding-left: 10px;
+        line-height: 20px;
+        font-size: 12px;
+        color: #333;
+    }

@@ -1,0 +1,497 @@
+@charset "utf-8";
+html,
+body {
+    height: 100%;
+}
+
+.container {
+    padding: 0;
+    margin-top: 71px;
+    height: 100%;
+}
+
+.adSettingWrap {
+    margin-left: 60px;
+    text-align: center;
+}
+
+.adSetting-default {
+    display: inline-block;
+    width: 935px;
+    margin: 0 auto;
+}
+
+.adSetting-default h2 {
+    margin: 172px 0 42px;
+    font-size: 22px;
+    color: #868585;
+    font-family: MicrosoftYaHei;
+}
+
+.adSettingWrap .btn-create {
+    display: block;
+    width: 201px;
+    height: 46px;
+    line-height: 46px;
+    margin-bottom: 20px;
+    background-color: #4ebb50;
+    border-radius: 4px;
+    font-size: 22px;
+    color: #ffffff;
+    font-family: MicrosoftYaHei;
+    text-align: center;
+}
+
+.adSetting-default .btn-create {
+    width: 211px;
+    height: 56px;
+    line-height: 56px;
+    margin: 0 auto 56px;
+}
+
+.adSetting-default .line {
+    width: 935px;
+    height: 1px;
+    background-color: #d9d9d9;
+}
+
+.adSetting-default .tip {
+    margin-top: 30px;
+    font-size: 14px;
+    line-height: 26px;
+    color: #7c7c7c;
+}
+
+.adSetting {
+    width: 1160px;
+    margin: 30px 0 0 30px;
+    text-align: left;
+}
+
+.adSetting .line {
+    height: 1px;
+    background-color: #dedede;
+}
+
+.adSetting .selectedAd-header {
+    margin: 20px 0 10px;
+    font-size: 14px;
+    font-weight: normal;
+    color: #868585;
+}
+
+.adSetting .selectedAd-body {
+    position: relative;
+    width: 723px;
+    height: 337px;
+    padding-top: 10px;
+    padding-left: 10px;
+    margin-bottom: 40px;
+    background-color: #fff2e8;
+    border: solid 1px #e46c0c;
+}
+
+.adSetting .selectedAd-info {
+    position: absolute;
+    bottom: 13px;
+    left: 360px;
+    font-size: 14px;
+    line-height: 30px;
+    color: #575757;
+}
+
+.adSetting .selectedAd-info label {
+    display: inline-block;
+    width: 70px;
+}
+
+.adSetting .selectedAd-name.line2 label {
+    position: relative;
+    top: -30px;
+}
+
+.adSetting .selectedAd-content {
+    display: inline-block;
+    width: 280px;
+}
+
+.adSetting .selectedAd-btns {
+    position: relative;
+}
+
+.adSetting .selectedAd-btn {
+    float: left;
+    width: 164px;
+    height: 38px;
+    line-height: 38px;
+    border: solid 1px #c0c0c0;
+    margin-right: 20px;
+    background-color: #fff;
+    border-radius: 4px;
+    font-size: 16px;
+    color: #303339;
+    text-align: center;
+}
+
+.adSetting .selectedAd-btn-edit {
+    border-color: #e46c0c;
+    background-color: #e46c0c;
+    color: #fff;
+}
+
+.adSetting .popover-cancel {
+    position: absolute;
+    right: 8px;
+    top: -30px;
+    width: 192px;
+    height: 24px;
+    line-height: 24px;
+    background-color: #ffcca4;
+    font-size: 12px;
+    color: #353535;
+    text-align: center;
+    display: none;
+}
+
+.adSetting .popover-cancel::after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    margin-left: -10px;
+    top: 24px;
+    border-width: 5px;
+    border-color: #ffcca4 transparent transparent transparent;
+    border-style: solid dashed dashed dashed;
+}
+
+.adSetting .adlist-header {
+    height: 36px;
+    line-height: 34px;
+    margin: 14px 0;
+}
+
+.adSetting .adlist-title {
+    float: left;
+    margin-right: 10px;
+    font-size: 14px;
+    font-weight: normal;
+    color: #868585;
+}
+
+.adSetting .adlist-search {
+    float: left;
+    width: 407px;
+    height: 36px;
+    background-color: #ffffff;
+}
+
+.adSetting .adlist-search-input {
+    float: left;
+    width: 340px;
+    height: 34px;
+    border: solid 1px #dedede;
+    border-right: 0;
+    padding-left: 10px;
+}
+
+input::-moz-placeholder {
+    color: #bebebe;
+}
+
+input::-webkit-input-placeholder {
+    color: #bebebe;
+}
+
+.adSetting .adlist-search-btn {
+    float: left;
+    width: 56px;
+    height: 100%;
+    background-color: #00b4ff;
+    font-size: 14px;
+    color: #ffffff;
+    text-align: center;
+}
+
+.adSetting .adlist-item {
+    position: relative;
+    float: left;
+    width: 230px;
+    height: 320px;
+    padding: 10px 12px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    background-color: #fff;
+    border: solid 1px #dedede;
+}
+
+.adSetting .adlist-item-selected {
+    background-color: #e9f8fe;
+    border-color: #00b4ff;
+}
+
+.adSetting .adlist-item-badge {
+    position: absolute;
+    left: 3px;
+    top: 3px;
+    width: 60px;
+    height: 23px;
+    line-height: 23px;
+    background-color: #00b4ff;
+    color: #fff;
+    text-align: center;
+    z-index: 1;
+}
+
+.adSetting .adlist-item-img {
+    position: relative;
+    width: 230px;
+    height: 230px;
+}
+
+.adSetting .adlist-item-icons {
+    position: absolute;
+    right: 5px;
+    bottom: 5px;
+}
+
+.adSetting .adlist-item-icon {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    margin-left: 5px;
+    background: url("../../images/adSetting/icon2.png");
+}
+
+.adSetting .adlist-item-icon-del {
+    background-image: url("../../images/adSetting/icon3.png");
+}
+
+.adSetting .adlist-item-title {
+    height: 44px;
+    line-height: 22px;
+    margin-bottom: 10px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-box;
+    display: -o-box;
+    display: box;
+    -webkit-line-clamp: 2;
+    -moz-line-clamp: 2;
+    -ms-line-clamp: 2;
+    -o-line-clamp: 2;
+    line-clamp: 2;
+    -webkit-box-orient: vertical;
+    -moz-box-orient: vertical;
+    -ms-box-orient: vertical;
+    -o-box-orient: vertical;
+    box-orient: vertical;
+    color: #575757;
+}
+
+.adSetting .adlist-item .btn-select {
+    display: block;
+    width: 228px;
+    height: 30px;
+    line-height: 30px;
+    border: solid 1px #00b4ff;
+    border-radius: 4px;
+    font-size: 16px;
+    border: solid 1px #00b4ff;
+    background-color: #fff;
+    color: #00b4ff;
+    text-align: center;
+}
+
+.adSetting .adlist-item-selected .btn-select {
+    background-color: #00b4ff;
+    color: #fff;
+}
+
+.adSetting .popover-del {
+    position: absolute;
+    right: -35px;
+    top: 35px;
+    width: 150px;
+    height: 50px;
+    line-height: 18px;
+    padding: 5px;
+    background-color: #d8d8d8;
+    font-size: 12px;
+    color: #575757;
+    display: none;
+}
+
+.adSetting .popover-del::after {
+    content: '';
+    position: absolute;
+    right: 38px;
+    top: -15px;
+    border-width: 8px;
+    border-color: transparent transparent #d8d8d8 transparent;
+    border-style: dashed dashed solid dashed;
+}
+
+.page {
+    margin: 13px 65px 248px;
+    text-align: right;
+}
+
+.page span.current {
+    background-color: #00b4ff;
+    color: #ffffff;
+    border-color: #00b4ff;
+}
+
+.page a:hover {
+    background-color: #00b4ff;
+    border-color: #00b4ff;
+}
+
+.adSetting form {
+    padding-top: 26px;
+}
+
+.adSetting .form-group {
+    line-height: 28px;
+    margin-bottom: 30px;
+}
+
+.adSetting label {
+    float: left;
+    width: 92px;
+    font-size: 16px;
+}
+
+.adSetting form .upload label {
+    line-height: 182px;
+}
+
+.adSetting form .upload .img {
+    width: 420px;
+    height: 182px;
+    margin-right: 16px;
+    border-radius: 5px;
+    background: #e9e9e9;
+}
+
+.adSetting form .upload .fileInput {
+    padding-top: 9px;
+}
+
+.adSetting form .upload p {
+    color: #999;
+}
+
+.adSetting form .img {
+    margin-right: 16px;
+}
+
+.adSetting form .select {
+    position: relative;
+    width: 273px;
+    height: 26px;
+    line-height: 26px;
+    margin-right: 10px;
+    border: 1px solid #dcdcdc;
+}
+
+.adSetting form .select p {
+    padding-left: 10px;
+    background: #fff url(../../images/adSetting/icon8.png) no-repeat 250px center;
+    font-size: 14px;
+    color: #0085e2;
+}
+
+.adSetting form .select p span {
+    display: block;
+    width: 230px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.adSetting form .select.active p {
+    background: none;
+}
+
+.adSetting form .select ul {
+    display: none;
+    position: absolute;
+    z-index: 100;
+    top: 26px;
+    left: -1px;
+    width: 273px;
+    border: 1px solid #dcdcdc;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.adSetting form .select ul li {
+    padding-left: 10px;
+    line-height: 28px;
+    font-size: 14px;
+}
+
+.adSetting form .select .delete {
+    display: none;
+    width: 10px;
+    height: 10px;
+    background: url(../../images/adSetting/icon10.png) no-repeat;
+    position: absolute;
+    right: 10px;
+    top: 8px;
+    cursor: pointer
+}
+
+.adSetting form .select.active .delete {
+    display: block;
+}
+
+.adSetting form .select3 {
+    width: 106px;
+}
+
+.adSetting form .select3 p {
+    background-position: 85px center;
+}
+
+.adSetting form .select3 ul {
+    width: 106px;
+}
+
+.adSetting .btns {
+    height: 56px;
+    padding-top: 16px;
+    margin-left: -84px;
+    margin-top: 200px;
+    text-align: center;
+    background: #e6e6e6;
+    font-size: 0;
+}
+
+.adSetting .btn {
+    display: inline-block;
+    width: 108px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 5px;
+    margin: 0 8px;
+    background: #fff;
+    font-size: 14px;
+    color: #262626;
+}
+
+.adSetting .submitBtn {
+    background: #23ae60;
+    color: #fff;
+}
+
+.adSetting form .title input {
+    width: 688px;
+    height: 26px;
+    line-height: 26px;
+    padding-left: 10px;
+    border: 1px solid #dcdcdc;
+}

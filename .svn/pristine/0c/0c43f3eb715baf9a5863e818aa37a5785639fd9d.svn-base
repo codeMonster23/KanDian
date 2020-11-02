@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,height=device-height,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<title>看典</title>
+        <link rel="stylesheet" type="text/css" href="../css/public/public.css"/>
+        <link rel="stylesheet" type="text/css" href="../css/public/header-and-footer.css"/>
+        <link rel="stylesheet" type="text/css" href="../css/home/home.css"/>
+        <link rel="stylesheet" type="text/css" href="../css/earningsManagement/em.css"/>
+        <script src="../js/jQuery-v1.11.1.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../js/divSelect.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../js/laydate/laydate.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+	    <!--header-->
+	    <div class="header">
+	        <div class="left slogan">看典内容管理平台</div>
+	        <div class="right ewm"><img src="../images/header-and-footer/hfewm.jpg" width="39" height="39"></div>
+            <div class="right dropwrap">
+                <a href="javascript:;" class="name">清华大学出版社</a>
+                <ul>
+                    <li><a href="javascript:;">退出账号</a></li>
+                </ul>
+            </div>
+	    </div>
+        <!--main-->	    
+        <div class="content">
+            <!--sidebar-->
+            <div class="sideMenu">
+                <div class="avatar">
+                    <img src="../imagesTemp/worksManagement/avatar.png" width="100" height="100">
+                    <h1>清华大学出版社</h1>
+               </div>
+                <div class="sideList">
+                    <div class="nav nav1">
+                        <a href="javascript:;"  class="cur">首页</a>   
+                    </div>
+                    <div class="nav nav2">
+                        <a href="javascript:;">主页设置</a>   
+                    </div>
+                     <div class="nav nav3">
+                        <a href="javascript:;">作品管理</a>   
+                    </div>
+                    <ul>
+                        <li><a href="javascript:;">全部作品</a></li>
+                        <li><a href="javascript:;">图文作品</a></li>
+                        <li><a href="javascript:;">音频作品</a></li>
+                        <li><a href="javascript:;">视频作品</a></li>
+                        <li><a href="javascript:;">图集作品</a></li>
+                    </ul>
+                    <div class="nav nav4">
+                        <a href="javascript:;">微刊管理</a>   
+                    </div>
+                    <div class="nav nav5">
+                        <a href="javascript:;">我的书架</a>   
+                    </div>
+                    <ul>
+                        <li><a href="javascript:;">我的期刊</a></li>
+                        <li><a href="javascript:;">我的图书</a></li>
+                    </ul>
+                    <div class="nav nav6">
+                        <a href="javascript:;" >评论管理</a>   
+                    </div>
+                    <div class="nav nav7">
+                        <a href="javascript:;">朗读管理</a>   
+                    </div>
+                    <div class="nav nav8 click">
+                        <a href="javascript:;" class="cur">收益管理</a>   
+                    </div>
+                    <ul>
+                        <li><a href="javascript:;">收益概况</a></li>
+                        <li><a href="javascript:;"  class="cur">订单明细</a></li>
+                        <li><a href="javascript:;">收益总览</a></li>
+                        <li><a href="javascript:;">销量统计</a></li>
+                    </ul>
+                    <div class="nav nav9">
+                        <a href="javascript:;">账号管理</a>   
+                    </div>
+                    <div class="nav nav10">
+                        <a href="javascript:;">消息管理</a>   
+                    </div>
+                </div>
+ 
+            </div>
+        	<!--contentBox-->
+        	<div class="contentBox">
+        	    <div class="earningWrap">
+        	       <div class="banner">
+        	           <div class="overview">
+        	           	<h1>收益管理</h1>
+        	           	<!--<div class="box left">
+                        <div class="item bg1 bd left">
+                            <div class="num left">
+                                <p class="p1">56万</p>
+                                <p>总收益</p>
+                            </div>
+                          </div>
+                        <div class="item bg2 bd left">
+                            <div class="num left">
+                                <p class="p1">20万</p>
+                                <p>已结算</p>
+                            </div>        	           		
+        	           	</div>
+                        <div class="item bg3 left">
+                            <div class="num left">
+                                <p class="p1">36万</p>
+                                <p>未结算</p>
+                            </div>
+                          </div>
+        	           	
+        	           </div>-->
+        	       </div>        	       
+        	    </div>
+        	       <div class="block">
+           	        <div class="tab clearfix">
+           	        	<a href="javascript:;" class="cur">订单明细</a>
+           	        	<a href="javascript:;">收益总览</a>
+           	        	<a href="javascript:;">销量统计</a>
+           	        </div>
+           	        <div class="tabc c1">
+           	        	<div class="top">
+           	        		<div class="select s1 left">
+           	        			<p>全部</p>
+           	        			<ul>
+           	        				<li>全部</li>
+                                    <li>近3个月</li>
+                                    <li>近6个月</li>
+                                    <li>近1年</li>
+                                    <li>自定义</li>
+           	        			</ul>
+           	        		</div>
+           	        	    <label>从</label>
+           	        	    <span onclick="laydate()" class="laydate-icon">2019-06-14</span>
+           	        	    <label>至</label>
+           	        	    <span onclick="laydate()" class="laydate-icon">2019-08-14</span>
+           	        	    <div class="search right">
+           	        	    	<input type="" name="" id="" value="" />
+           	        	    	<a href="javascript:;" class="btn"></a>
+           	        	    </div>
+                            <div class="select s2 right">
+                                <p>作品类型</p>
+                                <ul>
+                                    <li>作品类型</li>
+                                    <li>图文作品</li>
+                                    <li>视频作品</li>
+                                    <li>音频作品</li>
+                                    <li>图集作品</li>
+                                    <li>微刊</li>
+                                    <li>期刊</li>
+                                    <li>图书</li>
+                                </ul>
+                            </div>
+           	        	    
+           	        	</div>
+           	            <div class="bar">
+           	            	<p class="left">共 21 条记录 | 合计收益 <strong>1342.00</strong> 元 </p>
+           	            	<a href="javascript:;" class="export">导出记录</a>
+           	            </div>
+           	            <table border="0" cellspacing="0" cellpadding="0">
+           	            	<tr>
+           	            	    <th>序号</th>
+           	            	    <th><div>名称</div></th>
+           	            	    <th>类型</th>
+           	            	    <th>售价（元）</th>
+           	            	    <th>税后收益（元）</th>
+           	            	    <th class="last">订购时间</th>
+           	            	</tr>
+           	            	<tr>
+           	            	    <td>1</td>
+           	            	    <td><div><a href="#">那时书妆：“百花小开本”散文书衣</a></div></td>
+           	            	    <td>图文作品</td>
+           	            	    <td>16.00</td>
+           	            	    <td>8.00</td>
+           	            	    <td>2019-03-19 23:41:06</td>
+           	            	</tr>
+           	            	<tr>
+                                <td>2</td>
+                                <td><div><a href="#">那时书妆：“百花小开本”散文书衣</a></div></td>
+                                <td>音频作品</td>
+                                <td>16.00</td>
+                                <td>8.00</td>
+                                <td>2019-03-19 23:41:06</td>
+                            </tr>
+                            <tr>
+                                <td>3</td>
+                                <td><div><a href="#">那时书妆：“百花小开本”散文书衣</a></div></td>
+                                <td>视频作品</td>
+                                <td>16.00</td>
+                                <td>8.00</td>
+                                <td>2019-03-19 23:41:06</td>
+                            </tr>
+                            <tr>
+                                <td>4</td>
+                                <td><div><a href="#">那时书妆：“百花小开本”散文书衣</a></div></td>
+                                <td>图集作品</td>
+                                <td>16.00</td>
+                                <td>8.00</td>
+                                <td>2019-03-19 23:41:06</td>
+                            </tr>
+                            <tr>
+                                <td>5</td>
+                                <td><div><a href="#">那时书妆：“百花小开本”散文书衣</a></div></td>
+                                <td>微刊</td>
+                                <td>16.00</td>
+                                <td>8.00</td>
+                                <td>2019-03-19 23:41:06</td>
+                            </tr>
+                            <tr>
+                                <td>6</td>
+                                <td><div><a href="#">那时书妆：“百花小开本”散文书衣</a></div></td>
+                                <td>期刊</td>
+                                <td>16.00</td>
+                                <td>8.00</td>
+                                <td>2019-03-19 23:41:06</td>
+                            </tr>
+                            <tr>
+                                <td>6</td>
+                                <td><div><a href="#">那时书妆：“百花小开本”散文书衣</a></div></td>
+                                <td>图书</td>
+                                <td>16.00</td>
+                                <td>8.00</td>
+                                <td>2019-03-19 23:41:06</td>
+                            </tr>
+                            <tr>
+                                <td>7</td>
+                                <td><div><a href="#">那时书妆：“百花小开本”散文书衣</a></div></td>
+                                <td>图文作品</td>
+                                <td>16.00</td>
+                                <td>8.00</td>
+                                <td>2019-03-19 23:41:06</td>
+                            </tr>
+                            <tr>
+                                <td>8</td>
+                                <td><div><a href="#">那时书妆：“百花小开本”散文书衣</a></div></td>
+                                <td>图文作品</td>
+                                <td>16.00</td>
+                                <td>8.00</td>
+                                <td>2019-03-19 23:41:06</td>
+                            </tr>
+                            <tr>
+                                <td>9</td>
+                                <td><div><a href="#">那时书妆：“百花小开本”散文书衣</a></div></td>
+                                <td>图文作品</td>
+                                <td>16.00</td>
+                                <td>8.00</td>
+                                <td>2019-03-19 23:41:06</td>
+                            </tr>
+                            <tr>
+                                <td>10</td>
+                                <td><div><a href="#">那时书妆：“百花小开本”散文书衣</a></div></td>
+                                <td>图文作品</td>
+                                <td>16.00</td>
+                                <td>8.00</td>
+                                <td>2019-03-19 23:41:06</td>
+                            </tr>
+                            <tr>
+                                <td>11</td>
+                                <td><div><a href="#">那时书妆：“百花小开本”散文书衣</a></div></td>
+                                <td>图文作品</td>
+                                <td>16.00</td>
+                                <td>8.00</td>
+                                <td>2019-03-19 23:41:06</td>
+                            </tr>
+                            <tr>
+                                <td>12</td>
+                                <td><div><a href="#">那时书妆：“百花小开本”散文书衣</a></div></td>
+                                <td>图文作品</td>
+                                <td>16.00</td>
+                                <td>8.00</td>
+                                <td>2019-03-19 23:41:06</td>
+                            </tr>
+                            <tr>
+                                <td>13</td>
+                                <td><div><a href="#">那时书妆：“百花小开本”散文书衣</a></div></td>
+                                <td>图文作品</td>
+                                <td>16.00</td>
+                                <td>8.00</td>
+                                <td>2019-03-19 23:41:06</td>
+                            </tr>
+                            <tr>
+                                <td>14</td>
+                                <td><div><a href="#">那时书妆：“百花小开本”散文书衣</a></div></td>
+                                <td>图文作品</td>
+                                <td>16.00</td>
+                                <td>8.00</td>
+                                <td>2019-03-19 23:41:06</td>
+                            </tr>
+                            <tr>
+                                <td>15</td>
+                                <td><div><a href="#">那时书妆：“百花小开本”散文书衣</a></div></td>
+                                <td>图文作品</td>
+                                <td>16.00</td>
+                                <td>8.00</td>
+                                <td>2019-03-19 23:41:06</td>
+                            </tr>
+                            <tr>
+                                <td>16</td>
+                                <td><div><a href="#">那时书妆：“百花小开本”散文书衣</a></div></td>
+                                <td>图文作品</td>
+                                <td>16.00</td>
+                                <td>8.00</td>
+                                <td>2019-03-19 23:41:06</td>
+                            </tr>
+                            <tr>
+                                <td>17</td>
+                                <td><div><a href="#">那时书妆：“百花小开本”散文书衣</a></div></td>
+                                <td>图文作品</td>
+                                <td>16.00</td>
+                                <td>8.00</td>
+                                <td>2019-03-19 23:41:06</td>
+                            </tr>
+                            <tr>
+                                <td>18</td>
+                                <td><div><a href="#">那时书妆：“百花小开本”散文书衣</a></div></td>
+                                <td>图文作品</td>
+                                <td>16.00</td>
+                                <td>8.00</td>
+                                <td>2019-03-19 23:41:06</td>
+                            </tr>
+                            <tr>
+                                <td>19</td>
+                                <td><div><a href="#">那时书妆：“百花小开本”散文书衣</a></div></td>
+                                <td>图文作品</td>
+                                <td>16.00</td>
+                                <td>8.00</td>
+                                <td>2019-03-19 23:41:06</td>
+                            </tr>
+                            <tr>
+                                <td>20</td>
+                                <td><div><a href="#">那时书妆：“百花小开本”散文书衣</a></div></td>
+                                <td>图文作品</td>
+                                <td>16.00</td>
+                                <td>8.00</td>
+                                <td>2019-03-19 23:41:06</td>
+                            </tr>
+           	            </table>
+           	            <div class="page"> <a href="?page=1&amp;type=ch&amp;keys=sdfsd&amp;sort=0" class="spec_padding ">首页</a><a href="?page=1&amp;type=ch&amp;keys=sdfsd&amp;sort=0" >上一页</a><a href="?page=1&amp;type=ch&amp;keys=sdfsd&amp;sort=0">01</a><span class="current">02</span><a href="?page=3&amp;type=ch&amp;keys=sdfsd&amp;sort=0">03</a><a href="?page=4&amp;type=ch&amp;keys=sdfsd&amp;sort=0">04</a><a href="?page=5&amp;type=ch&amp;keys=sdfsd&amp;sort=0">05</a><a href="?page=6&amp;type=ch&amp;keys=sdfsd&amp;sort=0">06</a><a href="?page=7&amp;type=ch&amp;keys=sdfsd&amp;sort=0">07</a><span>...</span><a href="?page=37&amp;type=ch&amp;keys=sdfsd&amp;sort=0">37</a><a href="?page=3&amp;type=ch&amp;keys=sdfsd&amp;sort=0">下一页</a><a href="?page=1&amp;type=ch&amp;keys=sdfsd&amp;sort=0" class="spec_padding">末页</a> 
+                            </div> 
+           	        </div>
+        	       </div>
+        	    </div>
+        </div>
+       
+        </div>   
+       <!--footer-->
+        <div class="footer">©&nbsp;&nbsp;2019中国知网&nbsp;京ICP证040431号</div>
+        <!--javascript-->
+        <script>
+            //头部
+           $(".header .dropwrap").click(function(e){
+               $(this).find("ul").slideToggle(200)
+               e.stopPropagation();
+           })
+           $(document).click(function(){
+             $(".header .dropwrap ul").slideUp(200)  
+            })
+            //左侧高度
+            var height=$(".content").height()            
+            $(".sideMenu").height(height) 
+            //side展开收起
+            $(".sideList .nav").click(function(){
+                $(this).addClass("click").siblings().removeClass("click")
+                $(this).toggleClass("toggle")
+                $(this).next("ul").slideToggle()
+            })
+          //调用模拟下拉
+        $.divselect($(".select p"),$(".select ul:not(.select2 ul)"),$(".select ul li:not(.select2 ul li)"));
+        $(".tools .select p").click(function(){
+            $(".lineHeight ul").hide() 
+        });
+        //分类下拉
+        $(".handle .all").click(function(){             
+            $(this).toggleClass("click")
+            $(".classify").slideToggle(300)
+            setTimeout(function(){height=$(".content").height()           
+            $(".sideMenu").height(height)},300)
+        })
+        //表格隔行变色
+        $("table tr:even").addClass("bg")
+        //分享框
+        $(".operate .share").click(function(){
+            $(".mask").show()
+            $(this).find(".sharebox").show()
+        })
+        $(".mask").click(function(){
+            $(this).hide()
+            $(".sharebox").hide()
+        })
+     //日历点击样式变化
+     $(".laydate-icon").click(function(e){
+         $(".laydate-icon").removeClass("click")
+          $(this).addClass("click")
+          e.stopPropagation();
+     })
+     $(document).click(function(){
+         $(".laydate-icon").removeClass("click")
+     })
+        </script>
+        
+	</body>
+</html>

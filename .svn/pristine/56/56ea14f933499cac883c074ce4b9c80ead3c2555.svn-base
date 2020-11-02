@@ -1,0 +1,411 @@
+.bookShop .works {
+    height: 70px;
+    padding: 20px 0;
+}
+.bookShop input{ font-size: 12px;}
+.bookShop .works .dropdown2 {
+    width:110px;
+}
+
+.bookShop .works-classify-title {
+    font-size: 12px;
+}
+
+.bookShop .tabNavWrap {
+    position: relative;
+}
+
+.bookShop .audit .tab-nav a {
+    width: 148px;
+}
+
+.bookShop .tabNavWrap .btns a {
+    float: left;
+    position: relative;
+    width: 70px;
+    height: 20px;
+    line-height: 20px;
+    margin: 6px 0 0 10px;
+    background: #0092e5;
+    color: #fff;
+    text-align: center;
+}
+
+.bookShop .audit-status .btns .btn {
+    margin-left: 0;
+}
+
+.bookShop .audit-table tr th,
+.bookShop .audit-table tr td {
+    height: 46px;
+}
+
+.bookShop .audit-table thead tr th {
+    background-color: #fff;
+    border-right-color: #ebebeb;
+    font-weight: bold;
+}
+
+.bookShop .table-price,
+.bookShop .table-del {
+    position: relative;
+    float: left;
+}
+
+.bookShop [class^=handle-btn] {
+    display: block;
+    width: 46px;
+    height: 30px;
+    line-height: 30px;
+    margin-right: 5px;
+    background: #1ab394;
+    color: #fff;
+    cursor: pointer;
+}
+
+.bookShop .handle-btn-del {
+    background: #f8ac59;
+}
+
+.bookShop [class^=table-popover] {
+    display: none;
+    position: absolute;
+    top: 35px;
+    left: 0;
+    z-index: 10;
+    width: 233px;
+    padding: 13px 0 13px 12px;
+    height: 56px;
+    border: 1px solid #cbcbcb;
+    background: #f8f8f8;
+    text-align: left;
+}
+
+.bookShop .table-popover-del {
+    width: 234px;
+    height: 56px;
+    padding: 0;
+    text-align: center;
+}
+
+.bookShop [class^=table-popover]::before {
+    content: '';
+    position: absolute;
+    top: -5px;
+    left: 20px;
+    width: 8px;
+    height: 8px;
+    border-top: 1px solid #cbcbcb;
+    border-right: 1px solid #cbcbcb;
+    background: #f8f8f8;
+    transform: rotate(-45deg);
+}
+
+.bookShop [class^=table-popover] span {
+    display: inline-block;
+}
+
+.bookShop [class^=popover-btn] {
+    display: inline-block;
+    width: 52px;
+    height: 26px;
+    line-height: 24px;
+    border: 1px solid #cbcbcb;
+    color: #939393;
+    text-align: center;
+    cursor: pointer;
+}
+
+.bookShop .popover-btn-confirm {
+    border-color: #0c96e5;
+    background: #0c96e5;
+    color: #fff;
+}
+
+.bookShop .table-popover-price input {
+    width: 35px;
+    height: 26px;
+    line-height: 24px;
+    border: 1px solid #ccc;
+    margin: 0 4px;
+    text-align: center;
+    font-size: 14px;
+}
+
+.bookShop .table-popover-del p {
+    color: #424242;
+}
+.bookShop .table-handle .set{ float: left; height: 30px; line-height: 30px; width: 92px; text-align: center; background-color:#1294E2; color: #ffffff; cursor: pointer;}
+.popover-del-btngroup {
+    text-align: center;
+}
+
+.bookShop .calendar {
+    position: static;
+    float: left;
+    width: 190px;
+    height: 30px;
+    border: 0;
+    padding: 2px;
+    background: #fff;
+}
+
+.bookShop .calendar .laydate {
+    height: 26px;
+    line-height: 26px;
+    padding-left: 56px;
+    background: url("../../images/memberManage/icon1.png") no-repeat 5px center;
+    color: #1c84c6;
+    font-size: 14px;
+}
+.bookShop table .sort { cursor: pointer; color: #0C96E5;}
+/*书刊详情*/
+.bookShop .bookInfo{ width: 100%;}
+.bookShop .bookInfo h1{ line-height: 38px; font-size: 14px; font-weight: bold;}
+.bookShop .bookInfo .infoWrap{ height: 176px; padding-top: 14px; padding-left: 14px; background-color: #EAEAEA; margin-bottom: 12px;}
+.bookShop .bookInfo .infoWrap .cover{ float: left; width: 103px; height: 148px; margin-right: 17px;}
+.bookShop .bookInfo .infoWrap .infoR h2{ line-height: 24px; margin-bottom: 10px;}
+.bookShop .bookInfo .infoWrap .infoR h2 strong{ font-size: 14px; margin-right: 15px;}
+.bookShop .bookInfo .infoWrap .infoR h2 a{ color: #0A92E3;}
+.bookShop .bookInfo .infoWrap .infoR .total{  line-height: 32px; font-size: 14px; color: #656565;}
+.bookShop .bookInfo .infoWrap .infoR .total span{ margin-right: 15px;}
+.bookShop .bookInfo .infoWrap .infoR .time{ line-height: 20px; margin-bottom: 16px; height: 20px;}
+.bookShop .bookInfo .infoWrap .infoR .time .addtime{ float: left;font-size: 14px; color: #656565;}
+.bookShop .statusBtn{ float: left; width: 44px; text-align: center; height: 20px; line-height: 20px; margin-right: 6px; color: #ffffff;} 
+.bookShop .bookInfo .infoWrap .infoR .sort{ height: 30px;}
+.bookShop .bookInfo .infoWrap .infoR .sort label{ float: left; line-height: 30px; font-weight: normal; font-size: 14px;}
+.bookShop .bookInfo .infoWrap .infoR .sort .dropdown{ float: left; margin-right: 13px;}
+.bookShop .bookInfo .infoWrap .infoR .sort .dropdown .dropdown-toggle{ width: 213px;  height: 30px; line-height: 28px; font-size: 14px;}
+.bookShop .bookInfo .infoWrap .infoR .sort .dropdown .dropdown-menu li a{ font-size: 14px;}
+.bookShop .bookInfo .infoWrap .infoR .sort .tag{  float: left; margin-top: 6px; height: 20px; line-height: 20px; padding-left: 7px; padding-right: 20px; position: relative; background-color: #D5D5D5; margin-right: 5px;}
+.bookShop .bookInfo .infoWrap .infoR .sort .tag .close{ position: absolute; width: 8px; height: 7px; background: url(../../images/bookShop/bs-icon1.png) no-repeat; right: 3px; top: 3px;opacity:1;}
+.bookShop .book-table tr th{ height: 0;padding:0px !important;}
+.bookShop .book-table tr td{ height:118px;padding:0px !important; text-align: left;}
+.bookShop .book-table tr td .tdBox{ padding-left: 20px;}
+.bookShop .book-table tr td .tdBox .col{ float: left;}
+.bookShop .book-table tr td .tdBox .col1{width: 50%;}
+.bookShop .book-table tr td .tdBox .col2{width: 30%;}
+.bookShop .book-table tr td .tdBox .col3{width: 20%;}
+.bookShop .book-table tr td .tdBox .col1 img{ float: left; margin-right: 16px; width: 230px; height: 90px; border: 1px solid #E3E9EB;}
+.bookShop .book-table tr td .tdBox .col1 .colr{ float: left;}
+.bookShop .book-table tr td .tdBox .col1 .colr .name{ font-size:14px ; line-height:24px ; font-weight: bold; margin-bottom: 45px;}
+.bookShop .book-table tr td .tdBox .col1 .colr .bottom{ height: 20px; line-height: 20px;}
+.bookShop .book-table tr td .tdBox .col2 .widget{ line-height:90px; color: #1395E3; background-color: #CBE7F7; padding: 5px 10px; margin-right: 10px;}
+.bookShop .book-table tr td .tdBox .col3 .remove{ padding-left: 28px; padding-top: 3px; font-size: 14px; color: #4A4A4A; background: url(../../images/bookShop/bs-icon2.png) no-repeat left center; line-height: 90px;}
+.bookShop .book-table tr td .tdBox .col3 .remove:hover{ background-image: url(../../images/bookShop/bs-icon2h.png); color: #1C84C6;}
+
+.bookShop .statusBtn.bg1{background-color: #17B293;}
+.bookShop .statusBtn.bg2{background-color: #FFAA55;}
+.bookShop .statusBtn.bg3{background-color: #989898;}
+/*书单管理*/
+.bookShop .tabNavWrap .btns .creat{ margin-left: 0; margin-bottom: 10px;}
+.bookShop .audit-table .colorBlue{ color: #1c84c6;}
+.bookShop .audit-table .scolor1{ color: #1ab394;}
+.bookShop .audit-table .scolor2{ color: #4b4b4b;}
+.bookShop .audit-table .scolor3{ color: #ffa351;}
+.bookShop .audit-table .scolor4{ color: #C45A4D;}
+.bookShop .audit-table [class^="handlebtn"]{ float: left; margin-right: 5px; height: 30px; line-height: 30px; color: #ffffff; padding: 0 8px;}
+.bookShop .audit-table .handlebtn1{background-color: #17B293;}
+.bookShop .audit-table .handlebtn2{background-color: #999999;}
+.bookShop .audit-table .handlebtn3{background-color: #F7AB5A;}
+.bookShop .audit-table .handlebtn4{background-color: #1395E3;}
+.bookShop .audit-table .handlebtn5{background-color:#E78471;}
+/*新建书单*/
+.bookShop .partTit{ margin: 20px 0; padding-left: 10px; line-height: 16px;height: 16px; border-left: 3px solid #16A98C; font-size: 14px; font-weight: bold;}
+.bookShop .bookitem{ margin-bottom: 10px;}
+.bookShop .bookitem label{ float: left; width: 76px; text-align: right; font-size: 14px; line-height: 30px; color: #5a5a5a; font-weight: normal; margin-right: 20px;}
+.bookShop .bookitem input{ float: left; height: 30px; line-height: 28px; padding: 5px; width: 420px; border: 1px solid #E9E9E9; font-size: 14px;}
+.bookShop .newList .bookitem .upload{ float: left;}
+.bookShop .newList .bookitem .upload .uploadpreview{ float: left; width:420px ; height: 164px; border: 1px solid #E5E5E5; margin-right: 12px;} 
+.bookShop .newList .bookitem .upload .explain{ float: left; padding-top: 57px;}
+.bookShop .newList .bookitem .upload .explain a{ display: block; width: 73px; text-align: center;  height: 26px; line-height: 26px; color: #ffffff; background-color: #1E83C4;}
+.bookShop .newList .bookitem .upload .explain p{ line-height: 32px;}
+.bookShop .newList .bookitem .multi{ line-height: 20px;}
+.bookShop .newList .bookitem .dropdown{ float: left; width: 420px; margin-right: 10px;}
+.bookShop .newList .bookitem .dropdown .dropdown-toggle{width: 420px;}
+.bookShop .newList .tag{ margin-bottom: 10px; padding-left: 625px; margin-top: -10px;}
+.bookShop .newList .tag span{float: left; margin-top: 6px; height: 20px; line-height: 20px; padding-left: 7px; padding-right: 20px; position: relative; background-color:#D1E5F3; margin-right: 5px;}
+.bookShop .newList .tag span .close{ position: absolute; width: 8px; height: 7px; background: url(../../images/bookShop/bs-icon1.png) no-repeat; right: 3px; top: 3px;opacity:1;}
+.bookShop .newList .bookitem .addbook{ float:left; width: 129px; text-align: center; line-height: 40px; height: 42px; font-size: 14px; color: #1c84c6; border: 1px dashed #1E83C4; color:#1E83C4;}
+.bookShop .controlBtn{text-align:center; margin-bottom: 20px; margin-top: 50px;}
+.bookShop .controlBtn a{ display:inline-block;height: 45px; font-size: 16px; padding: 0 33px; line-height: 45px; color: #ffffff; border-radius:4px;}
+.bookShop .controlBtn .btn1{ border: 1px solid #16A98C; color: #16A98C; line-height: 43px;}
+.bookShop .controlBtn .btn2{ background-color: #16A98C; margin: 0 15px;}
+.bookShop .controlBtn .btn3{  background-color:#F77225;}
+.bookShop .listContent{ margin-left: 96px; width: 1028px;}
+.bookShop .listContent .count{ text-align: right; line-height: 20px;}
+.bookShop .listContent .remove{ padding-left: 28px; padding-top: 3px; font-size: 14px; color: #4A4A4A; background: url(../../images/bookShop/bs-icon2.png) no-repeat left center; line-height: 130px;}
+.bookShop .listContent .remove:hover{ background-image: url(../../images/bookShop/bs-icon2h.png); color: #1C84C6;}
+/*书单分类*/
+.bookShop .tabNavWrap .btns .creat.width{ width: 100px;}
+.bookShop .handle-btn-rank{background-color: #5F8286;}
+.bookShop .table-popover-rank{width: 263px;}
+/*修改分类*/
+.kd-modal7 .modal-body{ background-color: #ffffff;}
+.kd-modal7 .category{ border-bottom: none;}
+.kd-modal7 .row{  margin: 0;}
+.kd-modal7 label{float: left; font-weight: normal; margin: 0; padding: 0; font-size: 14px; line-height: 30px;}
+.kd-modal7 .checked{ height: 48px; font-size: 14px;}
+.kd-modal7 .checked label,.kd-modal7 .checked p{ float: left; font-weight: normal; margin: 0; padding: 0; font-size: 14px;line-height: 48px;}
+/*图书管理*/
+.kd-modal8 .modal-dialog{ width: 942px;}
+.kd-modal8 .modal-body{ background-color: #ffffff;}
+.kd-modal8 .bookTab{ height: 26px; line-height: 26px; font-size: 14px;}
+.kd-modal8 .bookTab a{ color:#4b4b4b; margin: 0 10px;}
+.kd-modal8 .bookTab a.cur{ color: #0A92E3; font-weight: bold;}
+.kd-modal8 .tabcWrap .tabc{ display: none;}
+.kd-modal8 .tabcWrap .t1 .p1{ text-align: center; line-height: 48px; font-size: 14px;}
+.kd-modal8 .tabcWrap .t1 .inputCode{ display: block; margin: 0 auto; width: 700px; height: 34px; line-height: 32px; border: 1px solid #E4E5E6; padding: 10px; font-size: 14px;}
+.kd-modal8 .tabcWrap .t2 .p1{line-height: 48px; font-size: 14px; margin-left: 10px;}
+.kd-modal8 .tabcWrap .t2 .p1 a{ color: #0092e5; font-weight: bold;}
+.kd-modal8 .tabcWrap .t2 .upload{ height: 34px; margin-left: 10px;}
+.kd-modal8 .tabcWrap .t2 .upload label{ float: left; line-height: 34px; font-size: 14px; font-weight: normal;}
+.kd-modal8 .tabcWrap .t2 .upload .fileWrap{ float: left; width: 594px; height:34px; border: 1px solid #E4E5E6; padding-left: 7px; border-right: none;}
+.kd-modal8 .tabcWrap .t2 .upload .fileWrap a{ float: left; margin-top: 6px; width: 56px; text-align: center; height: 20px; line-height: 20px; color: #ffffff; background-color: #1E83C4; margin-right: 8px;}
+.kd-modal8 .tabcWrap .t2 .upload .fileWrap input{ float: left; margin-top: 6px; height: 20px; line-height: 20px; width: 500px;}
+.kd-modal8 .tabcWrap .t2 .upload .upbtn{ float: left; width: 104px; height: 34px;  text-align: center; line-height: 34px; color: #ffffff; background-color: #1E83C4;}
+/*设置会员优惠书刊*/
+.kd-modal8 .modal-body table{ width: 100%; text-align: center;}
+.kd-modal8 .modal-body table th{ height: 34px; border: 1px solid #EBF0F1;text-align: center;}
+.kd-modal8 .modal-body table td{ height: 46px;border: 1px solid #EBF0F1;text-align: center;}
+.kd-modal8 .modal-body table .table-handle{ padding-left: 10px;}
+.kd-modal8 .modal-body table .table-handle .free{ float: left; width: 66px; height: 30px; text-align: center; line-height: 30px;color: #ffffff; background-color: #FE9927; cursor: pointer;}
+.kd-modal8 .table-price,
+.kd-modal8 .table-del {
+    position: relative;
+    float: left;
+}
+
+.kd-modal8 [class^=handle-btn] {
+    display: block;
+    width: 46px;
+    height: 30px;
+    line-height: 30px;
+    margin-right: 5px;
+    background: #1ab394;
+    color: #fff;
+    cursor: pointer;
+}
+.kd-modal8 .discount{ width: 66px; background-color: #0C96E5; margin-right: 0; margin-left: 5px;}
+.kd-modal8 .handle-btn-del {
+    background: #f8ac59;
+}
+
+.kd-modal8 [class^=table-popover] {
+    display: none;
+    position: absolute;
+    top: 35px;
+    left: 0;
+    z-index: 10;
+    width: 233px;
+    padding: 13px 0 13px 12px;
+    height: 56px;
+    border: 1px solid #cbcbcb;
+    background: #f8f8f8;
+    text-align: left;
+}
+
+.kd-modal8 .table-popover-del {
+    width: 234px;
+    height: 56px;
+    padding: 0;
+    text-align: center;
+}
+
+.kd-modal8 [class^=table-popover]::before {
+    content: '';
+    position: absolute;
+    top: -5px;
+    left: 20px;
+    width: 8px;
+    height: 8px;
+    border-top: 1px solid #cbcbcb;
+    border-right: 1px solid #cbcbcb;
+    background: #f8f8f8;
+    transform: rotate(-45deg);
+}
+
+.kd-modal8 [class^=table-popover] span {
+    display: inline-block;
+}
+
+.kd-modal8 [class^=popover-btn] {
+    display: inline-block;
+    width: 52px;
+    height: 26px;
+    line-height: 24px;
+    border: 1px solid #cbcbcb;
+    color: #939393;
+    text-align: center;
+    cursor: pointer;
+}
+
+.kd-modal8 .popover-btn-confirm {
+    border-color: #0c96e5;
+    background: #0c96e5;
+    color: #fff;
+}
+
+.kd-modal8 .table-popover-price input {
+    width: 35px;
+    height: 26px;
+    line-height: 24px;
+    border: 1px solid #ccc;
+    margin: 0 4px;
+    text-align: center;
+    font-size: 14px;
+}
+
+.kd-modal8 .table-popover-del p {
+   color: #424242;
+}
+
+/*添加书单*/
+.kd-modal8 .booklist .handle{ height: 34px; margin-bottom: 24px;}
+.kd-modal8 .booklist .handle .dropdown{ float: left; margin-right: 10px;width: auto;}
+.kd-modal8 .booklist .handle .dropdown .dropdown-toggle{ width:190px;  height: 34px; line-height: 32px; font-size: 14px;}
+.kd-modal8 .booklist .handle .dropdown .dropdown-menu li a{ font-size: 14px;} 
+.kd-modal8 .booklist .handle input{ float: left;font-size: 14px; width: 570px; padding: 7px; height: 34px; line-height: 20px; border: 1px solid #CCCCCC; border-right: none;}
+.kd-modal8 .booklist .handle .search{ float: left; height: 34px; line-height: 34px; text-align: center; width: 64px; color: #ffffff; background-color: #1E83C4; font-size: 14px;}
+.kd-modal8 .booklist .tableContent .tit{ height: 30px; line-height: 30px; overflow: hidden;}
+.kd-modal8 .booklist .tableContent .tit input{ float:left;  margin-left: 10px; margin-right: 12px; margin-top:9px;}
+.kd-modal8 .booklist .tableContent .tit label{ float: left; font-size: 14px; font-weight: normal;}
+.kd-modal8 .tableScroll{height:454px; overflow-x: hidden; overflow-y: auto;}
+.book-table.list-table tr th{ height: 0;padding:0px !important;}
+.book-table.list-table tr td{ border: 1px solid #ECEDED; height:112px;padding:0px !important; text-align: left;}
+.book-table.list-table tr td .tdBox{ padding-left: 10px; overflow: hidden;}
+.book-table.list-table tr td .tdBox .col{ float: left;}
+.book-table.list-table tr td .tdBox input{ float: left; margin-top: 40px; margin-right: 12px;}
+.book-table.list-table tr td .tdBox img{ float:left; width: 230px;  height: 90px; border: none; margin-right: 13px;}
+.book-table.list-table tr td .tdBox .colr{ float: left;}
+.book-table.list-table tr td .tdBox .col1{width: 80%;}
+.book-table.list-table tr td .tdBox .col2{width: 20%;}
+.book-table.list-table tr td .tdBox .col1 .name{ font-size:14px ; line-height:24px ; font-weight: bold; margin-bottom: 14px;}
+.book-table.list-table tr td .tdBox .col1 .sort{ line-height: 20px; font-size: 14px; margin-bottom: 15px;}
+.book-table.list-table tr td .tdBox .col1 .sort .widget{ line-height:20px; color: #1395E3; background-color: #CBE7F7; padding: 5px 10px; margin-right: 10px; font-size: 12px;}
+.book-table.list-table tr td .tdBox .col1 .time{ color: #999999;}
+.book-table.list-table tr td .tdBox .col2{ font-size: 14px; line-height: 90px;}
+/*设置会员优惠期刊*/
+.kd-modal8 .modal-body table .table-handle .detail,.kd-modal8 .modal-body table .table-handle .vipdiscount { float:left; height: 26px; line-height: 26px; padding: 0 5px; color: #ffffff;}
+.kd-modal8 .modal-body table .table-handle .detail{ background-color: #1AB394; margin-right: 5px;}
+.kd-modal8 .modal-body table .table-handle .vipdiscount{ background-color: #0C96E5;}
+/*添加书刊到书单*/
+.kd-modal8 .tabnav{ height: 40px; text-align: center; line-height: 40px; font-size: 14px;}
+.kd-modal8 .tabnav a{ color: #4A4A4A; margin: 10px;}
+.kd-modal8 .tabnav a.cur{font-weight: bold; color: #1E83C4;}
+.list-table.bl-table tr td{ height: 148px;}
+.bookShop .book-table.list-table tr td .listBox img{ width: 91px; height: 130px; border: 1px solid #D4D4D4;}
+.book-table.list-table tr td .listBox img{ width: 91px; height: 130px; border: 1px solid #D4D4D4;}
+.book-table.list-table tr td .listBox .col1{ width: 436px;}
+.book-table.list-table tr td .listBox input{ margin-top: 55px;}
+.bookShop .book-table.list-table tr td .listBox .col1 .name{ padding-top: 25px; line-height: 30px; margin-bottom: 0;}
+.book-table.list-table tr td .listBox .col1 .name{ padding-top: 25px; line-height: 30px; margin-bottom: 0;}
+.book-table.list-table tr td .listBox .col1 .p1{ line-height: 30px;}
+.book-table.list-table tr td .listBox .col2{ width: 256px; line-height: 130px;}
+.book-table.list-table tr td .listBox .col3{ line-height: 130px;}
+/*添加书单到书单分类管理*/
+.book-table.list-table tr td .manageBox .col1{ width: 540px;}
+.book-table.list-table tr td .manageBox .col2{ width: 90px;}
+.book-table.list-table tr td .manageBox .col3{ line-height: 90px; font-size: 14px;}
+.book-table.list-table .scolor1{ color: #1AB394;}
+.book-table.list-table .scolor2{ color: #C45A4D;}

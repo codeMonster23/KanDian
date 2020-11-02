@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>排行榜设置</title>
+    <link href="../css/public/bootstrap.min.css" rel="stylesheet">
+    <link href="../css/public/backstage.css" rel="stylesheet">
+    <link href="../css/rankingSetting/rks.css" rel="stylesheet">
+    <script type="text/javascript" src="../js/jquery-1.10.1.min.js"></script>
+    <!--[if lt IE 9]>
+      		<script src="js/html5.js"></script>
+      		<script src="js/respond.js"></script>
+    	<![endif]-->
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row main">
+            <div class="col-sm-10 content rankingSetting">
+                <div class="row">
+                    <div class="breadcrumb-nav">
+                        <a href="">首页></a>
+                        <a href="">看典号管理></a>
+                        <a href="">期刊排行></a>
+                        <a href="">新建标签</a>
+                    </div>
+                    <div class="form">
+                        <div class="form-group">
+                            <div class="form-group-title">标签信息</div>
+                            <div class="form-group-body">
+                                <div class="form-item clearfix">
+                                    <div class="form-item-title pull-left">·标签名称</div>
+                                    <div class="form-item-content pull-left">
+                                        <input class="inputText" type="text" placeholder="请输入书单名称，2—30个字">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="form-group-title">标签内容
+                                <span class="form-group-subtitle">至少1个内容，最多1000个内容</span>
+                            </div>
+                            <div class="form-group-body">
+                                <div class="form-item clearfix">
+                                    <div class="form-item-title">·内容排序规则</div>
+                                    <div class="form-item-content">
+                                        <div class="clearfix">
+                                            <label class="pull-left">
+                                                <input type="radio" name="rule">系统规则</label>
+                                            <div class="dropdown pull-left">
+                                                <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">请选择系统规则
+                                                    <span class="caret"></span>
+                                                </button>
+                                                <ul class="dropdown-menu">
+                                                    <li>规则</li>
+                                                    <li>规则</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="clearfix">
+                                            <label>
+                                                <input type="radio" name="rule">人工设置</label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-item clearfix">
+                                    <div class="form-item-title">·内容管理</div>
+                                    <div class="form-item-content">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <a class="btn btn-default btn-add" href="javascript:; ">+ 添加内容</a>
+                    </div>
+
+                    <table class="table table-responsive audit-table ">
+                        <thead>
+                            <tr>
+                                <th>序号</th>
+                                <th>名称</th>
+                                <th>期刊</th>
+                                <th>CODE</th>
+                                <th>ISBN</th>
+                                <th>出版社</th>
+                                <th>上传时间</th>
+                                <th>原价</th>
+                                <th class="last ">操作</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>01</td>
+                                <td>中国社会科学</td>
+                                <td>2019年第11期</td>
+                                <td>ZSHK201911</td>
+                                <td>1002-4921</td>
+                                <td>中国社会科学杂志社</td>
+                                <td>2019-02-06 12:00:00</td>
+                                <td>￥48</td>
+                                <td>
+                                    <a href="" class="btn btn-pink">排序</a>
+                                    <a href="" class="btn btn-yellow">删除</a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>01</td>
+                                <td>中国社会科学</td>
+                                <td>2019年第11期</td>
+                                <td>ZSHK201911</td>
+                                <td>1002-4921</td>
+                                <td>中国社会科学杂志社</td>
+                                <td>2019-02-06 12:00:00</td>
+                                <td>￥48</td>
+                                <td>
+                                    <a href="" class="btn btn-pink">排序</a>
+                                    <a href="" class="btn btn-yellow">删除</a>
+                                </td>
+                            </tr>
+                            <tr class="last">
+                                <td>01</td>
+                                <td>中国社会科学</td>
+                                <td>2019年第11期</td>
+                                <td>ZSHK201911</td>
+                                <td>1002-4921</td>
+                                <td>中国社会科学杂志社</td>
+                                <td>2019-02-06 12:00:00</td>
+                                <td>￥48</td>
+                                <td>
+                                    <a href="" class="btn btn-pink">排序</a>
+                                    <a href="" class="btn btn-yellow">删除</a>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <div class="form-btns text-center">
+                        <a class="btn btn-default btn-cancel" href="javascript:;">取消</a>
+                        <a class="btn btn-primary btn-save" href="javascript:;">保存</a>
+                        <a class="btn btn-primary btn-submit" href="javascript:;">保存并发布</a>
+                    </div>
+                </div>
+                <div class="row footer">
+                    <div class="col-sm-10 col-sm-offset-2 text-center">
+                        ©《中国学术期刊（光盘版）》电子杂志社有限公司
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="../js/bootstrap.min.js"></script>
+    <script type="text/javascript ">
+        $("table tr:even ").css("background-color", "#f5f5f5");
+    </script>
+</body>
+
+</html>
+
+</html>

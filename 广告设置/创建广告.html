@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="../css/public/public.css">
+    <link rel="stylesheet" href="../css/public/header-and-footer.css">
+    <link rel="stylesheet" href="../css/atlasManagement/style.css">
+    <link rel="stylesheet" href="../css/adSetting/ads.css">
+</head>
+
+<body bgcolor="#fff">
+    <div class="header clearfix">
+        <div class="left slogan">看典内容管理平台</div>
+        <div class="left name">
+            <div class="inputWrap clearfix"><input type="text" placeholder="请在此处输入讲座名称">
+                <a href="javascript:;" class="icon-save"></a>
+                <a href="javascript:;" class="icon-cancel"></a>
+            </div>
+        </div>
+        <div class="right btnGroup clearfix"><a href="javascript:;" class="btn-save">保存</a><a href="javascript:;" class="btn-preview">预览</a><span class="left line"></span><a href="javascript:;" class="btn-next">下一步</a></div>
+    </div>
+    <div class="container clearfix">
+        <div class="left menu"><a href="" class="item item1">图片</a><a href="" class="item item3">内页模板</a><a href="" class="item item4">音乐</a><a href="" class="item item5">基本信息</a><a href="" class="item item6 cur">广告位置</a></div>
+        <div class="main adSettingWrap">
+            <div class="adSetting">
+                <div class="route">创建新广告</div>
+                <div class="line"></div>
+                <form>
+                    <div class="form-group upload clearfix">
+                        <label><i>*</i>广告图：</label>
+                        <img class="img left" src="../images/adSetting/default.jpg" width="253" height="253" alt="">
+                        <div class="left">
+                            <a class="fileInput" href="javascript:;">选择上传文件</a>
+                            <p>建议尺寸 1080 × 1080 px <br>jpg或者png格式，图片小于5MB
+                            </p>
+                        </div>
+                    </div>
+                    <div class="line"></div>
+                    <div class="form-group clearfix">
+                        <label><i>*</i>跳转链接：</label>
+                        <div class="select left">
+                            <p><span>作品页</span></p>
+                            <ul>
+                                <li>作品页</li>
+                                <li>作品分组</li>
+                                <li>微刊页</li>
+                                <li>期刊页</li>
+                                <li>图书页</li>
+                            </ul>
+                        </div>
+                        <div class="select left active">
+                            <p><span>作品页-甘特图</span><i class="delete"></i></p>
+                            <ul>
+                                <li>作品页</li>
+                                <li>作品分组</li>
+                                <li>微刊页</li>
+                                <li>期刊页</li>
+                                <li>图书页</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="line"></div>
+                    <div class="form-btns">
+                        <a href="javascript:;">确定</a>
+                        <a class="btn-cancel" href="javascript:;">取消</a>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="../js/jQuery-v1.11.1.js" type="text/javascript" charset="utf-8"></script>
+    <script src="../js/divSelect.js" type="text/javascript" charset="utf-8"></script>
+    <script>
+        //调用模拟下拉
+        $.divselect($(".select:first p"), $(".select:first ul:not(.select2 ul)"), $(".select:first ul li:not(.select2 ul li)"));
+    </script>
+</body>
+</html

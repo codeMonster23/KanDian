@@ -1,0 +1,175 @@
+@charset "utf-8";
+
+.content .manageWrap .ct{
+    background:url("../../images/activityManagement/hd04.png") left center no-repeat;
+}
+.top .a{
+    padding: 10px 63px 10px 20px;
+    background:url("../../images/activityManagement/hd08.png") right 17px center no-repeat;
+    position: relative;
+    background-color: #ff6600;
+    font-size: 18px;
+    color: #fff;
+    border-radius: 3px;
+}
+.top .a:after{
+    position: absolute;
+    right: 50px;
+    top: 13px;
+    width: 1px;
+    height: 20px;
+    background-color: #ff761a;
+    content:'';
+}
+.activityWrap table{
+    width: 100%;
+    font-size: 14px;
+    text-align: center;
+    margin-top: 28px;
+}
+.activityWrap table th{
+    background-color: #1FAD61;
+    height: 40px;
+    border-right: 1px solid #ffffff;
+    color: #ffffff;
+    font-weight: normal;
+}
+.content .manageWrap{
+    width: 1100px;
+}
+.activityWrap table td{
+    padding: 8px 0;
+    line-height: 24px;
+}
+.activityWrap .select{
+    position: relative;
+    width: 103px;
+    height: 26px;
+    border: 1px solid #D8D8D8;
+    background: url(../../images/worksManagement/icon11.png) no-repeat 86px center;
+    cursor: pointer;
+    margin-right: 5px;
+    border-radius: 3px;
+}
+.activityWrap .search{
+    position: relative;
+    width: 318px;
+    height: 26px;
+    padding: 0 10px;
+    border: 1px solid #D8D8D8;
+    background: url(../../images/worksManagement/icon11.png) no-repeat 86px center;
+    cursor: pointer;
+    margin-right: 5px;
+    border-radius: 3px;
+}
+.activityWrap .search a{
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    width: 15px;
+    height: 15px;
+    background: url(../../images/activityManagement/hd06.png) center center no-repeat ;
+}
+.activityWrap .search input{
+    width: 100%;
+    padding: 5px 0;
+    line-height: 16px;
+}
+.activityWrap .select p{
+    padding-left: 8px;
+    line-height: 26px;
+}
+
+.activityWrap .select ul {
+    display: none;
+    position: absolute;
+    width: 103px;
+    left: -1px;
+    top: 26px;
+    border: 1px solid #D8D8D8;
+    background-color: #ffffff;
+    z-index: 10;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+
+.activityWrap .select li {
+    padding-left: 8px;
+    height: 26px;
+    line-height: 26px;
+}
+.active-name-title{
+    text-align: left;
+    padding-left: 30px;
+}
+.active-name{
+    text-align: left;
+    padding-left: 30px !important;
+    color: #199d53;
+}
+.active-time{
+    text-align: left;
+    padding-left: 40px !important;
+}
+.before{
+    color:#178bed;
+}
+.doing{
+    color:#23ae60;
+}
+.end{
+    color:#c2c2c2;
+}
+.operate a{
+    color:#23ae60;
+    padding: 0 13px;
+    border-right:1px solid #d9d9d9;
+}
+.operate .disabled{
+    color: #c2c2c2 !important;
+    position: relative;
+}
+.operate span{
+    display: none;
+}
+.operate .disabled span{
+    display: block;
+    position: absolute;
+    top:60%;
+    left:-53px;
+    width: 159px;
+    height: 30px;
+    font-size: 12px;
+    color: #424242;
+    padding-top: 15px;
+    background: url(../../images/activityManagement/hd01.png) center center no-repeat ;
+}
+.operate a:last-of-type{
+    color: #ff6600;
+    border-right:0;
+}
+.activityWrap table{
+    border-bottom: 2px solid #f2f2f2;
+}
+.activityWrap table tr:nth-child(odd){   
+    background:#f2f2f2;
+}
+.delete-detail{
+    margin-top: 20px;
+}
+.delete-detail-text{
+    float: right;
+    padding-right: 40px;
+    color: #ff6600;
+    padding-left: 20px;
+    background: url(../../images/activityManagement/hd05.png) left center no-repeat ;
+    display: block;
+}
+.sub-ct{
+    font-size: 12px !important;
+    font-weight: bold;
+    margin-left: 5px;
+}
+.recover{
+    color: #23ae60 !important;
+}

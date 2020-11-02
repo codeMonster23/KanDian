@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,height=device-height,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<title>看典</title>
+        <link rel="stylesheet" type="text/css" href="../css/public/public.css"/>
+        <link rel="stylesheet" type="text/css" href="../css/public/header-and-footer.css"/>
+        <link rel="stylesheet" type="text/css" href="../css/microbookManagement/mm.css"/>
+        <script src="../js/jQuery-v1.11.1.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../js/divSelect.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../js/jquery.promptToggle.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../js/wordLimit.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+	    <!--mask-->
+	    <div class="mask" style="display: none;"></div>
+	    <!--header-->
+	    <div class="header">
+	        <div class="left slogan">看典内容管理平台</div>
+	        <div class="right ewm"><img src="../images/header-and-footer/hfewm.jpg" width="39" height="39"></div>
+            <div class="right dropwrap">
+                <a href="javascript:;" class="name">清华大学出版社</a>
+                <ul>
+                    <li><a href="javascript:;">退出账号</a></li>
+                </ul>
+            </div>
+	    </div>
+        <!--main-->	    
+        <div class="content">
+            <!--sidebar-->
+            <div class="sideMenu">
+                <div class="avatar">
+                    <img src="../imagesTemp/worksManagement/avatar.png" width="100" height="100">
+                    <h1>清华大学出版社</h1>
+               </div>
+                <div class="sideList">
+                    <div class="nav nav1">
+                        <a href="javascript:;">首页</a>   
+                    </div>
+                    <div class="nav nav2">
+                        <a href="javascript:;">主页设置</a>   
+                    </div>
+                     <div class="nav nav3">
+                        <a href="javascript:;">作品管理</a>   
+                    </div>
+                    <ul>
+                        <li><a href="javascript:;">全部作品</a></li>
+                        <li><a href="javascript:;">图文作品</a></li>
+                        <li><a href="javascript:;">音频作品</a></li>
+                        <li><a href="javascript:;">视频作品</a></li>
+                        <li><a href="javascript:;">图集作品</a></li>
+                    </ul>
+                    <div class="nav nav4 click">
+                        <a href="javascript:;" class="cur">微刊管理</a>   
+                    </div>
+                    <div class="nav nav5">
+                        <a href="javascript:;">我的书架</a>   
+                    </div>
+                    <ul>
+                        <li><a href="javascript:;">我的期刊</a></li>
+                        <li><a href="javascript:;">我的图书</a></li>
+                    </ul>
+                    <div class="nav nav6">
+                        <a href="javascript:;">评论管理</a>   
+                    </div>
+                    <div class="nav nav7">
+                        <a href="javascript:;">朗读管理</a>   
+                    </div>
+                    <div class="nav nav8">
+                        <a href="javascript:;">收益管理</a>   
+                    </div>
+                    <ul>
+                        <li><a href="javascript:;">收益总览</a></li>
+                        <li><a href="javascript:;">订单明细</a></li>
+                    </ul>
+                </div>
+ 
+            </div>
+        	<!--contentBox-->
+        	<div class="contentBox">
+        	    <div class="route">
+                    <a href="#">微刊</a> > 新建微刊
+                </div>
+                <div class="mbWrap">
+                   <div class="infoWrap">
+                       <div class="row row1">
+                           <label><i>*</i>微刊名称</label>
+                           <input type="text" id="" value="" />
+                       </div>
+                       <div class="row row2">
+                        <label><i>*</i>设置封面</label>
+                        <div class="left cover"></div>
+                        <div class="left info">
+                            <a href="javascript:;" class="filebtn">选择文件</a>
+                            <p>建议尺寸 750*560px 或 4:3，JPG或PNG格式，图片小于5M</p>
+                        </div>
+                    </div>
+                     <div class="row row1">
+                           <label><i>*</i>简介</label>
+                           <input type="text" id="" value="" />
+                           <span class="count"><i>0</i> / 120</span>
+                           <script>
+                                    wordLimit($(".row1 input"),120)
+                                     $(".row1 input").keyup(function(){
+                                         var counts=$.trim($(this).val()).length
+                                         $(".row1 .count i").text(counts) 
+                                         })
+                                </script>
+                       </div>
+                       <div class="row row4">
+                       	<label><i>*</i>关键词</label>
+                       	<div class="frame left" id="parentFrame">
+                            <input class="colorGrey" id="keyword" type="text" value="多个关键词请用空格隔开，数量不超过5个" autocomplete="off" />
+                        </div>
+                       </div>
+                       <div class="row row7 clearfix">
+                        <label><i>*</i>作者</label>
+                        <div class="left author">
+                            <input type="text" id="" class="colorGrey" value="请输入中英文字符，最多不能超过100个字符" />
+                        </div>
+                        <script type="text/javascript">
+                             PromptToggle($(".author input"),"请输入中英文字符，最多不能超过100个字符","colorGrey")
+                        </script>
+                    </div>      
+                       <div class="row row3">
+                        <label><i>*</i>详情</label>
+                        <div class="editBox left">
+                            <div class="tools">
+                            <div class="s1 left clearfix">
+                                <a href="javascript:void(0);" class="left cx"></a>
+                                <a href="javascript:void(0);" class="left qxcx"></a>
+                            </div>
+                            <div class="s2 left clearfix">
+                                <div class="fontFamily select left">
+                                    <p>微软雅黑</p>
+                                    <ul>
+                                        <li>宋体</li>
+                                        <li>微软雅黑</li>
+                                        <li>隶书</li>
+                                        <li>黑体</li>
+                                        <li>幼圆</li>
+                                        <li>楷体</li>
+                                        <li>黑体</li>
+                                        <li>幼圆</li>
+                                        <li>楷体</li>
+                                        <li>黑体</li>
+                                        <li>幼圆</li>
+                                        <li>楷体</li>
+                                    </ul>
+                                </div>
+                                <div class="fontSize select left">
+                                    <p>16px</p>
+                                    <ul>
+                                        <li>12px</li>
+                                        <li>14px</li>
+                                        <li>16px</li>
+                                        <li>18px</li>
+                                        <li>20px</li>
+                                        <li>22px</li>
+                                        <li>24px</li>
+                                        <li>26px</li>
+                                        <li>28px</li>
+                                    </ul>
+                                </div>
+                                <a href="javascript:void(0);" class="left textSet bold"><img src="../images/worksManagement/toolsbar-icon4.png" width="11" height="17" /></a>
+                                <a href="javascript:void(0);" class="left textSet italic"><img src="../images/worksManagement/toolsbar-icon5.png" width="11" height="17" /></a>
+                                <a href="javascript:void(0);" class="left textSet underline"><img src="../images/worksManagement/toolsbar-icon6.png" width="12" height="17" /></a>
+                                <a href="javascript:void(0);" class="left textSet color"><img src="../images/worksManagement/toolsbar-icon7.png" width="15" height="17" /></a>
+                                <a href="javascript:void(0);" class="left textSet bgcolor"><img src="../images/worksManagement/toolsbar-icon8.png" width="19" height="17" /></a>
+                        </div>
+                            <div class="s3 left clearfix">
+                                 <a href="javascript:void(0);" class="left alignSet tleft"><img src="../images/worksManagement/toolsbar-icon9.png" width="14" height="17" /></a>
+                                 <a href="javascript:void(0);" class="left alignSet tcenter"><img src="../images/worksManagement/toolsbar-icon10.png" width="15" height="17"/></a>
+                              <a href="javascript:void(0);" class="left alignSet tright"><img src="../images/worksManagement/toolsbar-icon11.png" width="14" height="17"/></a>
+                              <a href="javascript:void(0);" class="left sjSet sj1"><img src="../images/worksManagement/toolsbar-icon12.png" width="15" height="17"/></a>
+                                  <a href="javascript:void(0);" class="left sjSet sj2"><img src="../images/worksManagement/toolsbar-icon13.png" width="15" height="17"/></a>
+                                  <div class="left lineHeight">
+                                    <p><img src="../images/worksManagement/toolsbar-icon14.png" width="18" height="17" /></p>
+                                    <ul>
+                                        <li class="select"><a href="javascript:void(0);">1</a></li>
+                                        <li><a href="javascript:void(0);">1.5</a></li>
+                                        <li><a href="javascript:void(0);">1.75</a></li>
+                                        <li><a href="javascript:void(0);">2</a></li>
+                                        <li><a href="javascript:void(0);">3</a></li>
+                                        <li><a href="javascript:void(0);">4</a></li>
+                                        <li><a href="javascript:void(0);">5</a></li>
+                                    </ul>
+                                  </div>
+                                   <a href="javascript:void(0);" class="left media link"><img src="../images/worksManagement/toolsbar-icon16.png" width="15" height="17" /></a>
+                            </div>
+                        </div>
+                        </div>
+                       </div>
+                       <div class="row row5">
+                        <label><span class="right">价格</span><b class="right"></b></label>
+                        <input type="text" id="" value="" disabled="disabled" />
+                        <span>元</span>
+                       </div>
+                       <p class="tip">提示：不设置微刊价格，则微刊内作品需单独售卖</p>
+                       <div class="btns">
+                           <a href="javascript:;" class="ljcj">立即创建</a>
+                       </div>
+                   </div>
+                	
+                </div>
+        	</div>
+        </div>
+       <!--footer-->
+        <div class="footer">©&nbsp;&nbsp;2019中国知网&nbsp;京ICP证040431号</div>
+        <!--javascript-->
+        <script>
+            //头部
+           $(".header .dropwrap").click(function(e){
+               $(this).find("ul").slideToggle(200)
+               e.stopPropagation();
+           })
+           $(document).click(function(){
+             $(".header .dropwrap ul").slideUp(200)  
+            })
+            //左侧高度
+            var height=$(".content").height()            
+            $(".sideMenu").height(height) 
+            //side展开收起
+            $(".sideList .nav").click(function(){
+                $(this).addClass("click").siblings().removeClass("click")
+                $(this).toggleClass("toggle")
+                $(this).next("ul").slideToggle()
+            })
+     // 分别设置文本属性，对齐方式，缩进的选中状态
+         $(".textSet").click(function(){
+             $(this).toggleClass("click")
+             })
+        $(".alignSet").click(function(){
+             $(this).addClass("click").siblings(".alignSet").removeClass("click")
+             })
+       $(".sjSet").click(function(){
+             $(this).addClass("click").siblings(".sjSet").removeClass("click")
+             }) 
+       //行距脚本
+        $(".lineHeight").click(function(e){
+            $(".tools ul").hide()
+            $(this).addClass("click")
+            $(this).find("ul").slideDown(200)
+            e.stopPropagation();
+            })
+        $(".lineHeight li").click(function(e){
+          $(this).addClass("select").siblings().removeClass("select")
+          $(this).parents(".lineHeight").removeClass("click")
+          $(this).parent("ul").slideUp(200)
+          e.stopPropagation();
+          })
+        $(document).click(function(){
+        $(".lineHeight").removeClass("click")
+        $(".lineHeight ul").hide();
+        })
+      //价格
+      $(".row5 label").click(function(){
+          $(this).toggleClass("click")
+          if($(".row5 input").attr("disabled")){
+              $(".row5 input").attr("disabled",false)
+          }
+          else{$(".row5 input").attr("disabled",true)}
+      })
+     </script>
+     <script>
+         /*插入关键字*/
+    (function(){
+    var input=$("#keyword");
+    var jsNode=document.getElementById("keyword");
+    function CreateKeywordNode(value)
+    {
+      var keyword=document.createElement("div");
+      var closeIt=document.createElement("div");
+      closeIt.className="close";
+      keyword.className="keyword";
+      var text=document.createTextNode(value);
+      keyword.appendChild(text);
+      keyword.appendChild(closeIt);
+      document.getElementById("parentFrame").insertBefore(keyword,jsNode);
+        jsNode.value="";
+    }
+    /*根据用户的输入是否带有空格来判断*/
+    input.keyup(function(e)
+    {
+      var value=$(this).val();
+      var useInputLength=value.length;
+      
+      if($.trim(value).length!=useInputLength && Boolean($.trim(value).length))
+      {
+        var children=$(this).parent().children();
+        var sumLen=0;
+        var childrenLen=children.length;
+        for(var i=0;i<childrenLen;i++)
+        {
+          sumLen += children.eq(i).width();
+        }
+        if(/*sumLen<350*/1)
+        {
+          CreateKeywordNode(jsNode.value);
+          $(".keyword .close").click(function(){$(this).parent().remove();});
+        }
+      }
+    });
+    input.focus(function()
+    {
+      if($(this).val()=="多个关键词请用空格隔开，数量不超过5个")
+      {
+        $(this).val("");
+        $(this).removeClass("colorGrey");
+        $(this).css({"width":"120px"})
+      }
+    })
+    input.blur(function()
+    {
+      if($(this).val()=="" && $(this).parent().children().length==1)
+      {
+        $(this).val("多个关键词请用空格隔开，数量不超过5个");
+        $(this).addClass("colorGrey");
+        $(this).css({"width":"262px"})
+      }
+      else
+      {
+        var value=$(this).val();
+        var useInputLength=value.length;
+        if($.trim(value).length==useInputLength && Boolean($.trim(value).length))
+        {
+          var children=$(this).parent().children();
+          var sumLen=0;
+          var childrenLen=children.length;
+          for(var i=0;i<childrenLen;i++)
+          {
+            sumLen += children.eq(i).width();
+          }
+          if(sumLen<350)
+        {
+            CreateKeywordNode(jsNode.value);
+            $(".keyword .close").click(function(){$(this).parent().remove();});
+          }
+        }
+      }
+    })
+      })()
+     </script>  
+	
+	</body>
+</html>

@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,height=device-height,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <link rel="stylesheet" type="text/css" href="../css/public/public.css"/>
+        <link rel="stylesheet" type="text/css" href="../css/carouselSetting/cs.css"/>
+        <script src="../js/jQuery-v1.11.1.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../js/divSelect.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../js/jquery.promptToggle.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body bgcolor="#cccccc">
+        <div class="kdmodal kd1 worksModal">
+        	<a href="javascript:;" class="close"></a>
+        	<h1>选择作品</h1>
+        	<div class="wrap">
+                <div class="searchWrap clearfix">
+                    <div class="select left">
+                        <p>全部分组</p>
+                        <ul>
+                            <li>分组1</li>
+                            <li>分组2</li>
+                            <li>分组3</li>
+                        </ul>
+                    </div>
+                    <div class="search left">
+                        <input type="text" class="colorGrey" value="输入关键词，检索作品"  autocomplete="off"/>
+                        <a href="javascript:;" class="btn"></a>
+                    </div>
+                </div>
+                <div class="tabnav clearfix">
+                    <span class="cur">图文</span>
+                    <span>音频</span>
+                    <span>视频</span>
+                    <span>图集</span>
+                </div>
+        		<div class="list worksList">
+        			<div class="item">
+        				<div class="box clearfix">
+        					<img class="coverpic left" src="../imagesTemp/atlasManagement/b1.jpg" width="116" height="65">
+                            <div class="info left">
+                                <h2>中国民间贴“福”字的由来</h2>
+                                <p class="bottom clearfix">
+                                    <span class="date left">2019.03.08</span>
+                                    <span class="viewcount right">500</span>
+                                </p>
+                            </div>
+        				</div>
+                    </div>
+                    <div class="item">
+        				<div class="box clearfix">
+        					<img class="coverpic left" src="../imagesTemp/atlasManagement/b1.jpg" width="116" height="65">
+                            <div class="info left">
+                                <h2>中国民间贴“福”字的由来</h2>
+                                <p class="bottom clearfix">
+                                    <span class="date left">2019.03.08</span>
+                                    <span class="viewcount right">500</span>
+                                </p>
+                            </div>
+        				</div>
+                    </div>
+                    <div class="item">
+        				<div class="box clearfix">
+        					<img class="coverpic left" src="../imagesTemp/atlasManagement/b1.jpg" width="116" height="65">
+                            <div class="info left">
+                                <h2>中国民间贴“福”字的由来</h2>
+                                <p class="bottom clearfix">
+                                    <span class="date left">2019.03.08</span>
+                                    <span class="viewcount right">500</span>
+                                </p>
+                            </div>
+        				</div>
+                    </div>
+                    <div class="item">
+        				<div class="box clearfix">
+        					<img class="coverpic left" src="../imagesTemp/atlasManagement/b1.jpg" width="116" height="65">
+                            <div class="info left">
+                                <h2>中国民间贴“福”字的由来</h2>
+                                <p class="bottom clearfix">
+                                    <span class="date left">2019.03.08</span>
+                                    <span class="viewcount right">500</span>
+                                </p>
+                            </div>
+        				</div>
+                    </div>
+                    <div class="item">
+        				<div class="box clearfix">
+        					<img class="coverpic left" src="../imagesTemp/atlasManagement/b1.jpg" width="116" height="65">
+                            <div class="info left">
+                                <h2>中国民间贴“福”字的由来</h2>
+                                <p class="bottom clearfix">
+                                    <span class="date left">2019.03.08</span>
+                                    <span class="viewcount right">500</span>
+                                </p>
+                            </div>
+        				</div>
+        			</div>
+        		</div>
+                <div class="page">
+                    <span class="cur">1</span><a href="#">2</a><a href="#">3</a>
+                </div>
+            </div>
+            <div class="btns">
+                <a href="javascript:;" class="a1">确定</a><a href="javascript:;" class="a2">取消</a>
+            </div>
+        </div>
+        <!--javascript-->
+        <script>
+            //搜索框
+            PromptToggle($(".search input"),"输入关键词，检索作品","colorGrey")
+            //选择微刊
+            $(".worksModal .box").click(function(){
+               $(this).toggleClass("click")
+            })
+            //调用模拟下拉
+            $.divselect($(".select p"),$(".select ul:not(.select2 ul)"),$(".select ul li:not(.select2 ul li)"));
+
+            $(".worksModal .tabnav span").click(function(){
+               $(this).addClass("cur").siblings().removeClass('cur')
+            })
+        </script>
+	</body>
+</html>

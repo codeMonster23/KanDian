@@ -1,0 +1,244 @@
+.btn-pink {
+    background-color: #e48989;
+}
+
+.btn-blue {
+    background-color: #3272da;
+}
+
+.btn-purple {
+    background-color: #364f6b;
+}
+
+.btn-green {
+    background-color: #17b978;
+}
+
+.btn-yellow {
+    background-color: #f8ac59;
+}
+
+.rankingSetting .form-group {
+    margin-bottom: 24px;
+}
+
+.rankingSetting .form-group-title {
+    position: relative;
+    padding-left: 13px;
+    margin-bottom: 20px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #5a5a5a;
+}
+
+.rankingSetting .form-group-title::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 3px;
+    width: 3px;
+    height: 14px;
+    background-color: #19aa8d;
+}
+
+.rankingSetting .form-group-subtitle {
+    margin-left: 16px;
+    font-weight: normal;
+    font-size: 12px;
+    color: #999999;
+}
+
+.rankingSetting .form-item-title {
+    line-height: 32px;
+    margin: 0 20px 0 15px;
+    font-size: 14px;
+}
+
+.rankingSetting .form .inputText {
+    width: 400px;
+    height: 30px;
+    padding: 0 10px;
+    border: solid 1px #e6e6e6;
+    font-size: 14px;
+}
+
+.rankingSetting .form label {
+    margin: 0 20px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 14px;
+    font-weight: normal;
+    color: #5a5a5a;
+}
+
+.rankingSetting .form input[type=radio] {
+    display: inline-block;
+    vertical-align: middle;
+    margin: -2px 8px 0 8px;
+}
+
+.rankingSetting .btn-add {
+    margin-left: 15px;
+    border-color: #1c84c6;
+    color: #1c84c6;
+}
+
+.rankingSetting .btn-add:hover {
+    background-color: #1c84c6;
+    color: #fff;
+}
+
+.rankingSetting table {
+    margin-left: 15px;
+    margin-top: 15px;
+}
+
+.rankingSetting .btn-cancel {
+    border-color: #19aa8d;
+    color: #19aa8d;
+}
+
+.rankingSetting .btn-cancel:hover {
+    background-color: #19aa8d;
+    color: #fff;
+}
+
+.rankingSetting .btn-save {
+    border-color: #19aa8d;
+    background-color: #19aa8d;
+}
+
+.rankingSetting .btn-submit {
+    border-color: #f87323;
+    background-color: #f87323;
+}
+
+.rankingSetting .form .dropdown {
+    width: 200px;
+}
+
+.rankingSetting .form .dropdown button {
+    width: 100%;
+}
+
+.rankingSetting .form .dropdown-menu li {
+    line-height: 30px;
+    padding-left: 12px;
+    font-size: 12px;
+}
+
+.rankModal1 .tip {
+    margin: 18px 0 14px;
+    font-size: 14px;
+}
+
+.rankModal1 table {
+    margin-bottom: 0;
+}
+
+.rankModal1 .modal-content {
+    padding: 0;
+    background-color: #fff;
+}
+
+.rankModal1 .modal-header {
+    padding-left: 20px;
+}
+
+.rankModal1 .modal-body {
+    padding: 20px 26px;
+}
+
+.rankModal1 .modal-footer {
+    padding: 10px 0 30px;
+}
+
+.rankModal1 .excelUpload label {
+    float: left;
+    line-height: 34px;
+    margin-right: 10px;
+    font-size: 14px;
+    color: #4b4b4b;
+}
+
+.rankModal1 .excelUpload .upload-field {
+    position: relative;
+    float: left;
+    width: 698px;
+    height: 34px;
+    background-color: #fff;
+}
+
+.rankModal1 .excelUpload .inputFile {
+    float: left;
+    width: 594px;
+    height: 34px;
+    line-height: 34px;
+    padding-left: 72px;
+    border: solid 1px #e5e6e7;
+    border-right: 0;
+}
+
+.rankModal1 .excelUpload .btn-upload {
+    float: left;
+    width: 104px;
+    height: 34px;
+    line-height: 34px;
+    padding: 0;
+    border-radius: 0;
+    background-color: #1c84c6;
+}
+
+.rankModal1 .excelUpload .btn-select {
+    position: absolute;
+    left: 8px;
+    top: 8px;
+    width: 56px;
+    height: 20px;
+    line-height: 20px;
+    background-color: #1c84c6;
+    padding: 0;
+    border-radius: 2px;
+    font-size: 12px;
+}
+
+.rankModal2 .modal-content {
+    border-top: 0;
+    padding: 0;
+    background-color: #fff;
+}
+
+.rankModal2 .modal-header {
+    padding: 0 20px;
+    background-color: #f8f8f8;
+}
+
+.rankModal2 .modal-body {
+    padding: 20px 20px 0;
+}
+
+.rankModal2 .sort-items {
+    height: 240px;
+    border: solid 1px #e6e6e6;
+}
+
+.rankModal2 .sort-item {
+    height: 34px;
+    line-height: 34px;
+    padding: 0 104px 0 15px;
+    font-size: 14px;
+    overflow: hidden;
+}
+
+.rankModal2 .sort-item:hover {
+    background-color: #e9f7ff;
+}
+
+.rankModal2 .sort-handle span {
+    float: left;
+    width: 6px;
+    height: 11px;
+    margin: 0 10px;
+    color: #3272da;
+    cursor: pointer;
+}

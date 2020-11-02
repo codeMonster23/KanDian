@@ -1,0 +1,14 @@
+@charset "utf-8";
+/*header*/
+.header{ height: 71px; background-color: #434343;font-family: "microsoft yahei";}
+.header .slogan{ line-height: 71px; color: #ffffff; font-size: 28px; padding-left: 20px; }
+.header .dropwrap{ position: relative; margin-right: 22px; position: relative; padding-top: 22px; height: 49px;}
+.header .dropwrap .name{ display: block; height: 30px; line-height: 30px; color:#ffffff; padding-left: 16px; padding-right: 47px; background: #0FA652 url(../../images/header-and-footer/hf-icon1.png) no-repeat 130px center; border-radius: 14px; font-size: 14px;}
+.header .dropwrap ul{ display: none; position: absolute; left: 12px; top: 57px; width: 137px; border: 1px solid #EEEEEE; background-color: #ffffff; box-shadow: 0 2px 5px #E6E6E6;}
+.header .dropwrap ul li{ height: 39px; line-height: 39px; text-align: center; font-size: 14px;}
+.header .dropwrap ul li a{ color: #434343;}
+.header .ewm{ margin-right: 16px; margin-top: 16px;}
+/*footer*/
+.footer{ height: 40px; line-height: 40px; text-align: center; color: #ffffff;font-family: "microsoft yahei"; background-color: #434343;}
+.logo-img{float: left;width: 52px;height: 52px;margin: 10px 14px 0 38px;}
+.logo-name{float: left;height: 52px;line-height: 52px;margin-top: 10px;font-family: MicrosoftYaHei;font-size: 25px;color: #fff;box-shadow: 0px 0px 5px 0px rgba(123, 78, 45, 0.75);}

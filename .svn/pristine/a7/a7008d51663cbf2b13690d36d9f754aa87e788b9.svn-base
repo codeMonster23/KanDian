@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>排行榜设置</title>
+    <link href="../css/public/bootstrap.min.css" rel="stylesheet">
+    <link href="../css/public/backstage.css" rel="stylesheet">
+    <link href="../css/public/common.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="../css/bookShop/bookShop.css" />
+    <link rel="stylesheet" type="text/css" href="../css/rankingSetting/rks.css" />
+    <script type="text/javascript" src="../js/jquery-1.10.1.min.js"></script>
+    <!--[if lt IE 9]>
+      		<script src="js/html5.js"></script>
+      		<script src="js/respond.js"></script>
+      <![endif]-->
+</head>
+
+<body>
+    <div class="modal fade modal10 kd-modal8 rankModal1">
+        <div class="modal-dialog">
+            <div class="modal-content ">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title">添加期刊</h4>
+                </div>
+                <div class="modal-body">
+                    <div class="tabnav">
+                        <a href="javascript:;" class="cur">按Code上传</a>|<a href="javascript:;">表格上传</a>
+                    </div>
+                    <div class="booklist" style="display: block;">
+                        <div class="tip">请输入期刊Code，多个Code请用英文分号隔开</div>
+                        <div class="handle clearfix">
+                            <div class="dropdown">
+                                <a href="" class="btn btn-default dropdown-toggle" data-toggle="dropdown">期刊名称<span class="caret"></span></a>
+                                <ul class="dropdown-menu">
+                                    <li class="active"><a href="">分类</a></li>
+                                    <li><a href="">分类1</a></li>
+                                    <li><a href="">分类2</a></li>
+                                    <li><a href="">分类3</a></li>
+                                    <li><a href="">分类4</a></li>
+                                </ul>
+                            </div>
+                            <!--dropdown-->
+                            <input type="text" name="" id="" value="" placeholder="请输入期刊名称" />
+                            <a href="" class="search">搜索</a>
+                        </div>
+                        <div class="tableContent">
+                            <div class="tit">
+                                <input type="checkbox" /><label for="tit">已选择3个内容</label>
+                            </div>
+                            <table class="table table-responsive audit-table" cellspacing="" cellpadding="">
+                                <thead>
+                                    <tr>
+                                        <th>选择</th>
+                                        <th>类型</th>
+                                        <th>名称</th>
+                                        <th>期刊</th>
+                                        <th>CODE</th>
+                                        <th>ISBN</th>
+                                        <th>出版社</th>
+                                        <th>价格</th>
+                                        <th>促销价</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>
+                                            <input type="checkbox" name="" id="" value="" />
+                                        </td>
+                                        <td>期刊</td>
+                                        <td>中国社会科学</td>
+                                        <td>2019年第11期</td>
+                                        <td>ZSHK201911</td>
+                                        <td>1002-4921</td>
+                                        <td>中国社会杂志社</td>
+                                        <td>￥20</td>
+                                        <td>无会员促销</td>
+                                    </tr>
+                                    <tr class="last">
+                                        <td>
+                                            <input type="checkbox" name="" id="" value="" />
+                                        </td>
+                                        <td>期刊</td>
+                                        <td>中国社会科学</td>
+                                        <td>2019年第11期</td>
+                                        <td>ZSHK201911</td>
+                                        <td>1002-4921</td>
+                                        <td>中国社会杂志社</td>
+                                        <td>￥20</td>
+                                        <td>无会员促销</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="booklist excelUpload" style="display: none;">
+                        <div class="tip">批量上传数据：如第一次使用请先下载模板！模板链接：<a href="">排行榜上传期刊模板.xls</a></div>
+                        <div class="tableContent clearfix">
+                            <label>Excel数据上传：</label>
+                            <div class="upload-field clearfix">
+                                <div class="inputFile">
+                                    <a href="" class="btn btn-primary btn-select">选择文件</a>
+                                    <span>未选择任何文件</span>
+                                </div>
+                                <a class="btn btn-primary btn-upload">上传数据</a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="modal-footer por">
+                    <button type="button" class="btn btn-save" data-dismiss="modal">确定</button>
+                    <button type="button" class="btn btn-cancel" data-dismiss="modal">取消</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="../js/bootstrap.min.js"></script>
+    <script type="text/javascript">
+        $('.modal').modal('show');
+        $('.tdBox').click(function() {
+            var checkbox = $(this).find('input')
+            if (checkbox.prop('checked')) {
+                checkbox.prop('checked', false)
+            } else {
+                checkbox.prop('checked', true)
+            }
+        })
+        $('.tabnav a').click(function() {
+            let index = $(this).index()
+            console.log(index)
+            $(this).addClass('cur').siblings().removeClass('cur')
+            $('.booklist').eq(index).show().siblings('.booklist').hide()
+        })
+    </script>
+</body>
+
+</html>

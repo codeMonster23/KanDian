@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,height=device-height,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <link rel="stylesheet" type="text/css" href="../css/public/public.css"/>
+        <link rel="stylesheet" type="text/css" href="../css/carouselSetting/cs.css"/>
+        <script src="../js/jQuery-v1.11.1.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../js/divSelect.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../js/jquery.promptToggle.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body bgcolor="#cccccc">
+        <div class="kdmodal kd1 worksModal groupModal">
+        	<a href="javascript:;" class="close"></a>
+        	<h1>选择作品分组</h1>
+        	<div class="wrap">
+        		<div class="list worksList">
+        			<div class="item"><div class="box">诸子百家</div></div>
+        			<div class="item"><div class="box">诸子百家</div></div>
+        			<div class="item"><div class="box">诸子百家</div></div>
+        			<div class="item"><div class="box">诸子百家</div></div>
+        			<div class="item"><div class="box">诸子百家</div></div>
+        			<div class="item"><div class="box">诸子百家</div></div>
+        			<div class="item"><div class="box">诸子百家</div></div>
+        			<div class="item"><div class="box">诸子百家</div></div>
+        		</div>
+                <div class="page">
+                    <span class="cur">1</span><a href="#">2</a><a href="#">3</a>
+                </div>
+            </div>
+            <div class="btns">
+                <a href="javascript:;" class="a1">确定</a><a href="javascript:;" class="a2">取消</a>
+            </div>
+        </div>
+        <!--javascript-->
+        <script>
+            //搜索框
+            PromptToggle($(".search input"),"输入关键词，检索作品","colorGrey")
+            //选择微刊
+            $(".worksModal .box").click(function(){
+                $(this).addClass("click").parent().siblings().find('.box').removeClass('click')
+             })
+            //调用模拟下拉
+            $.divselect($(".select p"),$(".select ul:not(.select2 ul)"),$(".select ul li:not(.select2 ul li)"));
+
+            $(".worksModal .tabnav span").click(function(){
+               $(this).addClass("cur").siblings().removeClass('cur')
+            })
+        </script>
+	</body>
+</html>

@@ -1,0 +1,6 @@
+.order-status .dropdown{ width: 100px; margin-left: 0;}
+.order-status .dropdown .dropdown-toggle{width: 98px;}
+.order-status .export{ width: 100px; height: 30px; padding-left:38px; line-height: 30px; color: #fff; background: #0A92E3 url(../../images/ordersManage/om-icon1.png) no-repeat 12px center; font-size: 12px;}
+.audit-table .colorBlue{ color: #0A92E3;}
+.ptip{ line-height:26px; color: #7F7F7F;}
+.ptip input{ width: 26px; text-align: center; height: 21px; border: 1px solid #BEBEBE; vertical-align: middle; margin:0 10px; position: relative;  top: -2px;}

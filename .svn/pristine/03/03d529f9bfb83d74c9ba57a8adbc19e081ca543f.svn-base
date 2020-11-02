@@ -1,0 +1,644 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,height=device-height,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<title>看典</title>
+        <link rel="stylesheet" type="text/css" href="../css/public/public.css"/>
+        <link rel="stylesheet" type="text/css" href="../css/public/jquery.mCustomScrollbar.css"/>
+        <link rel="stylesheet" type="text/css" href="../css/public/header-and-footer.css"/>
+        <link rel="stylesheet" type="text/css" href="../css/homepageSetting/hps.css"/>
+        <script src="../js/jQuery-v1.11.1.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../js/jquery.mCustomScrollbar.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../js/homepageSetting/width_and_height.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../js/jquery.promptToggle.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../js/wordLimit.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+	    <!--header-->
+	    <div class="header fixheader">
+	        <div class="left slogan">看典内容管理平台</div>
+	        <div class="right ewm"><img src="../images/header-and-footer/hfewm.jpg" width="39" height="39"></div>
+            <div class="right dropwrap">
+                <a href="javascript:;" class="name">清华大学出版社</a>
+                <ul>
+                    <li><a href="javascript:;">退出账号</a></li>
+                </ul>
+            </div>
+	    </div>
+        <!--main-->	    
+        <div class="content marginContent">
+            <!--sidebar-->
+            <div class="sideMenu">
+                <div class="avatar">
+                    <img src="../imagesTemp/worksManagement/avatar.png" width="100" height="100">
+                    <h1>清华大学出版社</h1>
+               </div>
+                <div class="sideList">
+                    <div class="nav nav1">
+                        <a href="javascript:;">首页</a>   
+                    </div>
+                    <div class="nav nav2 click">
+                        <a href="javascript:;" class="cur">主页设置</a>   
+                    </div>
+                     <div class="nav nav3">
+                        <a href="javascript:;">作品管理</a>   
+                    </div>
+                    <ul>
+                        <li><a href="javascript:;">全部作品</a></li>
+                        <li><a href="javascript:;">图文作品</a></li>
+                        <li><a href="javascript:;">音频作品</a></li>
+                        <li><a href="javascript:;">视频作品</a></li>
+                        <li><a href="javascript:;">图集作品</a></li>
+                    </ul>
+                    <div class="nav nav4">
+                        <a href="javascript:;">微刊管理</a>   
+                    </div>
+                    <div class="nav nav5">
+                        <a href="javascript:;">我的书架</a>   
+                    </div>
+                    <ul>
+                        <li><a href="javascript:;">我的期刊</a></li>
+                        <li><a href="javascript:;">我的图书</a></li>
+                    </ul>
+                    <div class="nav nav6">
+                        <a href="javascript:;" >评论管理</a>   
+                    </div>
+                    <div class="nav nav7">
+                        <a href="javascript:;" class="cur">朗读管理</a>   
+                    </div>
+                    <div class="nav nav8">
+                        <a href="javascript:;">收益管理</a>   
+                    </div>
+                    <ul>
+                        <li><a href="javascript:;">收益概况</a></li>
+                        <li><a href="javascript:;">订单明细</a></li>
+                        <li><a href="javascript:;">收益总览</a></li>
+                        <li><a href="javascript:;">销量统计</a></li>
+                    </ul>
+                    <div class="nav nav9">
+                        <a href="javascript:;">账号管理</a>   
+                    </div>
+                    <div class="nav nav10">
+                        <a href="javascript:;">消息管理</a>   
+                    </div>
+                </div>
+ 
+            </div>
+        	<!--contentBox-->
+        	<div class="contentBox autowidth">
+        	   <div class="settingWrap"> 
+        	    <div class="tips">看典号主页是读者对品牌的第一印象，您可以使用设置中的组件进行自由搭配，搭建一个个性化的品牌主页。<a href="#">查看使用教程</a><a href="javascript:;" class="close"></a></div>
+        	   	<div class="settingBox">
+          	   		<div class="setup">
+          	   		  <div class="showArea">
+                          <!--背景-->
+                        <div class="bg">
+                           <img src="../images/homepageSetting/bg.jpg" width="373" height="333">
+                        </div>
+                        <!--信息-->
+                        <div class="face">
+                           <img src="../images/homepageSetting/sample1.png" width="373" height="65">    
+                           <img class="avatar" src="../imagesTemp/atlasManagement/b1.jpg" width="89" height="89"/>
+                           <p class="p1">人民邮电出版社</p>
+                           <p class="p2">人民邮电出版社，开启知识大众高品质阅读之旅。</p>
+                           <p class="p3">1242粉丝</p>
+                           <img src="../images/homepageSetting/icon3.png" width="91" height="32">
+                        </div>
+                        <div class="nav"><img src="../images/homepageSetting/nav1.jpg" width="373" height="65"></div>
+                       <!--轮播图-->
+                       <div class="m1 unit">
+                          <div class="picpart">
+                            <p>点击此处编辑轮播广告</p>
+                          </div>
+                          <a href="javascript:;" class="add add1"></a>
+                          <a href="javascript:;" class="add add2"></a>
+                          <div class="handle">
+                            <a href="javascript:;" class="up"></a>
+                            <a href="javascript:;" class="down"></a>
+                            <a href="javascript:;" class="del"></a>
+                          </div>
+                          <div class="module">
+                            <h1>添加组件</h1>
+                            <div class="sort">
+                             <h2>内容组件</h2>
+                             <div class="outer clearfix">
+                                <a href="javascript:;">图文推荐</a>
+                                <a href="javascript:;">音频推荐</a>
+                                <a href="javascript:;">视频推荐</a>
+                                <a href="javascript:;">图集推荐</a>
+                                <a href="javascript:;">组合推荐</a>
+                                <span class="line"></span>
+                                <a href="javascript:;">微刊推荐</a>
+                                <a href="javascript:;">期刊推荐</a>
+                                <a href="javascript:;">图书推荐</a>
+                             </div>
+                            </div>
+                            <div class="sort">
+                                <h2>广告组件</h2>
+                                <div class="outer clearfix">
+                                 <a href="javascript:;">轮播广告</a>
+                                 <a href="javascript:;">文字滚动</a>    
+                                </div>
+                            </div>
+                    </div> 
+                       </div>
+                       <!--读美文-->
+                       <div class="m2 unit">
+                         <h1 class="tit"><span>读/美/文</span><a href="#">更多 ></a></h1>
+                         <div class="box">
+                          <div class="picpart">
+                            <p>此处显示文章图片</p>
+                         </div>  
+                         <p class="p1">此处显示文章标题</p>
+                         <p class="p2">此处显示文章摘要</p>
+                        <div class="bottom">
+                            <span class="lp">此处显示作者</span>
+                            <span class="num">XX</span>
+                            <span class="like"></span>
+                        </div>  
+                         </div>
+                         
+                         <a href="javascript:;" class="add add1"></a>
+                          <a href="javascript:;" class="add add2"></a>
+                          <div class="handle">
+                            <a href="javascript:;" class="up"></a>
+                            <a href="javascript:;" class="down"></a>
+                            <a href="javascript:;" class="del"></a>
+                          </div>
+                                                  <div class="module">
+                            <h1>添加组件</h1>
+                            <div class="sort">
+                             <h2>内容组件</h2>
+                             <div class="outer clearfix">
+                                <a href="javascript:;">图文推荐</a>
+                                <a href="javascript:;">音频推荐</a>
+                                <a href="javascript:;">视频推荐</a>
+                                <a href="javascript:;">图集推荐</a>
+                                <a href="javascript:;">组合推荐</a>
+                                <span class="line"></span>
+                                <a href="javascript:;">微刊推荐</a>
+                                <a href="javascript:;">期刊推荐</a>
+                                <a href="javascript:;">图书推荐</a>
+                             </div>
+                            </div>
+                            <div class="sort">
+                                <h2>广告组件</h2>
+                                <div class="outer clearfix">
+                                 <a href="javascript:;">轮播广告</a>
+                                 <a href="javascript:;">文字滚动</a>    
+                                </div>
+                            </div>
+                    </div> 
+
+                       </div>
+                       <!--听精选-->
+                       <div class="m3 unit">
+                        <h1 class="tit"><span>听/精/选</span><a href="#">更多></a></h1>
+                        <div class="card">
+                          <div class="picpart">
+                            <p>此处显示<br>音频封面</p>
+                          </div>
+                          <div class="aside">
+                            <p>此处显示音频标题<br>此处显示音频标题</p>
+                            <div class="bottom">
+                                <span class="lp">此处显示作者</span>
+                                <span class="num">XX</span>
+                                <span class="like"></span>                     
+                            </div>
+                          </div>
+                        </div>
+                        <a href="javascript:;" class="add add1"></a>
+                          <a href="javascript:;" class="add add2"></a>
+                          <div class="handle">
+                            <a href="javascript:;" class="up"></a>
+                            <a href="javascript:;" class="down"></a>
+                            <a href="javascript:;" class="del"></a>
+                          </div>
+                         <div class="module">
+                            <h1>添加组件</h1>
+                            <div class="sort">
+                             <h2>内容组件</h2>
+                             <div class="outer clearfix">
+                                <a href="javascript:;">图文推荐</a>
+                                <a href="javascript:;">音频推荐</a>
+                                <a href="javascript:;">视频推荐</a>
+                                <a href="javascript:;">图集推荐</a>
+                                <a href="javascript:;">组合推荐</a>
+                                <span class="line"></span>
+                                <a href="javascript:;">微刊推荐</a>
+                                <a href="javascript:;">期刊推荐</a>
+                                <a href="javascript:;">图书推荐</a>
+                             </div>
+                            </div>
+                            <div class="sort">
+                                <h2>广告组件</h2>
+                                <div class="outer clearfix">
+                                 <a href="javascript:;">轮播广告</a>
+                                 <a href="javascript:;">文字滚动</a>    
+                                </div>
+                            </div>
+                    </div> 
+
+                       </div>
+                       <!--看世界-->
+                       <div class="m4 unit">
+                        <h1 class="tit"><span>看/世/界</span><a href="#">更多 ></a></h1>
+                        <div class="box">
+                          <div class="picpart">
+                            <p>此处显示视频图片</p>
+                         </div>  
+                         <p class="p1">此处显示视频标题</p>
+                         <p class="p2">此处显示视频摘要</p>
+                        <div class="bottom">
+                            <span class="lp">此处显示作者</span>
+                            <span class="num">XX</span>
+                            <span class="like"></span>
+                        </div>  
+                         </div>
+                          <a href="javascript:;" class="add add1"></a>
+                          <a href="javascript:;" class="add add2"></a>
+                          <div class="handle">
+                            <a href="javascript:;" class="up"></a>
+                            <a href="javascript:;" class="down"></a>
+                            <a href="javascript:;" class="del"></a>
+                          </div>
+                                                  <div class="module">
+                            <h1>添加组件</h1>
+                            <div class="sort">
+                             <h2>内容组件</h2>
+                             <div class="outer clearfix">
+                                <a href="javascript:;">图文推荐</a>
+                                <a href="javascript:;">音频推荐</a>
+                                <a href="javascript:;">视频推荐</a>
+                                <a href="javascript:;">图集推荐</a>
+                                <a href="javascript:;">组合推荐</a>
+                                <span class="line"></span>
+                                <a href="javascript:;">微刊推荐</a>
+                                <a href="javascript:;">期刊推荐</a>
+                                <a href="javascript:;">图书推荐</a>
+                             </div>
+                            </div>
+                            <div class="sort">
+                                <h2>广告组件</h2>
+                                <div class="outer clearfix">
+                                 <a href="javascript:;">轮播广告</a>
+                                 <a href="javascript:;">文字滚动</a>    
+                                </div>
+                            </div>
+                    </div> 
+
+                       </div>
+                       <!--赏美图-->
+                       <div class="m5 unit">
+                        <h1 class="tit"><span>赏/美/图</span><a href="#">更多 ></a></h1>   
+                        <div class="box">                          
+                            <div class="pics">
+                                <div class="picpart pic1 left"><p>此处显示图片</p></div>
+                                <div class="picpart pic2 left"><p>此处显示图片</p></div>
+                                <div class="picpart pic3 left"><p>此处显示图片</p></div>
+                            </div>
+                        <p class="p1">此处显示组图标题</p>        
+                        <div class="bottom">
+                            <span class="lp">20XX/XX/XX</span>
+                            <span class="num">XX</span>
+                            <span class="like"></span>
+                        </div>
+                        </div>
+                        <a href="javascript:;" class="add add1"></a>
+                          <a href="javascript:;" class="add add2"></a>
+                          <div class="handle">
+                            <a href="javascript:;" class="up"></a>
+                            <a href="javascript:;" class="down"></a>
+                            <a href="javascript:;" class="del"></a>
+                          </div>
+                                                  <div class="module">
+                            <h1>添加组件</h1>
+                            <div class="sort">
+                             <h2>内容组件</h2>
+                             <div class="outer clearfix">
+                                <a href="javascript:;">图文推荐</a>
+                                <a href="javascript:;">音频推荐</a>
+                                <a href="javascript:;">视频推荐</a>
+                                <a href="javascript:;">图集推荐</a>
+                                <a href="javascript:;">组合推荐</a>
+                                <span class="line"></span>
+                                <a href="javascript:;">微刊推荐</a>
+                                <a href="javascript:;">期刊推荐</a>
+                                <a href="javascript:;">图书推荐</a>
+                             </div>
+                            </div>
+                            <div class="sort">
+                                <h2>广告组件</h2>
+                                <div class="outer clearfix">
+                                 <a href="javascript:;">轮播广告</a>
+                                 <a href="javascript:;">文字滚动</a>    
+                                </div>
+                            </div>
+                    </div> 
+
+                       </div>
+                       <!--广告设置-->
+                       <div class="m6 unit">
+                          <div class="area">
+                            <img src="../images/homepageSetting/icon13.png"><span>此处显示广告内容</span>
+                          </div>
+                          <a href="javascript:;" class="add add1"></a>
+                          <a href="javascript:;" class="add add2"></a>
+                          <div class="handle">
+                            <a href="javascript:;" class="up"></a>
+                            <a href="javascript:;" class="down"></a>
+                            <a href="javascript:;" class="del"></a>
+                          </div>
+                       <div class="module">
+                            <h1>添加组件</h1>
+                            <div class="sort">
+                             <h2>内容组件</h2>
+                             <div class="outer clearfix">
+                                <a href="javascript:;">图文推荐</a>
+                                <a href="javascript:;">音频推荐</a>
+                                <a href="javascript:;">视频推荐</a>
+                                <a href="javascript:;">图集推荐</a>
+                                <a href="javascript:;">组合推荐</a>
+                                <span class="line"></span>
+                                <a href="javascript:;">微刊推荐</a>
+                                <a href="javascript:;">期刊推荐</a>
+                                <a href="javascript:;">图书推荐</a>
+                             </div>
+                            </div>
+                            <div class="sort">
+                                <h2>广告组件</h2>
+                                <div class="outer clearfix">
+                                 <a href="javascript:;">轮播广告</a>
+                                 <a href="javascript:;">文字滚动</a>    
+                                </div>
+                            </div>
+                    </div> 
+
+                       </div>
+                       <!--微刊-->
+                       <div class="m7 unit">
+                        <h1 class="tit"><span>微/刊</span><a href="#">更多 ></a></h1>
+                        <div class="mbook"> 
+                            <div class="picpart">
+                                <p>此处显示微刊封面</p>
+                                <div class="info"><img src="../images/homepageSetting/icon12.png" width="94" height="23"></div>                        
+                            </div>
+                            <h2>我最好的样子，是被你爱出来的</h2>
+                            <p class="intro">中国青年梦想者提供一个展示个人风采以及交流人文原...</p> 
+                        </div>
+                          <a href="javascript:;" class="add add1"></a>
+                          <a href="javascript:;" class="add add2"></a>
+                          <div class="handle">
+                            <a href="javascript:;" class="up"></a>
+                            <a href="javascript:;" class="down"></a>
+                            <a href="javascript:;" class="del"></a>
+                          </div>    
+                       </div>
+                       <!--期刊-->
+                       <div class="m8 unit">
+                        <h1 class="tit"><div class="hr"><span>期/刊</span></div></h1> 
+                        <div class="magzine">
+                            <h2 class="clasfy"><span>此处显示期刊名称</span><a href="#">更多往期></a></h2>
+                            <ul>
+                                <li>
+                                    <div class="picpart">
+                                        <p>此处显示<br>期刊封面</p>
+                                    </div>
+                                    <p class="name">XXXX年第XX期</p>
+                                </li>
+                                <li>
+                                    <div class="picpart">
+                                        <p>此处显示<br>期刊封面</p>
+                                    </div>
+                                    <p class="name">XXXX年第XX期</p>
+                                </li>
+                                <li>
+                                    <div class="picpart">
+                                        <p>此处显示<br>期刊封面</p>
+                                    </div>
+                                    <p class="name">XXXX年第XX期</p>
+                                </li>
+                            </ul>
+                        </div>
+                        <a href="javascript:;" class="add add1"></a>
+                        <a href="javascript:;" class="add add2"></a>
+                        <div class="handle">
+                         <a href="javascript:;" class="up"></a>
+                         <a href="javascript:;" class="down"></a>
+                         <a href="javascript:;" class="del"></a>
+                        </div>
+                                                  <div class="module">
+                            <h1>添加组件</h1>
+                            <div class="sort">
+                             <h2>内容组件</h2>
+                             <div class="outer clearfix">
+                                <a href="javascript:;">图文推荐</a>
+                                <a href="javascript:;">音频推荐</a>
+                                <a href="javascript:;">视频推荐</a>
+                                <a href="javascript:;">图集推荐</a>
+                                <a href="javascript:;">组合推荐</a>
+                                <span class="line"></span>
+                                <a href="javascript:;">微刊推荐</a>
+                                <a href="javascript:;">期刊推荐</a>
+                                <a href="javascript:;">图书推荐</a>
+                             </div>
+                            </div>
+                            <div class="sort">
+                                <h2>广告组件</h2>
+                                <div class="outer clearfix">
+                                 <a href="javascript:;">轮播广告</a>
+                                 <a href="javascript:;">文字滚动</a>    
+                                </div>
+                            </div>
+                    </div> 
+
+                       </div>
+                       <!--图书-->
+                       <div class="m9 unit">
+                        <h1 class="tit"><span>图/书</span><a href="#">更多 ></a></h1>
+                        <div class="book">
+                            <div class="picpart">
+                                <p>此处显示<br>图书封面</p>
+                            </div>
+                            <div class="aside">
+                                <div class="up">
+                                    <p class="p1">此处显示图书名称</p>
+                                    <p class="p2">此处显示作者</p>
+                                </div> 
+                                <p class="p3">此处显示内容简介</p>  
+                            </div>
+                        </div>
+                        <a href="javascript:;" class="add add1"></a>
+                        <a href="javascript:;" class="add add2"></a>
+                        <div class="handle">
+                            <a href="javascript:;" class="up"></a>
+                            <a href="javascript:;" class="down"></a>
+                            <a href="javascript:;" class="del"></a>
+                        </div>
+                                                  <div class="module">
+                            <h1>添加组件</h1>
+                            <div class="sort">
+                             <h2>内容组件</h2>
+                             <div class="outer clearfix">
+                                <a href="javascript:;">图文推荐</a>
+                                <a href="javascript:;">音频推荐</a>
+                                <a href="javascript:;">视频推荐</a>
+                                <a href="javascript:;">图集推荐</a>
+                                <a href="javascript:;">组合推荐</a>
+                                <span class="line"></span>
+                                <a href="javascript:;">微刊推荐</a>
+                                <a href="javascript:;">期刊推荐</a>
+                                <a href="javascript:;">图书推荐</a>
+                             </div>
+                            </div>
+                            <div class="sort">
+                                <h2>广告组件</h2>
+                                <div class="outer clearfix">
+                                 <a href="javascript:;">轮播广告</a>
+                                 <a href="javascript:;">文字滚动</a>    
+                                </div>
+                            </div>
+                    </div> 
+
+                       </div>
+                       <!--组件选择--> 
+                       <div class="module">
+                            <h1>添加组件</h1>
+                            <div class="sort">
+                             <h2>内容组件</h2>
+                             <div class="outer clearfix">
+                                <a href="javascript:;">图文推荐</a>
+                                <a href="javascript:;">音频推荐</a>
+                                <a href="javascript:;">视频推荐</a>
+                                <a href="javascript:;">图集推荐</a>
+                                <a href="javascript:;">组合推荐</a>
+                                <span class="line"></span>
+                                <a href="javascript:;">微刊推荐</a>
+                                <a href="javascript:;">期刊推荐</a>
+                                <a href="javascript:;">图书推荐</a>
+                             </div>
+                            </div>
+                            <div class="sort">
+                                <h2>广告组件</h2>
+                                <div class="outer clearfix">
+                                 <a href="javascript:;">轮播广告</a>
+                                 <a href="javascript:;">文字滚动</a>    
+                                </div>
+                            </div>
+                        </div>
+                      </div>
+
+        	   		</div>
+        	   	</div>
+        	   </div>
+        	</div>
+        </div>
+        <!--组件右侧固定栏目-->
+        <div class="sideframe">
+        	<!--轮播图-->
+        	<div class="mbox box2">
+        		<h1>基本信息设置</h1>
+        		<div class="detail">
+        		  <div class="item clearfix">
+        		  	<label class="left">机构名称</label>
+        		    <input  class="input left" id="" value="清华大学出版社" />
+        		  </div>
+        		  <div class="item clearfix">
+        		    <label class="left">结构简介</label>
+        		  	<div class="textarea">
+        		  	 <textarea class="colorGrey">请输入机构简介</textarea>
+        		  	 <span class="count"><i>0</i> / 50</span>
+        		  	</div>
+        		  	<script>
+                                    PromptToggle($(".textarea textarea"),"请输入机构简介","colorGrey")
+                                     wordLimit($(".textarea textarea"),50)
+                                     $(".textarea textarea").keyup(function(){
+                                         var counts=$.trim($(this).val()).length
+                                         $(".textarea .count i").text(counts) 
+                                         })
+                                </script>
+        		  </div>
+        		  <div class="item clearfix">
+        		  	<label class="left">背景图片</label>
+        		  	<div class="tab left"><a href="javscript:;" class="cur">系统图片</a><a href="javscript:;">上传图片</a></div>
+        		  	<div class="tabcont" style="display: none;">
+        		  	 <ul class="piclist clearfix">
+        		  		<li class="click"><img src="../images/homepageSetting/img1.png"><a href="javascript:;" class="shade"></a></li>
+        		  		<li><img src="../images/homepageSetting/img2.png"><a href="javascript:;" class="shade"></a></li>
+        		  		<li><img src="../images/homepageSetting/img3.png"><a href="javascript:;" class="shade"></a></li>
+        		  		<li><img src="../images/homepageSetting/img4.png"><a href="javascript:;" class="shade"></a></li>
+        		  		<li><img src="../images/homepageSetting/img5.png"><a href="javascript:;" class="shade"></a></li>
+        		  		<li><img src="../images/homepageSetting/img6.png"><a href="javascript:;" class="shade"></a></li>
+        		  	</ul>
+        		    </div>
+        		    <div class="tabcont">
+        		    	<div class="uppic">
+        		    		<div class="status3">
+        		    		  <img src="../imagesTemp/homepageSetting/pic3.jpg">
+        		    		  <a href="javascript:;" class="anew">重新上传</a>
+        		    		</div>
+        		    	</div>
+        		    </div>
+        		  </div>
+        		  <div class="item logo">
+        		  	<label>机构LOGO</label>
+        		  	<div class="uploadlogo">
+        		  		<div class="cut clearfix">
+                            <div class="crop left">
+                                  <img src="../imagesTemp/homepageSetting/pic4.jpg">  
+                                </div>
+                                <div class="show left"><img src="../imagesTemp/homepageSetting/pic5.jpg"></div>
+                                </div>
+                              <div class="btns"><a href="javascript:;" class="a1">确定</a><a href="javascript:;" class="a2">取消</a></div>        		  			
+        		  	</div>
+        		  </div>
+        		
+        		</div>
+        	</div>
+        </div>
+        <!--底部固定栏目-->
+        <div class="fixb">
+            <div class="center"><a href="javascript:;" class="a1">保存</a><a href="javascript:;" class="a2">预览<span><img src="../images/homepageSetting/smallewm.jpg" width="26" height="26"></span></a><a href="javascript:;" class="a3">发布</a></div>	
+        </div>
+        <!--javascript-->
+        <script>
+            //头部
+           $(".header .dropwrap").click(function(e){
+               $(this).find("ul").slideToggle(200)
+               e.stopPropagation();
+           })
+           $(document).click(function(){
+             $(".header .dropwrap ul").slideUp(200)  
+            })
+            //左侧高度
+            var height=$(".content").height()            
+            $(".sideMenu").height(height)
+            //side展开收起
+            $(".sideList .nav").click(function(){
+                $(this).addClass("click").siblings().removeClass("click")
+                $(this).toggleClass("toggle")
+                $(this).next("ul").slideToggle()
+            })
+            //模块点击
+            $(".showArea .unit").click(function(){
+                $(this).addClass("click").siblings(".unit").removeClass("click")
+            })
+             //增加组件事件
+            $(".unit .add1").click(function(){
+             $(".unit .module").hide()
+             $(this).parent().find(".module").removeClass("up donw").addClass("up").show()   
+            })
+            $(".unit .add2").click(function(){
+             $(".unit .module").hide()
+             $(this).parent().find(".module").removeClass("up donw").addClass("down").show()   
+            })
+            //背景图选择
+            $(".piclist li").click(function(){
+                $(this).addClass("click").siblings().removeClass("click")
+            })
+        </script>
+        
+	</body>
+</html>

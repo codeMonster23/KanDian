@@ -1,0 +1,160 @@
+.memberManage .works {
+    height: 70px;
+    padding: 20px 0;
+}
+
+.memberManage .works .dropdown2 {
+    width: 90px;
+}
+
+.memberManage .works-classify-title {
+    font-size: 12px;
+}
+
+.memberManage .tabNavWrap {
+    position: relative;
+}
+
+.memberManage .audit .tab-nav a {
+    width: 148px;
+}
+
+.memberManage .tabNavWrap .btns a {
+    float: left;
+    position: relative;
+    width: 70px;
+    height: 20px;
+    line-height: 20px;
+    margin: 6px 0 0 10px;
+    background: #0092e5;
+    color: #fff;
+    text-align: center;
+}
+
+.memberManage .audit-status .btns .btn {
+    margin-left: 0;
+}
+
+.memberManage .audit-table tr th,
+.memberManage .audit-table tr td {
+    height: 46px;
+}
+
+.memberManage .audit-table thead tr th {
+    background-color: #fff;
+    border-right-color: #ebebeb;
+    font-weight: bold;
+}
+
+.memberManage .table-price,
+.memberManage .table-del {
+    position: relative;
+    float: left;
+}
+
+.memberManage [class^=handle-btn] {
+    display: block;
+    width: 46px;
+    height: 30px;
+    line-height: 30px;
+    margin-right: 5px;
+    background: #1ab394;
+    color: #fff;
+    cursor: pointer;
+}
+
+.memberManage .handle-btn-del {
+    background: #f8ac59;
+}
+
+.memberManage [class^=table-popover] {
+    display: none;
+    position: absolute;
+    top: 35px;
+    left: 0;
+    z-index: 10;
+    width: 233px;
+    padding: 13px 0 13px 12px;
+    height: 56px;
+    border: 1px solid #cbcbcb;
+    background: #f8f8f8;
+    text-align: left;
+}
+
+.memberManage .table-popover-del {
+    width: 234px;
+    height: 56px;
+    padding: 0;
+    text-align: center;
+}
+
+.memberManage [class^=table-popover]::before {
+    content: '';
+    position: absolute;
+    top: -5px;
+    left: 20px;
+    width: 8px;
+    height: 8px;
+    border-top: 1px solid #cbcbcb;
+    border-right: 1px solid #cbcbcb;
+    background: #f8f8f8;
+    transform: rotate(-45deg);
+}
+
+.memberManage [class^=table-popover] span {
+    display: inline-block;
+}
+
+.memberManage [class^=popover-btn] {
+    display: inline-block;
+    width: 52px;
+    height: 26px;
+    line-height: 24px;
+    border: 1px solid #cbcbcb;
+    color: #939393;
+    text-align: center;
+    cursor: pointer;
+}
+
+.memberManage .popover-btn-confirm {
+    border-color: #0c96e5;
+    background: #0c96e5;
+    color: #fff;
+}
+
+.memberManage .table-popover-price input {
+    width: 35px;
+    height: 26px;
+    line-height: 24px;
+    border: 1px solid #ccc;
+    margin: 0 4px;
+    text-align: center;
+    font-size: 14px;
+}
+
+.memberManage .table-popover-del p {
+    color: #424242;
+}
+
+.popover-del-btngroup {
+    text-align: center;
+}
+
+.memberManage .calendar {
+    position: static;
+    float: left;
+    width: 190px;
+    height: 30px;
+    border: 0;
+    padding: 2px;
+    background: #fff;
+}
+
+.memberManage .calendar .laydate {
+    height: 26px;
+    line-height: 26px;
+    padding-left: 56px;
+    background: url("../../images/memberManage/icon1.png") no-repeat 5px center;
+    color: #1c84c6;
+    font-size: 14px;
+}

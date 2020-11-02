@@ -1,0 +1,16 @@
+@charset "utf-8";
+.content .messageWrap{ width: 1100px;}
+.content .messageWrap .ct{ background-image: url(../../images/messagesManagement/icon1.png);}
+.content .messageWrap .mswrap{ border-top: 1px solid #EAEAEA;}
+.content .messageWrap .mswrap .msbox{ height: 114px; padding-left: 105px; background-repeat: no-repeat; background-position: left center; border-bottom: 1px solid #EAEAEA;}
+.content .messageWrap .mswrap .ms1{ background-image: url(../../images/messagesManagement/icon2.png);}
+.content .messageWrap .mswrap .ms2{ background-image: url(../../images/messagesManagement/icon3.png);}
+.content .messageWrap .mswrap .ms3{ background-image: url(../../images/messagesManagement/icon4.png);}
+.content .messageWrap .mswrap .ms4{ background-image: url(../../images/messagesManagement/icon5.png);}
+.content .messageWrap .mswrap .msbox .info{ margin-top: 24px;}
+.content .messageWrap .mswrap .msbox .info .p1{ line-height: 14px; font-size: 14px; font-weight: bold;}
+.content .messageWrap .mswrap .msbox .info .p1 span{ color: #a6a6a6;}
+.content .messageWrap .mswrap .msbox .info .p2{ line-height: 46px; font-size:14px; padding-left: 5px;}
+.content .messageWrap .mswrap .msbox .info .p2 a{ color: #069b47; padding: 0 3px;}
+.content .messageWrap .mswrap .msbox .info .p3{ padding-left: 5px;color: #a6a6a6; line-height: 14px;}
+.content .messageWrap .mswrap .msbox .del{ float: right; margin-top: 65px; width: 44px; height: 22px; text-align: center; line-height: 22px; border: 1px solid #BEBEBE; border-radius: 3px; color: #bfbfbf;}

@@ -1,0 +1,311 @@
+@charset "utf-8";
+/*模态通用样式*/
+.kdmodal{position: absolute;left:50%;border-radius: 12px; background-color: #FFFFFF; font-family: "微软雅黑";}
+.kdmodal h1{ height: 42px; line-height: 42px;padding-left: 16px; color: #ffffff; font-size: 16px; background-color: #1FAD61; border-top-left-radius: 12px; border-top-right-radius: 12px; font-weight: normal;}
+.kdmodal .close{ position: absolute; top: 11px; right: 11px; width: 20px; height: 20px; background: url(../../images/accountManagement/close.png) no-repeat;}
+.kdmodal .close:hover{ background-image: url(../../images/accountManagement/closeh.png);}
+.kdmodal .btns{ padding-top: 27px; height: 63px; background-color: #F1F1F1; border-bottom-left-radius: 12px; border-bottom-right-radius: 12px; text-align: center;}
+.kdmodal .btns a{ display: inline-block; width: 98px; height: 34px; line-height: 34px; font-size: 14px; border: 1px solid #1FAD61; border-radius: 3px;}
+.kdmodal .btns .a1{ color: #ffffff; background-color:#1FAD61; margin-right: 11px;}
+.kdmodal .btns .a2{ color: #1FAD61; background-color: #ffffff;}
+.kdmodal .page{ padding:6px 0 22px 0 ; text-align: right; }
+.kdmodal .page a{ padding: 3px 7px; border: 1px solid #BEBEBE; color: #808080; margin-left: 6px;font-size: 12px; margin-right: 0;}
+.kdmodal .page a:hover{ border-color: #08A554; background-color: #08A554; color: #ffffff;}
+.kdmodal .page span.cur{ padding: 3px 7px; border: 1px solid #2DAC64; background-color: #2DAC64; color: #ffffff; margin-left: 6px;font-size: 12px; margin-right: 0;}
+/*选择微刊*/
+.kd1{ width: 560px;margin-left:-280px;}
+.kd1 .wrap{ padding: 10px 12px 0 12px;}
+.kd1 .search{ position: relative; height: 28px;padding-left:9px ; border: 1px solid #CBCBCB; border-radius: 3px; margin-bottom: 10px;}
+.kd1 .search input{ width: 503px; padding: 4px 0; height: 20px; line-height: 20px; font-size: 14px;}
+.kd1 .search .btn{ position: absolute; top: 7px; right: 7px; width: 15px; height: 15px; background: url(../../images/worksManagement/icon12.png) no-repeat;}
+.kd1 .list{ border-top: 1px solid #E5E5E5; padding-top: 1px; margin-bottom: 18px;}
+.kd1 .list .item{ padding-bottom: 1px; border-bottom: 1px solid #EAEAEA;}
+.kd1 .list .item .box{ padding-left: 10px; padding-top: 9px; padding-bottom: 9px; cursor: pointer;}
+.kd1 .list .item .box:hover{ background: #F2F2F2 url(../../images/worksManagement/icon21.png) no-repeat right top;}
+.kd1 .list .item .box.click{ background: #E1FFEE url(../../images/worksManagement/icon21c.png) no-repeat right top;}
+.kd1 .list .item .box img{ float: left; border-radius: 3px; margin-right: 18px;}
+.kd1 .list .item .box p{ float: left; line-height: 34px; font-size: 16px;}
+/*选择作品*/
+.worksModal .worksList .item .box,.qkModal .list .item .box{ padding:6px 7px 6px 35px;background: url(../../images/worksManagement/icon22.png) no-repeat 10px center;}
+.worksModal .worksList .item .box:hover,.qkModal .list .item .box:hover{ background:#ffffff url(../../images/worksManagement/icon22.png) no-repeat 10px center;;}
+.worksModal .worksList .item .box.click,.qkModal .list .item .box.click{background:#E8FFF2 url(../../images/worksManagement/icon22c.png) no-repeat 10px center;}
+.worksModal .worksList .item .info{
+    position:relative;
+    width: 360px;
+    height:65px;
+}
+.worksModal .worksList .item img{ border-radius: 0;}
+.worksModal .worksList .item h2{ 
+    font-size: 16px;
+    font-weight: normal;
+    color: #262626;
+}
+.worksModal .worksList .item h2 .audio{
+    width: 18px;
+    height: 17px;
+    margin-left: 10px;
+    background: url(../../images/carouselSetting/icon4.png) no-repeat;
+    display: inline-block;
+    vertical-align: middle;
+}
+.worksModal .worksList .item .info p{
+    position: absolute;
+    bottom:0;
+    left:0;
+    width: 100%;
+    line-height: 20px;
+    font-size: 12px;
+    color:#a6a6a6;
+}
+.worksModal .worksList .item .info p .viewcount { 
+    padding-left: 17px;
+    background: url(../../images/carouselSetting/icon1.png) no-repeat left center;
+}
+.worksModal .select{ position:relative;width: 148px; height: 28px;line-height: 28px;  border: 1px solid #ccc; border-radius: 3px;}
+.worksModal .select p{ padding-left: 13px; background: #fff url(../../images/carouselSetting/icon3.png) no-repeat 132px center;font-size: 14px;color: #262626;}
+.worksModal .select ul{ display:none;position: absolute; z-index: 100; top: 26px; left: -1px; width: 148px; border: 1px solid #ccc; background-color: #fff; border-bottom-left-radius: 3px; border-bottom-right-radius: 3px; cursor: pointer;}
+.worksModal .select ul li{ padding-left: 13px; line-height: 28px; font-size: 14px;}
+.worksModal .search{margin:0 0 0 8px;}
+.worksModal .search input{width:365px;}
+.worksModal .tabnav{
+    width: 320px;
+    height: 28px;
+    line-height: 28px;
+    border: 1px solid #23ae60;
+    border-radius: 3px;
+    margin: 15px auto;
+    text-align: center;
+    color: #23ae60;
+}
+.worksModal .tabnav span{
+    float:left;
+    width: 80px;
+    height: 100%;
+    background: url(../../images/carouselSetting/icon2.png) no-repeat right center;
+    cursor: pointer;
+}
+.worksModal .tabnav span.cur{
+    background: #23ae60;
+    color:#fff;
+}
+.groupModal .worksList .item .box {
+    line-height: 45px;
+    padding: 0 7px 0 35px;
+    font-size: 14px;
+}
+/* 选择期刊 */
+.qkModal .list .item .box p{
+    font-size: 14px;
+    line-height: 52px;
+}
+.content .carouselSetting{
+    margin-left: 35px;
+    padding: 0;
+}
+.width1280px{
+    width:1280px;
+}
+.content .carouselSetting .ct{
+    line-height: 1;
+    padding: 43px 0 14px 0;
+    border-bottom: 2px solid #eee;
+}
+.carouselSetting .ct span{
+  color: #e6e6e6;
+}
+.carouselSetting .ct .subtitle{
+    color: #23ae60;
+    font-size: 14px;
+}
+.carouselSetting .instruction{
+    width: 700px;
+    height: 300px;
+    padding: 33px 30px;
+    border: 1px dashed #48ca50;
+    margin: 18px auto 30px;
+    background: #f6fff7;
+    text-align:center;
+}
+.carouselSetting .instruction .inner{
+    height:100%;
+    border-radius:10px;
+    background: #ebebeb;
+    box-shadow: 10px 10px 10px rgba(0,0,0,.5);
+}
+.carouselSetting .instruction  h2{
+    padding: 97px 0 26px;
+    font-size: 16px;
+    font-weight: normal;
+    color: #262626;
+}
+.carouselSetting .addBtn{
+    width: 160px;
+    height: 48px;
+    line-height: 48px;
+    border-radius: 3px;
+    background: #23ae60;
+    display: inline-block;
+    text-align: center;
+    margin: 29px 0 19px;
+    font-size: 16px;
+    color: #fff;
+}
+.carouselSetting .instruction .addBtn{
+    margin: 0 auto 14px;
+}
+.carouselSetting  p{
+    font-size: 14px;
+    color: #666;
+}
+.carouselSetting .tip{
+    margin-top:30px;
+    text-align:center;
+}
+.carouselSetting .tiptxt{
+    display: inline-block;
+    margin-left: 15px;
+}
+.carouselSetting table{ width: 960px; text-align: center; font-size:14px; }
+.carouselSetting table th{ background-color: #319ff4; height: 36px;border-right:1px solid #319ff4; color: #ffffff; font-weight: normal; font-size: 14px;}
+.carouselSetting table th.first{border-left:1px solid #319ff4;}
+.carouselSetting table td{ border-right:1px solid #e6e6e6;border-bottom:1px solid #e6e6e6; }
+.carouselSetting table td.first{border-left:1px solid #e6e6e6;}
+.carouselSetting table img{ border-radius: 4px; margin:20px 0;}
+.carouselSetting .operate span{
+    display:inline-block;
+    margin:0 10px;
+    cursor: pointer;
+}
+.carouselSetting .edit,.carouselSetting .del{
+    width: 14px;
+    height: 14px;
+    background: url(../../images/carouselSetting/icon5.png) no-repeat;
+}
+.carouselSetting .del{
+    background-image: url(../../images/carouselSetting/icon6.png);
+}
+.carouselSetting .up{
+    width: 15px;
+    height: 11px;
+    background: url(../../images/carouselSetting/icon7.png) no-repeat;
+}
+.carouselSetting .down{
+    width: 15px;
+    height: 9px;
+    background: url(../../images/carouselSetting/icon8.png) no-repeat;
+}
+.carouselSetting .edit:hover{
+    background-image: url(../../images/carouselSetting/icon5c.png);
+}
+.carouselSetting .del:hover{
+    background-image: url(../../images/carouselSetting/icon6c.png);
+}
+.carouselSetting .up:hover{
+    background-image: url(../../images/carouselSetting/icon7c.png);
+}
+.carouselSetting .down:hover{
+    background-image: url(../../images/carouselSetting/icon8c.png);
+}
+.carouselSetting .page{
+    width:960px;
+}
+.carouselSetting form {
+    padding-top:26px;
+}
+.carouselSetting .form-group {
+    line-height: 28px;
+    margin-bottom:30px;
+}
+.carouselSetting label{
+    float:left;
+    width: 92px;
+    font-size: 16px;
+}
+.carouselSetting form .upload label{ 
+    line-height:182px;
+}
+.carouselSetting form .upload .img{
+    width: 420px;
+    height:182px;
+    margin-right:16px;
+    border-radius:5px;
+    background: #e9e9e9;
+}
+.carouselSetting form .upload .fileInput{
+    padding-top:9px;
+}
+.carouselSetting form .upload p{
+    color:#999;
+}
+.carouselSetting form .img{
+    margin-right:16px;
+}
+.carouselSetting form .select{ position:relative;width: 273px; height: 26px;line-height: 26px; margin-right:10px;border: 1px solid #dcdcdc;}
+.carouselSetting form .select p{ padding-left: 10px; background: #fff url(../../images/carouselSetting/icon8.png) no-repeat 250px center;font-size: 14px;color: #0085e2;}
+.carouselSetting form .select.active p{background: none;}
+.carouselSetting form .select ul{ display:none;position: absolute; z-index: 100; top: 26px; left: -1px; width: 273px; border: 1px solid #dcdcdc; background-color: #fff;cursor: pointer;}
+.carouselSetting form .select ul li{ padding-left: 10px; line-height: 28px; font-size: 14px;}
+.carouselSetting form .select .delete{
+    display: none;
+    width: 10px;
+    height: 10px;
+    background: url(../../images/carouselSetting/icon10.png) no-repeat;
+    position: absolute;
+    right: 10px;
+    top: 8px;
+    cursor: pointer
+}
+.carouselSetting form .select.active .delete{
+    display:block;
+}
+.carouselSetting form .time{
+    position:relative;
+}
+.carouselSetting form .time .radio{
+    padding-left: 23px;
+    margin-right:98px;
+    background: url(../../images/worksManagement/icon22.png) no-repeat left center;
+    font-size: 14px;
+    cursor: pointer;
+}
+.carouselSetting form .time .radio.active{
+    background-image: url(../../images/worksManagement/icon22c.png);
+}
+.carouselSetting form .time .calendar{
+    position: absolute;
+    left: 295px;
+    top: 50px;
+    font-size: 14px;
+    color: #999;
+}
+.carouselSetting .btns{
+    height: 56px;
+    padding-top: 16px;
+    margin-left: -35px;
+    margin-top: 200px;
+    text-align: center;
+    background: #e6e6e6;
+    font-size: 0;
+}
+.carouselSetting .btn{
+    display: inline-block;
+    width: 108px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 5px;
+    margin: 0 8px;
+    background: #fff;
+    font-size: 14px;
+    color: #262626;
+}
+.carouselSetting .submitBtn{
+    background: #23ae60;
+    color: #fff;
+}
+.carouselSetting form .title input{
+    width:688px;
+    height: 26px;
+    line-height: 26px;
+    padding-left: 10px;
+    border: 1px solid #dcdcdc;
+}

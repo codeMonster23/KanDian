@@ -1,0 +1,52 @@
+@charset "utf-8";
+/*收益概况*/
+.earningWrap .overview{ padding-left: 88px; padding-top: 24px;}
+.earningWrap .overview h1{ float: left; font-size: 36px; font-weight: normal; line-height: 109px; margin-right: 90px;}
+.earningWrap .overview .box{ width: 566px;}
+.earningWrap .overview .box .item{ height: 90px; width: 86px; padding-left: 100px;}
+.earningWrap .overview .box .item.bd{ border-right: 1px solid #7BCD91;}
+.earningWrap .overview .box .bg1{ background:url(../../images/earningsManagement/icon1.png)  no-repeat 37px center;}
+.earningWrap .overview .box .bg2{ background:url(../../images/earningsManagement/icon2.png)   no-repeat 38px center;}
+.earningWrap .overview .box .bg3{ background:url(../../images/earningsManagement/icon3.png)   no-repeat 41px center;}
+.earningWrap .overview .box .item .num{ padding-top:16px;text-align: center; font-size: 16px; }
+.earningWrap .overview .box .item .num .p1{ font-size: 24px;}
+.earningWrap .block{padding-left: 70px; padding-top: 30px;}
+.earningWrap .block .section{ margin-bottom: 42px;}
+.earningWrap .block h1{padding-left: 12px; height: 30px; line-height: 28px; font-size: 18px; border-left: 5px solid #09A553; margin-bottom: 17px;}
+/*订单明细*/
+.earningWrap .block .tab a{ float: left; width: 111px; text-align: center; font-size: 18px; height: 42px; line-height: 42px; color: #252525; margin-right: 10px;}
+.earningWrap .block .tab a.cur{ color: #00853C; background:url(../../images/earningsManagement/icon4.png) no-repeat center bottom;}
+.earningWrap .block .tabc{ width: 1100px;}
+.earningWrap .block .tabc .top{ padding-left: 16px; padding-top: 10px; height: 38px; background-color: #E3F6EB; border-top: 1px solid #AFD7C1; padding-right: 16px;}
+.earningWrap .block .tabc .top .select{ height: 26px; line-height: 26px; border: 1px solid #AFD7C1; background: #ffffff url(../../images/earningsManagement/icon5.png) no-repeat ; cursor: pointer;position: relative;}
+.earningWrap .block .tabc .top .s1{ width: 68px; background-position:53px center ;}
+.earningWrap .block .tabc .top .s2{ width: 78px; background-position: 63px center;}
+.earningWrap .block .tabc .top .select p{ padding-left: 8px;}
+.earningWrap .block .tabc .top .select ul{ display: none;  position: absolute; left: -1px; top: 26px; border: 1px solid #AFD7C1; background-color: #ffffff;}
+.earningWrap .block .tabc .top .s1 ul{width:68px ;}
+.earningWrap .block .tabc .top .s2 ul{width:78px ;}
+.earningWrap .block .tabc .top .select ul li{ padding-left: 8px;}
+.earningWrap .block .tabc .top .select ul li:hover{ background-color: #E2E2E2;}
+.earningWrap .block .tabc .top label{ float: left; margin: 0 10px; line-height: 28px;}
+.earningWrap .block .tabc .top .laydate-icon{float:left; width:118px; height:26px; line-height:26px; border:1px solid #AFD7C1; padding-left:10px; background-image: url(../../images/earningsManagement/icon6.png); background-position:104px center; padding-right:0;}
+.earningWrap .block .tabc .top .laydate-icon.click{ border-color: #09A553;background-image: url(../../images/earningsManagement/icon6c.png);}
+.earningWrap .block .tabc .top .search{ width: 288px; height: 26px; background: #ffffff;border:1px solid #AFD7C1; margin-left: 12px;}
+.earningWrap .block .tabc .top .search input{ float: left; padding: 3px; height: 20px; line-height: 20px; width: 260px;}
+.earningWrap .block .tabc .top .search .btn{ float: left; width: 22px; height: 26px; background: url(../../images/earningsManagement/icon7.png) no-repeat left center;}
+.earningWrap .block .tabc .bar{ height: 38px; padding-left: 17px; padding-right: 17px; font-family: "宋体";}
+.earningWrap .block .tabc .bar p{ color: #7F7F7F; line-height: 38px;}
+.earningWrap .block .tabc .bar p strong{ color: #FC9327;}
+.earningWrap .block .tabc .bar .export{ float: right; padding-left: 38px; color: #7F7F7F; background: url(../../images/earningsManagement/icon8.png) no-repeat left center; line-height: 38px;}
+.earningWrap .block .tabc table{ width: 1100px;font-size:14px ; text-align: center;}
+.earningWrap .block .tabc table th{ height: 40px; background-color: #09A553; color: #ffffff; border-right: 1px solid #89D0A9;  font-family: simsun;}
+.earningWrap .block .tabc table div{ padding-left: 17px; text-align: left;}
+.earningWrap .block .tabc table .last{ border-right: none;}
+.earningWrap .block .tabc table td{ height: 40px;}
+.earningWrap .block .tabc table tr.bg td{ background-color: #F1F1F1;}
+.earningWrap .block .tabc table td a{ color: #0fa652;}
+.earningWrap .block .tabc table td .detail{ padding:5px 14px; background-color: #EAFFF3; border: 1px solid #7CD0A2; border-radius: 3px; font-size: 12px;}
+/*销量统计*/
+.earningWrap .block .tabc .px{ margin-top: -5px; height: 33px; padding-right: 10px;margin-right: 11px; border-right: 1px solid #C9E5D5; padding-top: 5px;}
+.earningWrap .block .tabc .px a{ float: left; height: 26px; line-height: 26px; color: #7F7F7F; padding-left: 18px; width: 75px; border: 1px solid #AFD7C1; margin-right: -1px; background: #ffffff url(../../images/earningsManagement/icon9.png) no-repeat 72px center;}
+.earningWrap .block .tabc .px a.cur{ background: #09A553 url(../../images/earningsManagement/icon9c.png) no-repeat 72px center; color: #ffffff; border-color: #09A553;}
+.earningWrap .block .tabc .top .calendar{ display: none;}

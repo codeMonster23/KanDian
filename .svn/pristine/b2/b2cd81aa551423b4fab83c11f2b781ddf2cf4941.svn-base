@@ -1,0 +1,101 @@
+@charset "utf-8";
+div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, input, button, textarea, p, th, td, form, body { padding: 0px; margin: 0px; }
+body { font-family:"宋体"; font-size:12px; color:#000; }
+img { border:none; }
+strong,i { font-style:normal }
+ul, li, ol { list-style-type: none; }
+table { border-collapse: collapse; border-spacing: 0 }
+input::-moz-focus-inner {border:0;padding:0;margin:0;}
+input::-ms-clear {display:none;}
+input[type="button"] { cursor:pointer; }
+input, textarea { outline:none; border: none 0;  resize: none;}
+/*input { border:0; background-color:transparent;}*/
+.clearfix:after { content: "."; display: block; height: 0; clear: both; visibility: hidden; }
+.clearfix {zoom: 1; }
+a { text-decoration:none; outline:none; }
+a:hover { text-decoration:none; }
+.colorGrey{ color: #a6a6a6;}
+.left { float:left; }
+.right { float:right; }
+.positionR { position:relative; }
+.positionA { position:absolute; }
+.displayB { display:block; }
+.displayN { display:none; }
+.page{ padding-top:60px; padding-bottom:62px;font-family:"微软雅黑"; text-align:center; }
+.page a{ border:1px solid #BEBEBE; background-color:#ffffff; color:#595959;font-size:14px; font-weight:normal; margin-right:10px; padding:7px 8px;}
+.page a:hover{ background-color:#4EBB50; color:#ffffff; border-color:#4EBB50;}
+.page .spec_padding{ padding:7px 8px;}
+.page span{ margin-right:10px;padding:7px 8px;font-size:14px;}
+.page span.current{background-color:#4EBB50; color:#ffffff;border:1px solid #4EBB50;margin-right:10px;padding:7px 8px;}
+/*左侧菜单*/
+.content{ min-height: 1100px; font-family: "microsoft yahei";}
+.content .contentBox{ margin-left: 230px;}
+.content .sideMenu{ float: left; width: 230px;background-color: #4E5765;}
+.content .sideMenu .avatar{ padding-top: 24px; text-align: center; margin-bottom: 10px;}
+.content .sideMenu .avatar img{ border-radius: 50%; }
+.content .sideMenu .avatar h1{ font-weight:normal; line-height:44px; color: #ffffff; font-size:18px;}
+.content .sideMenu .sideList .nav{ height: 50px; border-top: 1px solid #58616D; position: relative;}
+.content .sideMenu .sideList .nav3:after, .content .sideMenu .sideList .nav5:after,.content .sideMenu .sideList .nav8:after{ content: "";position: absolute; left: 195px; top: 23px; width: 10px; height: 6px;background: url(../../images/worksManagement/side-icon9.png) no-repeat; transition: all .2s linear; transform: rotate(0deg);}
+.content .sideMenu .sideList .nav.toggle:after{ transform:rotate(-180deg);}
+.content .sideMenu .sideList .nav a{ display: block; color: #ffffff; line-height: 50px; font-size: 14px; padding-left: 67px; background-repeat: no-repeat; background-position: 40px center;}
+.content .sideMenu .sideList .nav.click .cur{ color: #0CBD5A;}
+.content .sideMenu .sideList .nav1 a{ background-image: url(../../images/worksManagement/side-icon1.png);}
+.content .sideMenu .sideList .nav1.click a{ background-image: url(../../images/worksManagement/side-icon1c.png);}
+.content .sideMenu .sideList .nav2 a{ background-image: url(../../images/worksManagement/side-icon2.png);}
+.content .sideMenu .sideList .nav2.click a{ background-image: url(../../images/worksManagement/side-icon2c.png);}
+.content .sideMenu .sideList .nav3 a{ background-image: url(../../images/worksManagement/side-icon3.png);}
+.content .sideMenu .sideList .nav3.click a{ background-image: url(../../images/worksManagement/side-icon3c.png);}
+.content .sideMenu .sideList .nav4 a{ background-image: url(../../images/worksManagement/side-icon4.png);}
+.content .sideMenu .sideList .nav4.click a{ background-image: url(../../images/worksManagement/side-icon4c.png);}
+.content .sideMenu .sideList .nav5 a{ background-image: url(../../images/worksManagement/side-icon5.png);}
+.content .sideMenu .sideList .nav5.click a{ background-image: url(../../images/worksManagement/side-icon5c.png);}
+.content .sideMenu .sideList .nav6 a{ background-image: url(../../images/worksManagement/side-icon6.png);}
+.content .sideMenu .sideList .nav6.click a{ background-image: url(../../images/worksManagement/side-icon6c.png);}
+.content .sideMenu .sideList .nav7 a{ background-image: url(../../images/worksManagement/side-icon7.png);}
+.content .sideMenu .sideList .nav7.click a{ background-image: url(../../images/worksManagement/side-icon7c.png);}
+.content .sideMenu .sideList .nav8 a{ background-image: url(../../images/worksManagement/side-icon8.png);}
+.content .sideMenu .sideList .nav8.click a{ background-image: url(../../images/worksManagement/side-icon8c.png);}
+.content .sideMenu .sideList ul{ border-top: 1px solid #616974; background-color: #394353;}
+.content .sideMenu .sideList ul li a{ display: block; padding-left: 67px; color: #ffffff; font-size: 14px; line-height: 48px;}
+.content .sideMenu .sideList ul li a.cur{ background-color: #313B49; color: #0CBD5A;}
+/*右侧管理模板通用*/
+.content .manageWrap{ padding-left: 48px;}
+.content .manageWrap .ct{ font-size: 24px; font-weight: normal; padding-left: 40px; line-height: 104px; background-repeat: no-repeat; background-position:left center;}
+/*编辑器*/
+.editBox .tools .s1{ padding-left:10px;height:29px; border-right:1px solid #D8D8D8; margin-right:5px; }
+.editBox .tools .s2{height:27px; border-right:1px solid #D8D8D8; margin-right:5px; padding-top:2px; }
+.editBox .tools .s3{height:27px; border-right:1px solid #D8D8D8; margin-right:5px; padding-top:2px; padding-right:10px; }
+.editBox .tools .s4{height:27px; padding-top:8px; }
+/*工具栏*/
+.editBox .tools .s1 a{ width:13px; height:29px; margin-right:12px; background-repeat:no-repeat; background-position:center; }
+.editBox .tools .s1 .cx{ background-image:url(../../images/worksManagement/toolsbar-icon1.png); }
+.editBox .tools .s1 .qxcx{ background-image:url(../../images/worksManagement/toolsbar-icon2.png); }
+/*文字设置部分*/
+.editBox .tools .s2 .select{ position:relative; border:1px solid #CBCBCB; height:23px; line-height:23px; background-repeat:no-repeat; background-image:url(../../images/worksManagement/toolsbar-icon3.png); cursor:pointer; margin-right:5px; }
+.editBox .tools .s2 .fontFamily{ width:74px; background-position:65px center; }
+.editBox .tools .s2 .fontSize{ width:54px; background-position:45px center; }
+.editBox .tools .s2 .select p{ padding-left:6px; }
+.editBox .tools .s2 .select ul{ display:none; position:absolute; left:-1px; top:23px; border:1px solid #CBCBCB; height:170px; overflow-x:hidden; overflow-y:scroll; background-color:#ffffff; z-index: 10;}
+.editBox .tools .s2 .fontFamily ul{ width:74px; }
+.editBox .tools .s2 .fontSize ul{ width:54px; }
+.editBox .tools .s2 .select ul li{ padding-left:6px; line-height:25px; }
+.editBox .tools .s2 .select ul li:hover{ background-color:#F1F1F1; }
+.editBox .tools .s2 .textSet{ width:25px; margin-right:2px; text-align:center; padding-top:5px; height:20px; transition:all .1s ease-in-out; }
+.editBox .tools .s2 .textSet.click{ background-color:#F1F1F1; }
+/*对齐方式等*/
+.editBox .tools .s3 .alignSet{ width:25px; margin-right:2px; text-align:center; padding-top:5px; height:20px; transition:all .1s ease-in-out; }
+.editBox .tools .s3 .sjSet{ width:25px; margin-right:2px; text-align:center; padding-top:5px; height:20px; transition:all .1s ease-in-out; }
+ .editBox .tools .s3 .alignSet.click{ background-color:#F1F1F1; }
+ .editBox .tools .s3 .sjSet.click{ background-color:#F1F1F1; }
+ .editBox .tools .s3 .lineHeight{ position:relative; width:24px; padding-right:9px; height:24px; border:1px solid #ffffff; background:#E5E5E5 url(../../images/worksManagement/toolsbar-icon3.png) no-repeat 27px center; cursor:pointer; }
+ .editBox .tools .s3 .lineHeight.click{ border-color:#D8D8D8; }
+ .editBox .tools .s3 .lineHeight p{ padding-top:4px; text-align:center; background-color:#ffffff; height:20px; }
+ .editBox .tools .s3 .lineHeight.click p{ background-color:#F1F1F1; }
+ .editBox .tools .s3 .lineHeight ul{ display:none; position:absolute; left:-1px; top:24px; width:150px; border:1px solid #DDDDDD; background-color:#ffffff;z-index: 10 }
+ .editBox .tools .s3 .lineHeight ul li{ line-height:25px; padding-left:34px; }
+ .editBox .tools .s3 .lineHeight ul li.select{ background:url(../../images/worksManagement/toolsbar-icon19.gif) no-repeat 11px center; }
+ .editBox .tools .s3 .lineHeight ul li a{ display:block; padding-left:9px; font-family:"微软雅黑"; border-left:1px solid #E9E9E9; text-decoration:none; color:#444444; }
+.editBox .tools .s3 .lineHeight ul li a:hover{ background-color:#F1F1F1; }
+/*富媒体*/
+.editBox .tools .s4 .media{ width:15px; margin-right:8px; text-align:center; }
+.editBox .tools .s4 .style{width:50px;height:25px;border:1px solid #B7B7B7; color: #404040; line-height: 25px; margin-top: -6px; text-align: center; margin-left: 10px;}

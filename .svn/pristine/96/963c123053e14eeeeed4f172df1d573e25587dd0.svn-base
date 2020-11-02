@@ -1,0 +1,35 @@
+@charset "utf-8";
+.content .contentBox{ overflow: visible;}
+.content .comWrap{ width: 1100px;}
+.content .comWrap .ct{ background-image: url(../../images/commentsManagement/icon1.png); background-position: left 43px; }
+.content .comWrap .top{ height: 28px;margin-bottom: 13px;}
+.content .comWrap .top .a{ float: left; height: 26px; line-height: 26px; margin-right: 8px; padding: 0 17px; border:  1px solid #1FAD61; color: #262626; border-radius: 13px;}
+.content .comWrap .top .a.cur{ background-color: #1FAD61; color: #ffffff;}
+.content .comWrap .top .rc .select{ position: relative; width: 123px; height: 26px; border: 1px solid #D8D8D8; background: url(../../images/worksManagement/icon11.png) no-repeat 109px center; cursor: pointer; margin-right: 5px;border-radius:3px;}
+.content .comWrap .top .rc .select p{ padding-left: 8px; line-height: 26px;}
+.content .comWrap .top .rc .select ul{ display: none; position: absolute; width: 123px; left: -1px; top: 26px; border: 1px solid #D8D8D8; background-color: #ffffff; z-index: 10; border-bottom-left-radius: 3px; border-bottom-right-radius: 3px;}
+.content .comWrap .top .rc .select ul li{ padding-left: 8px; height: 26px; line-height: 26px;}
+.content .comWrap .top .rc .search{ width: 316px; height: 26px; border: 1px solid #D8D8D8;border-radius:3px; position: relative;}
+.content .comWrap .top .rc .search input{ float: left; padding: 3px; width: 288px; height: 20px; line-height: 20px;}
+.content .comWrap .top .rc .search a{ position:absolute; right:-1px; top:-1px;width: 29px; height: 28px; background: url(../../images/commentsManagement/icon2.png) no-repeat center;}
+table{ width: 100%; text-align: center; font-size:14px;}
+.content .comWrap table th{ background-color: #1FAD61; height: 40px; border-right:1px solid #ffffff; color: #ffffff; font-weight: normal; font-size: 14px;}
+.content .comWrap table .first{ padding-left: 15px; text-align:left;}
+.content .comWrap table .last{ border-right: none;}
+.content .comWrap table tr.bg td{ background-color: #F1F1F1;}
+.content .comWrap table .detail{ padding:18px 0 18px 15px; text-align: left;}
+.content .comWrap table .detail .avatar{ border-radius: 50%; margin-right: 25px;}
+.content .comWrap table .detail .info .p1{ color: #808080; line-height: 23px;}
+.content .comWrap table .detail .info .p2{ line-height: 30px;}
+.content .comWrap table .detail .info .p3{ line-height: 22px; color: #BFBFBF; font-size: 12px;}
+.content .comWrap table .name{ color: #23AE60;}
+.content .comWrap table .operate{ color: #D8D8D8;}
+.content .comWrap table .operate .jx{ color: #1FAD61; margin-right: 10px;}
+.content .comWrap table .operate .del{ color: #A5A5A5; margin-left: 10px;}
+/*朗读管理*/
+.content .comWrap table .player{ height: 40px; background-color: #E7FDF1; border: 1px solid #A2D6B9; width: 300px; border-radius: 20px; padding-left: 12px; margin: 6px 0;}
+.content .comWrap table .player .btn{ float: left; width: 26px; height: 26px; margin-top: 7px; margin-right: 11px; background: url(../../images/readManagemen/icon1.png) no-repeat;}
+.content .comWrap table .player .progress{ float: left; margin-top: 18px; position: relative; width: 205px; height: 4px; background-color: #BFD9CB; margin-right: 8px;}
+.content .comWrap table .player .progress .bar{ height: 4px; background-color: #009A48;}
+.content .comWrap table .player .progress span{ position: absolute; width:11px; height: 12px; left: 50%; top: -4px; background: url(../../images/readManagemen/icon2.png) no-repeat;}
+.content .comWrap table .player .time{ line-height: 40px; color: #069b47; font-size: 12px;}

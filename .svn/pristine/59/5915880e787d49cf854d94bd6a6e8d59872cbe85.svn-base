@@ -1,0 +1,71 @@
+.outer-container{
+    padding: 20px 0 0 20px;
+}
+.userinfo-body{
+    margin-top: 20px
+}
+.userinfo-body th{
+    text-align: center;
+    font-size: 16px;
+    color: white;
+    background-color: #0092e5;
+}
+.userinfo-body td,.userinfo-body th{
+    padding: 15px 0 !important;
+    text-align: center;
+}
+.table-label{
+    background-color: #f9f9f9;
+    text-align: center;
+    width: 192px;
+    font-weight: bold;
+}
+.u-label{
+    font-size: 14px;
+    background-color: #0092e5;
+    color: white;
+    border-radius: 100px;
+    display: inline-block;
+    margin-right: 5px;
+    padding: 8px 28px;
+}
+td.classify{
+    text-align: left;
+    padding-left: 15px !important;
+}
+.headimg{
+    width: 110px;
+    height: 110px;
+    border-radius: 1100px;
+}
+.userinfo-body .headimg-table-text{
+    padding-top: 60px !important;
+}
+.userinfo-body .headimg-table{
+    text-align: left;
+    padding-left: 25px !important;
+}
+.btns{
+    margin-top: 20px;
+    padding: 18px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+}
+.mybtn{
+    display: inline-block;
+    padding: 10px 40px;
+    background-color: #de0000;
+    border-radius: 3px;
+    color: white;
+    text-decoration: none !important;
+    margin-right: 10px;
+}
+.mybtn:hover{
+    color: white;
+}
+.mybtn-green{
+    background-color: #1ab394;
+}
+.mybtn-yellow{
+    background-color: #f9ac5a;
+}

@@ -1,0 +1,308 @@
+.content .kdhSetting .ct {
+    background-image: url(../../images/commentsManagement/icon1.png);
+    background-position: left 43px;
+}
+
+.kdhSetting .tab {
+    border-bottom: 1px solid #e6e6e6;
+}
+
+.kdhSetting .tab a {
+    float: left;
+    width: 111px;
+    text-align: center;
+    font-size: 18px;
+    height: 42px;
+    line-height: 42px;
+    color: #252525;
+    margin-right: 10px;
+}
+
+.kdhSetting .tab a.cur {
+    color: #00853C;
+    background: url(../../images/earningsManagement/icon4.png) no-repeat center bottom;
+}
+
+.kdhProfile form {
+    padding-top: 38px;
+    font-size: 14px;
+    color: #262626;
+}
+
+.kdhProfile .form-item {
+    margin-bottom: 44px;
+}
+
+.kdhProfile label {
+    float: left;
+    width: 95px;
+    line-height: 36px;
+    margin-right: 26px;
+    text-align: right;
+}
+
+.kdhProfile .input-wrap {
+    position: relative;
+    float: left;
+    width: 665px;
+}
+
+.kdhProfile input,
+.kdhProfile textarea {
+    width: 643px;
+    padding: 10px;
+    border: solid 1px #d9d9d9;
+}
+
+.kdhProfile textarea {
+    height: 42px;
+}
+
+.kdhProfile form .tip {
+    position: absolute;
+    left: 13px;
+    top: 46px;
+    color: #808080;
+}
+
+.kdhProfile form .textarea-tip {
+    top: 72px;
+}
+
+.kdhProfile .form-item-ewm .input-wrap {
+    width: 652px;
+    height: 36px;
+    line-height: 36px;
+    padding-left: 13px;
+    border-bottom: 1px solid #d9d9d9;
+}
+
+.kdhProfile .form-item-ewm .btn {
+    position: absolute;
+    right: 0;
+    bottom: 2px;
+    width: 100px;
+    height: 26px;
+}
+
+.kdhProfile .form-btns {
+    margin-left: 120px;
+    margin-bottom: 10px;
+}
+
+.kdhProfile .form-btns .btn {
+    float: left;
+    width: 118px;
+    height: 43px;
+    line-height: 43px;
+    margin-right: 10px;
+    border: 1px solid #d9d9d9;
+    border-radius: 3px;
+    font-family: MicrosoftYaHei;
+    font-size: 16px;
+    text-align: center;
+    color: #282828;
+    box-shadow: 0 0 5px rgba(217, 217, 217, .5);
+}
+
+.kdhProfile .form-btns .btn-submit {
+    border-color: #f87323;
+    background-color: #f87323;
+    color: #fff;
+    box-shadow: 0 0 5px rgba(248, 155, 35, .5);
+}
+
+.kdhProfile .form-btns .btn-submit.disabled {
+    border-color: #808080;
+    background-color: #808080;
+    box-shadow: none;
+}
+
+.kdhProfile .submit-tip {
+    float: left;
+    margin-top: 26px;
+    margin-left: 24px;
+    font-size: 14px;
+    color: #808080;
+}
+
+#layui-layer1 {
+    border-radius: 10px;
+}
+
+#layer1 {
+    line-height: 76px;
+    padding: 0;
+    font-family: MicrosoftYaHei;
+    font-size: 16px;
+}
+
+.homepageSetting form {
+    padding-top: 38px;
+    font-size: 14px;
+    color: #262626;
+}
+
+.homepageSetting .form-item {
+    margin-bottom: 38px;
+}
+
+.homepageSetting label {
+    float: left;
+    width: 122px;
+    line-height: 36px;
+    margin-right: 26px;
+    text-align: right;
+}
+
+.homepageSetting .form-item-appbg label,
+.homepageSetting .form-item-pcbg label {
+    text-align: center;
+    line-height: 26px;
+    margin-top: 5px;
+}
+
+.homepageSetting .input-wrap {
+    position: relative;
+    float: left;
+    width: 665px;
+}
+
+.homepageSetting .avatar-img {
+    margin-right: 23px;
+}
+
+.homepageSetting .btn-upload {
+    display: block;
+    width: 92px;
+    height: 32px;
+    line-height: 32px;
+    background-color: #fff;
+    border-radius: 3px;
+    border: solid 1px #d9d9d9;
+    margin-bottom: 16px;
+    font-family: MicrosoftYaHei;
+    text-align: center;
+    color: #808080;
+    box-shadow: 0 0 5px rgba(217, 217, 217, .5);
+}
+
+.homepageSetting form .tip {
+    color: #808080;
+}
+
+.homepageSetting .form-item-pcbg .avatar-img {
+    margin-bottom: 16px;
+    margin-right: 0;
+}
+
+.homepageSetting .form-btns {
+    margin-left: 148px;
+    margin-bottom: 10px;
+}
+
+.homepageSetting .btn-submit {
+    float: left;
+    width: 162px;
+    height: 45px;
+    line-height: 45px;
+    border: 1px solid #d9d9d9;
+    border-radius: 3px;
+    background-color: #f87323;
+    font-family: MicrosoftYaHei;
+    font-size: 16px;
+    text-align: center;
+    color: #fff;
+    box-shadow: 0 0 5px rgba(248, 155, 35, .5);
+}
+
+.homepageSetting .btn-submit.disabled {
+    border-color: #808080;
+    background-color: #808080;
+    box-shadow: 0 0 5px rgba(217, 217, 217, .5);
+}
+
+.homepageSetting .submit-tip {
+    float: left;
+    margin-top: 26px;
+    margin-left: 24px;
+    font-size: 14px;
+    color: #808080;
+}
+
+.kdhmodal {
+    position: relative;
+    border-radius: 12px;
+    background-color: #FFFFFF;
+    font-family: "微软雅黑";
+    width: 560px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.kdhmodal .close {
+    position: absolute;
+    top: 11px;
+    right: 11px;
+    width: 20px;
+    height: 20px;
+    background: url(../../images/accountManagement/close.png) no-repeat;
+}
+
+.kdhmodal h1 {
+    height: 42px;
+    line-height: 42px;
+    padding-left: 16px;
+    color: #ffffff;
+    font-size: 16px;
+    background-color: #1FAD61;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    font-weight: normal;
+}
+
+.kdhmodal .btns {
+    padding-top: 27px;
+    height: 63px;
+    background-color: #F1F1F1;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+    text-align: center;
+}
+
+.kdhmodal .btns a {
+    display: inline-block;
+    width: 98px;
+    height: 34px;
+    line-height: 34px;
+    font-size: 14px;
+    border: 1px solid #1FAD61;
+    border-radius: 3px;
+}
+
+.kdhmodal .btns .a1 {
+    color: #ffffff;
+    background-color: #1FAD61;
+    margin-right: 11px;
+}
+
+.kdhmodal .btns .a2 {
+    color: #1FAD61;
+    background-color: #ffffff;
+}
+
+.kdhmodal img {
+    display: block;
+    margin: 40px auto;
+}
+
+.kdhmodal1 {
+    width: 380px;
+}
+
+.kdhmodal2 {
+    width: 1195px;
+}
+
+.kdhmodal3 {
+    width: 2018px;
+}

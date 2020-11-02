@@ -1,0 +1,766 @@
+ 
+// 中央组件的html代码
+
+
+ //一般直接写在一个js文件中
+ layui.use(['layer', 'form','laytpl'], function(){
+    var layer = layui.layer
+    ,form = layui.form;
+    var laytpl = layui.laytpl;
+    
+
+    //底部添加组件的那个div，经常要用，弄成变量
+    var $panel = $("#addPanel");
+
+    
+    //底部面板添加图文的按钮
+    $("#main-add-tuwen").on('click',function(){
+        var data = {
+            "title":"读美文",
+            "info":"此处显示文章图片",
+            "type":"tuwen"
+        }
+        var getTpl = tempTuWen.innerHTML
+        laytpl(getTpl).render(data,function(html){
+            $panel.before(html);
+        })
+    })
+
+    //点击组件上方加号出现的面板后，点击添加图文按钮
+    $("#showArea").on('click','.module-up .panel-add-tuwen',function(){
+        var data = {
+            "title":"读美文",
+            "info":"此处显示文章图片",
+            "type":"tuwen"
+        }
+        var getTpl = tempTuWen.innerHTML
+        var $mydom = $(this);
+        laytpl(getTpl).render(data,function(html){
+            $mydom.parent().parent().parent().parent().before(html);
+        })
+        return false;
+    })
+
+    //点击组件下方加号出现的面板后，点击添加图文按钮
+    $("#showArea").on('click','.module-down .panel-add-tuwen',function(){
+        var data = {
+            "title":"读美文",
+            "info":"此处显示文章图片",
+            "type":"tuwen"
+        }
+        var getTpl = tempTuWen.innerHTML
+        var $mydom = $(this);
+        laytpl(getTpl).render(data,function(html){
+            $mydom.parent().parent().parent().parent().after(html);
+        })
+        return false;
+    })
+
+    //底部面板添加音频的按钮
+    $("#main-add-yinpin").on('click',function(){
+        var data = {
+            "title":"听精选"
+        }
+        var getTpl = tempYinPin.innerHTML
+        $mydom = $(this)
+        laytpl(getTpl).render(data,function(html){
+            $panel.before(html);
+        })
+    })
+
+    //点击组件上方加号出现的面板后，点击添加音频按钮
+    $("#showArea").on('click','.module-up .panel-add-yinpin',function(){
+        var data = {
+            "title":"读美文",
+            "info":"此处显示文章图片",
+            "type":"yinpin"
+        }
+        var getTpl = tempYinPin.innerHTML
+        var $mydom = $(this);
+        laytpl(getTpl).render(data,function(html){
+            $mydom.parent().parent().parent().parent().before(html);
+        })
+        return false;
+    })
+
+    //点击组件下方加号出现的面板后，点击添加音频按钮
+    $("#showArea").on('click','.module-down .panel-add-yinpin',function(){
+        var data = {
+            "title":"读美文",
+            "info":"此处显示文章图片",
+            "type":"yinpin"
+        }
+        var getTpl = tempYinPin.innerHTML
+        var $mydom = $(this);
+        laytpl(getTpl).render(data,function(html){
+            $mydom.parent().parent().parent().parent().after(html);
+        })
+        return false;
+    })
+
+    //底部面板添加视频的按钮
+    $("#main-add-shipin").on('click',function(){
+        var data = {
+            "title":"看世界",
+            "info":"此处显示视频图片",
+            "type":"shipin"
+        }
+        var getTpl = tempShiPin.innerHTML
+        laytpl(getTpl).render(data,function(html){
+            $panel.before(html);
+        })
+    })
+
+    //点击组件上方加号出现的面板后，点击添加视频按钮
+    $("#showArea").on('click','.module-up .panel-add-shipin',function(){
+    var data = {
+        "title":"读美文",
+        "info":"此处显示文章图片",
+        "type":"shipin"
+    }
+    var getTpl = tempShiPin.innerHTML
+    var $mydom = $(this);
+    laytpl(getTpl).render(data,function(html){
+        $mydom.parent().parent().parent().parent().before(html);
+    })
+    return false;
+    })
+
+    //点击组件下方加号出现的面板后，点击添加视频按钮
+    $("#showArea").on('click','.module-down .panel-add-shipin',function(){
+        var data = {
+            "title":"读美文",
+            "info":"此处显示文章图片",
+            "type":"shipin"
+        }
+        var getTpl = tempShiPin.innerHTML
+        var $mydom = $(this);
+        laytpl(getTpl).render(data,function(html){
+            $mydom.parent().parent().parent().parent().after(html);
+        })
+        return false;
+    })
+
+    //底部面板添加图集的按钮
+    $("#main-add-tuji").on('click',function(){
+        var data = {
+            "title":"testtitle"
+        }
+        var getTpl = tempTuJi.innerHTML
+        laytpl(getTpl).render(data,function(html){
+            $panel.before(html);
+        })
+    })
+
+    //点击组件上方加号出现的面板后，点击添加图集按钮
+    $("#showArea").on('click','.module-up .panel-add-tuji',function(){
+        var data = {
+            "title":"读美文",
+            "info":"此处显示文章图片",
+            "type":"tuji"
+        }
+        var getTpl = tempTuJi.innerHTML
+        var $mydom = $(this);
+        laytpl(getTpl).render(data,function(html){
+            $mydom.parent().parent().parent().parent().before(html);
+        })
+        return false;
+    })
+
+    //点击组件下方加号出现的面板后，点击添加图集按钮
+    $("#showArea").on('click','.module-down .panel-add-tuji',function(){
+        var data = {
+            "title":"读美文",
+            "info":"此处显示文章图片",
+            "type":"tuji"
+        }
+        var getTpl = tempTuJi.innerHTML
+        var $mydom = $(this);
+        laytpl(getTpl).render(data,function(html){
+            $mydom.parent().parent().parent().parent().after(html);
+        })
+        return false;
+    })
+    
+    //底部面板添加组合的按钮
+    $("#main-add-zuhe").on('click',function(){
+        var data = {
+            "title":"testtitle"
+        }
+        var getTpl = tempZuHe.innerHTML
+        laytpl(getTpl).render(data,function(html){
+            $panel.before(html);
+        })
+    })
+
+    //点击组件上方加号出现的面板后，点击添加组合按钮
+    $("#showArea").on('click','.module-up .panel-add-zuhe',function(){
+        var data = {
+            "title":"testtitle"
+        }
+        var getTpl = tempZuHe.innerHTML
+        var $mydom = $(this);
+        laytpl(getTpl).render(data,function(html){
+            $mydom.parent().parent().parent().parent().before(html);
+        })
+        return false;
+    })
+
+    //点击组件下方加号出现的面板后，点击添加组合按钮
+    $("#showArea").on('click','.module-down .panel-add-zuhe',function(){
+        var data = {
+            "title":"testtitle"
+        }
+        var getTpl = tempZuHe.innerHTML
+        var $mydom = $(this);
+        laytpl(getTpl).render(data,function(html){
+            $mydom.parent().parent().parent().parent().after(html);
+        })
+        return false;
+    })
+
+    //底部面板添加微刊的按钮
+    $("#main-add-weikan").on('click',function(){
+        var data = {
+            "title":"testtitle"
+        }
+        var getTpl = tempWeiKan.innerHTML
+        laytpl(getTpl).render(data,function(html){
+            $panel.before(html);
+        })
+    })
+
+    //点击组件上方加号出现的面板后，点击添加组合按钮
+    $("#showArea").on('click','.module-up .panel-add-weikan',function(){
+        var data = {
+            "title":"testtitle"
+        }
+        var getTpl = tempWeiKan.innerHTML
+        var $mydom = $(this);
+        laytpl(getTpl).render(data,function(html){
+            $mydom.parent().parent().parent().parent().before(html);
+        })
+        return false;
+    })
+
+    //点击组件下方加号出现的面板后，点击添加组合按钮
+    $("#showArea").on('click','.module-down .panel-add-weikan',function(){
+        var data = {
+            "title":"testtitle"
+        }
+        var getTpl = tempWeiKan.innerHTML
+        var $mydom = $(this);
+        laytpl(getTpl).render(data,function(html){
+            $mydom.parent().parent().parent().parent().after(html);
+        })
+        return false;
+    })
+
+    //底部面板添加期刊的按钮
+    $("#main-add-qikan").on('click',function(){
+        var data = {
+            "title":"testtitle"
+        }
+        var getTpl = tempQiKan.innerHTML
+        laytpl(getTpl).render(data,function(html){
+            $panel.before(html);
+        })
+    })
+
+    //点击组件上方加号出现的面板后，点击添加期刊按钮
+    $("#showArea").on('click','.module-up .panel-add-qikan',function(){
+        var data = {
+            "title":"testtitle"
+        }
+        var getTpl = tempQiKan.innerHTML
+        var $mydom = $(this);
+        laytpl(getTpl).render(data,function(html){
+            $mydom.parent().parent().parent().parent().before(html);
+        })
+        return false;
+    })
+
+    //点击组件下方加号出现的面板后，点击添加期刊按钮
+    $("#showArea").on('click','.module-down .panel-add-qikan',function(){
+        var data = {
+            "title":"testtitle"
+        }
+        var getTpl = tempQiKan.innerHTML
+        var $mydom = $(this);
+        laytpl(getTpl).render(data,function(html){
+            $mydom.parent().parent().parent().parent().after(html);
+        })
+        return false;
+    })
+
+    //底部面板添加图书的按钮
+    $("#main-add-tushu").on('click',function(){
+        var data = {
+            "title":"testtitle"
+        }
+        var getTpl = tempTuShu.innerHTML
+        laytpl(getTpl).render(data,function(html){
+            $panel.before(html);
+        })
+    })
+
+    //点击组件上方加号出现的面板后，点击添加图书按钮
+    $("#showArea").on('click','.module-up .panel-add-tushu',function(){
+        var data = {
+            "title":"testtitle"
+        }
+        var getTpl = tempTuShu.innerHTML
+        var $mydom = $(this);
+        laytpl(getTpl).render(data,function(html){
+            $mydom.parent().parent().parent().parent().before(html);
+        })
+        return false;
+    })
+
+    //点击组件下方加号出现的面板后，点击添加图书按钮
+    $("#showArea").on('click','.module-down .panel-add-tushu',function(){
+        var data = {
+            "title":"testtitle"
+        }
+        var getTpl = tempTuShu.innerHTML
+        var $mydom = $(this);
+        laytpl(getTpl).render(data,function(html){
+            $mydom.parent().parent().parent().parent().after(html);
+        })
+        return false;
+    })
+
+    //底部面板添加轮播的按钮
+    $("#main-add-lunbo").on('click',function(){
+        var data = {
+            "title":"testtitle"
+        }
+        var getTpl = tempLunBo.innerHTML
+        laytpl(getTpl).render(data,function(html){
+            $panel.before(html);
+        })
+    })
+
+    //点击组件上方加号出现的面板后，点击添加轮播按钮
+    $("#showArea").on('click','.module-up .panel-add-lunbo',function(){
+        var data = {
+            "title":"testtitle"
+        }
+        var getTpl = tempLunBo.innerHTML
+        var $mydom = $(this);
+        laytpl(getTpl).render(data,function(html){
+            $mydom.parent().parent().parent().parent().before(html);
+        })
+        return false;
+    })
+
+    //点击组件下方加号出现的面板后，点击添加轮播按钮
+    $("#showArea").on('click','.module-down .panel-add-lunbo',function(){
+        var data = {
+            "title":"testtitle"
+        }
+        var getTpl = tempLunBo.innerHTML
+        var $mydom = $(this);
+        laytpl(getTpl).render(data,function(html){
+            $mydom.parent().parent().parent().parent().after(html);
+        })
+        return false;
+    })
+
+    //底部面板添加文字的按钮
+    $("#main-add-wenzi").on('click',function(){
+        var data = {
+            "title":"testtitle"
+        }
+        var getTpl = tempWenZi.innerHTML
+        laytpl(getTpl).render(data,function(html){
+            $panel.before(html);
+        })
+    })
+
+    //点击组件上方加号出现的面板后，点击添加轮播按钮
+    $("#showArea").on('click','.module-up .panel-add-wenzi',function(){
+        var data = {
+            "title":"testtitle"
+        }
+        var getTpl = tempWenZi.innerHTML
+        var $mydom = $(this);
+        laytpl(getTpl).render(data,function(html){
+            $mydom.parent().parent().parent().parent().before(html);
+        })
+        return false;
+    })
+
+    //点击组件下方加号出现的面板后，点击添加轮播按钮
+    $("#showArea").on('click','.module-down .panel-add-wenzi',function(){
+        var data = {
+            "title":"testtitle"
+        }
+        var getTpl = tempWenZi.innerHTML
+        var $mydom = $(this);
+        laytpl(getTpl).render(data,function(html){
+            $mydom.parent().parent().parent().parent().after(html);
+        })
+        return false;
+    })
+
+    //--------------------//
+    //点击动态添加的图文按钮后，右侧展示图文添加的侧边栏菜单
+
+    //点击图文作品后，右侧弹出图文作品弹窗
+    $("#showArea").on('click','.tempTuWen',function(){
+        var data = {
+            "title":"图文作品",
+            "link":"图文作品",
+            "add":"添加文章",
+        }
+        var myHtml = {data:''};
+        var getTpl = barTuWen.innerHTML
+        laytpl(getTpl).render(data,function(html){
+            myHtml.data = html;
+        })
+        layer.closeAll();
+        layer.open({
+          type: 1,
+          title: false,
+          maxmin: false,
+          shadeClose: false, //点击遮罩关闭层
+          closeBtn: 0,
+          skin:"zujian-alert",
+          area : ['460px' , '100%'],
+          offset: "rt",
+          content: myHtml.data,
+          shade: 0,
+        });
+    });
+
+    //点击音频作品后，右侧弹出图文作品弹窗
+    $("#showArea").on('click','.tempYinPin',function(){
+        var data = {
+            "title":"音频作品",
+            "link":"音频作品",
+            "add":"添加音频",
+        }
+        var myHtml = {data:''};
+        var getTpl = barTuWen.innerHTML
+        laytpl(getTpl).render(data,function(html){
+            myHtml.data = html;
+        })
+        layer.closeAll();
+        layer.open({
+          type: 1,
+          title: false,
+          maxmin: false,
+          shadeClose: false, //点击遮罩关闭层
+          closeBtn: 0,
+          skin:"zujian-alert",
+          area : ['460px' , '100%'],
+          offset: "rt",
+          content: myHtml.data,
+          shade: 0,
+        });
+    });
+
+    //点击音频视频后，右侧弹出添加视频弹窗
+    $("#showArea").on('click','.tempShiPin',function(){
+        var data = {
+            "title":"视频作品",
+            "link":"视频作品",
+            "add":"添加视频",
+        }
+        var myHtml = {data:''};
+        var getTpl = barTuWen.innerHTML
+        laytpl(getTpl).render(data,function(html){
+            myHtml.data = html;
+        })
+        layer.closeAll();
+        layer.open({
+          type: 1,
+          title: false,
+          maxmin: false,
+          shadeClose: false, //点击遮罩关闭层
+          closeBtn: 0,
+          skin:"zujian-alert",
+          area : ['460px' , '100%'],
+          offset: "rt",
+          content: myHtml.data,
+          shade: 0,
+        });
+    });
+
+    //点击图集后，右侧弹出添加图集弹窗
+    $("#showArea").on('click','.tempTuJi',function(){
+        var data = {
+            "title":"图集推荐",
+            "link":"图集作品",
+            "add":"添加图集",
+        }
+        var myHtml = {data:''};
+        var getTpl = barTuWen.innerHTML
+        laytpl(getTpl).render(data,function(html){
+            myHtml.data = html;
+        })
+        layer.closeAll();
+        layer.open({
+          type: 1,
+          title: false,
+          maxmin: false,
+          shadeClose: false, //点击遮罩关闭层
+          closeBtn: 0,
+          skin:"zujian-alert",
+          area : ['460px' , '100%'],
+          offset: "rt",
+          content: myHtml.data,
+          shade: 0,
+        });
+    });
+
+    //点击组合后，右侧弹出添加组合弹窗
+    $("#showArea").on('click','.tempZuHe',function(){
+        var data = {
+            "title":"组合推荐",
+            "link":"图集作品",
+            "add":"添加作品",
+        }
+        var myHtml = {data:''};
+        var getTpl = barTuWen.innerHTML
+        laytpl(getTpl).render(data,function(html){
+            myHtml.data = html;
+        })
+        layer.closeAll();
+        layer.open({
+          type: 1,
+          title: false,
+          maxmin: false,
+          shadeClose: false, //点击遮罩关闭层
+          closeBtn: 0,
+          skin:"zujian-alert",
+          area : ['460px' , '100%'],
+          offset: "rt",
+          content: myHtml.data,
+          shade: 0,
+        });
+    });
+
+    //点击微刊后，右侧弹出添加微刊弹窗
+    $("#showArea").on('click','.tempWeiKan',function(){
+        var data = {
+            "title":"微刊推荐",
+            "link":"微刊",
+            "add":"添加微刊",
+        }
+        var myHtml = {data:''};
+        var getTpl = barTuWen.innerHTML
+        laytpl(getTpl).render(data,function(html){
+            myHtml.data = html;
+        })
+        layer.closeAll();
+        layer.open({
+            type: 1,
+            title: false,
+            maxmin: false,
+            shadeClose: false, //点击遮罩关闭层
+            closeBtn: 0,
+            skin:"zujian-alert",
+            area : ['460px' , '100%'],
+            offset: "rt",
+            content: myHtml.data,
+            shade: 0,
+        });
+    });
+
+    //点击期刊后，右侧弹出添加微刊弹窗
+    $("#showArea").on('click','.tempQiKan',function(){
+        var data = {
+            "title":"期刊推荐",
+            "link":"期刊",
+            "add":"添加期刊",
+        }
+        var myHtml = {data:''};
+        var getTpl = barTuWen.innerHTML
+        laytpl(getTpl).render(data,function(html){
+            myHtml.data = html;
+        })
+        layer.closeAll();
+        layer.open({
+            type: 1,
+            title: false,
+            maxmin: false,
+            shadeClose: false, //点击遮罩关闭层
+            closeBtn: 0,
+            skin:"zujian-alert",
+            area : ['460px' , '100%'],
+            offset: "rt",
+            content: myHtml.data,
+            shade: 0,
+        });
+    });
+
+    //点击图书后，右侧弹出添加图书弹窗
+    $("#showArea").on('click','.tempTuShu',function(){
+        var data = {
+            "title":"图书推荐",
+            "link":"图书",
+            "add":"添加图书",
+        }
+        var myHtml = {data:''};
+        var getTpl = barTuWen.innerHTML
+        laytpl(getTpl).render(data,function(html){
+            myHtml.data = html;
+        })
+        layer.closeAll();
+        layer.open({
+            type: 1,
+            title: false,
+            maxmin: false,
+            shadeClose: false, //点击遮罩关闭层
+            closeBtn: 0,
+            skin:"zujian-alert",
+            area : ['460px' , '100%'],
+            offset: "rt",
+            content: myHtml.data,
+            shade: 0,
+        });
+    });
+
+    //点击轮播后，右侧弹出添加轮播弹窗
+    $("#showArea").on('click','.tempLunBo',function(){
+        var data = {}
+        var myHtml = {data:''};
+        var getTpl = barLunBo.innerHTML
+        laytpl(getTpl).render(data,function(html){
+            myHtml.data = html;
+        })
+        layer.closeAll();
+        layer.open({
+            type: 1,
+            title: false,
+            maxmin: false,
+            shadeClose: false, //点击遮罩关闭层
+            closeBtn: 0,
+            skin:"zujian-alert",
+            area : ['460px' , '100%'],
+            offset: "rt",
+            content: myHtml.data,
+            shade: 0,
+        });
+    });
+
+    //点击文字组件后，右侧弹出添加文字弹窗
+    $("#showArea").on('click','.tempWenZi',function(){
+        var data = {}
+        var myHtml = {data:''};
+        var getTpl = barWenZi.innerHTML
+        laytpl(getTpl).render(data,function(html){
+            myHtml.data = html;
+        })
+        layer.closeAll();
+        layer.open({
+            type: 1,
+            title: false,
+            maxmin: false,
+            shadeClose: false, //点击遮罩关闭层
+            closeBtn: 0,
+            skin:"zujian-alert",
+            area : ['460px' , '100%'],
+            offset: "rt",
+            content: myHtml.data,
+            shade: 0,
+        });
+    });
+
+    //点击顶部那一块，右侧弹出修改信息的按钮
+    $(".tempInfo").on('click',function(){
+        var data = {}
+        var myHtml = {data:''};
+        var getTpl = barInfo.innerHTML
+        laytpl(getTpl).render(data,function(html){
+            myHtml.data = html;
+        })
+        layer.closeAll();
+        layer.open({
+            type: 1,
+            title: false,
+            maxmin: false,
+            shadeClose: false, //点击遮罩关闭层
+            closeBtn: 0,
+            skin:"zujian-alert",
+            area : ['460px' , '100%'],
+            offset: "rt",
+            content: myHtml.data,
+            shade: 0,
+        });
+    });
+
+    //点击上方提示的关闭按钮，关闭提示
+    $("#tipsclose").on('click',function(){
+        $(this).parent().remove();
+    })
+    //点击每一个组件，上面增加click的class，就会出现绿色的边框
+    $("#showArea").on('click','.unit',function(){
+        $(".unit").removeClass('click');
+        $(this).addClass('click');
+    })
+
+    //点击组件后，会出现删除按钮，点击删除按钮，删掉这个组件,然后关掉右侧的弹窗。
+    $("#showArea").on('click','.handle .del',function(){
+        $(this).parent().parent().remove();
+        layer.closeAll();
+        return false;
+    })
+    //点击组件后，会出现向上移动按钮，点击这个按钮，这个组件向上移动
+    $("#showArea").on('click','.handle .up',function(){
+        var zujian = $(this).parent().parent();
+        zujian.insertBefore(zujian.prev('.unit'));
+        return false;
+    })
+
+    //点击组件后，会出现向上移动按钮，点击这个按钮，这个组件向上移动
+    $("#showArea").on('click','.handle .down',function(){
+        var zujian = $(this).parent().parent();
+        zujian.insertAfter(zujian.next('.unit'));
+        return false;
+    })
+
+    //点击组件后，上方会出现十字加号，点击这个加号，出现一个添加组件的面板
+    $("#showArea").on('click','.add1',function(){
+        $(this).parent().find(".module-up").remove();
+        $(this).parent().find(".module-down").remove();
+        var data = {}
+        var myHtml = {data:''};
+        var getTpl = addPanelTop.innerHTML
+        laytpl(getTpl).render(data,function(html){
+            myHtml.data = html;
+        })
+        $(this).parent().append(myHtml.data);
+        return false;
+    })
+    //点击组件后，下方会出现十字加号，点击这个加号，出现一个添加组件的面板
+    $("#showArea").on('click','.add2',function(){
+        $(this).parent().find(".module-up").remove();
+        $(this).parent().find(".module-down").remove();
+        var data = {}
+        var myHtml = {data:''};
+        var getTpl = addPanelBottom.innerHTML
+        laytpl(getTpl).render(data,function(html){
+            myHtml.data = html;
+        })
+        $(this).parent().append(myHtml.data);
+        return false;
+    })
+
+    //点击组件后，会出现加号，点击加号，会出现面板。点击面板右上角的删除，会删除这个面板
+    $("#showArea").on('click','.module-close',function(){
+        $(this).parent().parent().remove();
+        return false;
+    })
+
+    //点击组件后，右侧会出现菜单，点击菜单的表单。会实现表单下拉和选择。
+    $("body").on('click','.mset-double-select p', function(){
+        $(this).next('ul').toggle();
+    })
+    $("body").on('click','.mset-double-select li', function(){
+        $(this).parent().prev().html($(this).text());
+        $(this).parent().css("display","none");
+    })
+});

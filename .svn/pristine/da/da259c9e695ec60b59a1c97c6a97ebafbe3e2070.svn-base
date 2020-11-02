@@ -1,0 +1,63 @@
+@charset "utf-8";
+div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, input, button, textarea, p, th, td, form, body { padding: 0px; margin: 0px; }
+body { font-family:"宋体"; font-size:12px; color:#000; }
+img { border:none; }
+strong,i { font-style:normal }
+ul, li, ol { list-style-type: none; }
+table { border-collapse: collapse; border-spacing: 0 }
+input::-moz-focus-inner {border:0;padding:0;margin:0;}
+input::-ms-clear {display:none;}
+input[type="button"] { cursor:pointer; }
+input, textarea { outline:none; border: none 0;  resize: none;}
+/*input { border:0; background-color:transparent;}*/
+.clearfix:after { content: "."; display: block; height: 0; clear: both; visibility: hidden; }
+.clearfix {zoom: 1; }
+a { text-decoration:none; outline:none; }
+a:hover { text-decoration:none; }
+.colorGrey{ color: #a6a6a6;}
+.left { float:left; }
+.right { float:right; }
+.positionR { position:relative; }
+.positionA { position:absolute; }
+.displayB { display:block; }
+.displayN { display:none; }
+.page{ padding-top:60px; padding-bottom:62px;font-family:"微软雅黑"; text-align:center; }
+.page a{ border:1px solid #BEBEBE; background-color:#ffffff; color:#595959;font-size:14px; font-weight:normal; margin-right:10px; padding:7px 8px;}
+.page a:hover{ background-color:#4EBB50; color:#ffffff; border-color:#4EBB50;}
+.page .spec_padding{ padding:7px 8px;}
+.page span{ margin-right:10px;padding:7px 8px;font-size:14px;}
+.page span.current{background-color:#4EBB50; color:#ffffff;border:1px solid #4EBB50;margin-right:10px;padding:7px 8px;}
+/*左侧菜单*/
+.content{ min-height: 1100px; font-family: "microsoft yahei";}
+.content .contentBox{ margin-left: 230px;}
+.content .sideMenu{ float: left; width: 230px;background-color: #4E5765;}
+.content .sideMenu .avatar{ padding-top: 24px; text-align: center; margin-bottom: 10px;}
+.content .sideMenu .avatar img{ border-radius: 50%; }
+.content .sideMenu .avatar h1{ font-weight:normal; line-height:44px; color: #ffffff; font-size:18px;}
+.content .sideMenu .sideList .nav{ height: 50px; border-top: 1px solid #58616D; position: relative;}
+.content .sideMenu .sideList .nav3:after, .content .sideMenu .sideList .nav5:after,.content .sideMenu .sideList .nav8:after{ content: "";position: absolute; left: 195px; top: 23px; width: 10px; height: 6px;background: url(../../images/worksManagement/side-icon9.png) no-repeat; transition: all .2s linear; transform: rotate(0deg);}
+.content .sideMenu .sideList .nav.toggle:after{ transform:rotate(-180deg);}
+.content .sideMenu .sideList .nav a{ display: block; color: #ffffff; line-height: 50px; font-size: 14px; padding-left: 67px; background-repeat: no-repeat; background-position: 40px center;}
+.content .sideMenu .sideList .nav.click .cur{ color: #0CBD5A;}
+.content .sideMenu .sideList .nav1 a{ background-image: url(../../images/worksManagement/side-icon1.png);}
+.content .sideMenu .sideList .nav1.click a{ background-image: url(../../images/worksManagement/side-icon1c.png);}
+.content .sideMenu .sideList .nav2 a{ background-image: url(../../images/worksManagement/side-icon2.png);}
+.content .sideMenu .sideList .nav2.click a{ background-image: url(../../images/worksManagement/side-icon2c.png);}
+.content .sideMenu .sideList .nav3 a{ background-image: url(../../images/worksManagement/side-icon3.png);}
+.content .sideMenu .sideList .nav3.click a{ background-image: url(../../images/worksManagement/side-icon3c.png);}
+.content .sideMenu .sideList .nav4 a{ background-image: url(../../images/worksManagement/side-icon4.png);}
+.content .sideMenu .sideList .nav4.click a{ background-image: url(../../images/worksManagement/side-icon4c.png);}
+.content .sideMenu .sideList .nav5 a{ background-image: url(../../images/worksManagement/side-icon5.png);}
+.content .sideMenu .sideList .nav5.click a{ background-image: url(../../images/worksManagement/side-icon5c.png);}
+.content .sideMenu .sideList .nav6 a{ background-image: url(../../images/worksManagement/side-icon6.png);}
+.content .sideMenu .sideList .nav6.click a{ background-image: url(../../images/worksManagement/side-icon6c.png);}
+.content .sideMenu .sideList .nav7 a{ background-image: url(../../images/worksManagement/side-icon7.png);}
+.content .sideMenu .sideList .nav7.click a{ background-image: url(../../images/worksManagement/side-icon7c.png);}
+.content .sideMenu .sideList .nav8 a{ background-image: url(../../images/worksManagement/side-icon8.png);}
+.content .sideMenu .sideList .nav8.click a{ background-image: url(../../images/worksManagement/side-icon8c.png);}
+.content .sideMenu .sideList ul{ border-top: 1px solid #616974; background-color: #394353;}
+.content .sideMenu .sideList ul li a{ display: block; padding-left: 67px; color: #ffffff; font-size: 14px; line-height: 48px;}
+.content .sideMenu .sideList ul li a.cur{ background-color: #313B49; color: #0CBD5A;}
+/*右侧管理模板通用*/
+.content .manageWrap{ padding-left: 48px;}
+.content .manageWrap .ct{ font-size: 24px; font-weight: normal; padding-left: 40px; line-height: 104px; background-repeat: no-repeat; background-position:left center;}

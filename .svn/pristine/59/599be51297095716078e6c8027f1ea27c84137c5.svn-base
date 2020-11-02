@@ -1,0 +1,23 @@
+@charset "utf-8";
+.content .bookshelfWrap .ct{ background-image: url(../../images/myBookshelf/icon1.png);}
+.content .bookshelfWrap{ width: 1100px;}
+.content .bookshelfWrap .box{ margin-bottom: 46px; margin-left: 12px;}
+.content .bookshelfWrap .box .top{ height: 28px; padding-bottom: 6px; width: 1104px; border-bottom: 1px solid #E5E5E5; margin-bottom: 20px;}
+.content .bookshelfWrap .box .top span{ height: 28px; line-height: 26px; font-size: 16px; margin-left: 12px; padding-left: 15px; background: url(../../images/myBookshelf/icon2.gif) no-repeat left center;}
+.content .bookshelfWrap .box .top a{ width: 79px; height: 23px; border: 1px solid #D8D8D8; border-radius: 12px; color: #808080; line-height: 23px; text-align: center; margin-left: 14px; box-shadow: 0 0 6px #ECECEC;}
+.content .bookshelfWrap .box ul{ margin-left: 40px; overflow: hidden;}
+.content .bookshelfWrap .box ul li{ width: 175px; height: 276px; padding: 4px 4px 0; border: 1px solid #CBCBCB; border-radius: 6px; margin-right: 24px;}
+.content .bookshelfWrap .box ul li img{ display: block;}
+.content .bookshelfWrap .box ul li p{ line-height: 46px; text-align: center; font-size: 14px; font-weight: bold;}
+.content .bookshelfWrap .box ul li p a{ color: #252525;}
+.content .bookshelfWrap .exhibition{ width: 1098px; border: 1px solid #C3DFCF; border-top: 3px solid #09A553; height: 406px; background-color: #E6FFEC; margin-bottom: 15px;}
+.content .bookshelfWrap .exhibition img{ float: left; margin-left: 55px; margin-top: 45px;border-radius:10px; margin-right: 33px;}
+.content .bookshelfWrap .exhibition .info{ width: 718px; margin-top: 45px;}
+.content .bookshelfWrap .exhibition .info h1{ font-size: 30px; line-height: 63px; color: #0FA652;}
+.content .bookshelfWrap .exhibition .info .item{ font-size: 16px; height: 48px; border-bottom: 1px solid #C4DFD0; line-height: 48px;}
+.content .bookshelfWrap .exhibition .info .item .dl{ width: 349px; padding-left: 9px;}
+.content .bookshelfWrap .exhibition .info .item label{ font-weight: bold;}
+.content .bookshelfWrap .exhibition .info .item span{ }
+.content .bookshelfWrap .exhibition .info .item a{ padding: 3px 14px; color: #09A553; border: 1px solid #09A553; border-radius: 12px; font-size: 12px;}
+.content .bookshelfWrap .searchArea{ width: 1098px; height: 88px; border: 1px solid #D8D8D8; margin-bottom: 15px;}
+.content .bookshelfWrap .years{ padding: 1px; width: 1096px; height: 38px; border: 1px solid #DBDBDB;}

@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,height=device-height,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<title>看典</title>
+        <link rel="stylesheet" type="text/css" href="../css/public/public.css"/>
+        <link rel="stylesheet" type="text/css" href="../css/public/header-and-footer.css"/>
+        <link rel="stylesheet" type="text/css" href="../css/worksManagement/wm.css"/>
+        <script src="../js/jQuery-v1.11.1.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../js/divSelect.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../js/jquery.promptToggle.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../js/wordLimit.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+	    <!--mask-->
+	    <div class="mask" style="display: none;"></div>
+	    <!--header-->
+	    <div class="header">
+	        <div class="left slogan">看典内容管理平台</div>
+	        <div class="right ewm"><img src="../images/header-and-footer/hfewm.jpg" width="39" height="39"></div>
+            <div class="right dropwrap">
+                <a href="javascript:;" class="name">清华大学出版社</a>
+                <ul>
+                    <li><a href="javascript:;">退出账号</a></li>
+                </ul>
+            </div>
+	    </div>
+        <!--main-->	    
+        <div class="content">
+            <!--sidebar-->
+            <div class="sideMenu">
+                <div class="avatar">
+                    <img src="../imagesTemp/worksManagement/avatar.png" width="100" height="100">
+                    <h1>清华大学出版社</h1>
+               </div>
+                <div class="sideList">
+                    <div class="nav nav1">
+                        <a href="javascript:;">首页</a>   
+                    </div>
+                    <div class="nav nav2">
+                        <a href="javascript:;">主页设置</a>   
+                    </div>
+                     <div class="nav nav3 click">
+                        <a href="javascript:;" class="cur">作品管理</a>   
+                    </div>
+                    <ul>
+                        <li><a href="javascript:;">全部作品</a></li>
+                        <li><a href="javascript:;">图文作品</a></li>
+                        <li><a href="javascript:;">音频作品</a></li>
+                        <li><a href="javascript:;" class="cur" >视频作品</a></li>
+                        <li><a href="javascript:;">图集作品</a></li>
+                    </ul>
+                    <div class="nav nav4">
+                        <a href="javascript:;">微刊管理</a>   
+                    </div>
+                    <div class="nav nav5">
+                        <a href="javascript:;">我的书架</a>   
+                    </div>
+                    <ul>
+                        <li><a href="javascript:;">我的期刊</a></li>
+                        <li><a href="javascript:;">我的图书</a></li>
+                    </ul>
+                    <div class="nav nav6">
+                        <a href="javascript:;">评论管理</a>   
+                    </div>
+                    <div class="nav nav7">
+                        <a href="javascript:;">朗读管理</a>   
+                    </div>
+                    <div class="nav nav8">
+                        <a href="javascript:;">收益管理</a>   
+                    </div>
+                    <ul>
+                        <li><a href="javascript:;">收益总览</a></li>
+                        <li><a href="javascript:;">订单明细</a></li>
+                    </ul>
+                </div>
+ 
+            </div>
+        	<!--contentBox-->
+        	<div class="contentBox">
+                <div class="manageWrap worksWrap">
+                    <h1 class="ct">作品管理</h1>
+                    <div class="withlimit">
+                    	<div class="top">
+                            <div class="left tab">
+                            	<a href="javascript:;" class="a1">全部</a>
+                            	<a href="javascript:;" class="a2">图文</a>
+                            	<a href="javascript:;" class="a3">图集</a>
+                            	<a href="javascript:;" class="a4">音频</a>
+                            	<a href="javascript:;" class="a5 cur">视频</a>
+                            </div>
+                            <a href="javascript:;" class="right set">分类设置</a>
+                    	</div>
+                        <div class="tabcont">
+                        	<div class="handle">
+                        		<a href="#" class="create">新建视频作品</a>
+                        		<div class="right rc">
+                        		    <div class="search right">
+                                       <input type="text" value="" />
+                                       <a href="javascript:;"></a>
+                                    </div>
+                                    <div class="select right">
+                                      <p>全部状态</p>
+                                      <ul>
+                                        <li>一个分类</li>
+                                        <li>两个分类</li>
+                                      </ul>
+                                   </div>  
+                            	   <div class="select right">
+                            	   	  <p>全部分类</p>
+                            	   	  <ul>
+                            	   	  	<li>一个分类</li>
+                            	   	  	<li>两个分类</li>
+                            	   	  </ul>
+                            	   </div>
+                            	    
+                                                         		   
+                        		</div>
+                        	</div>
+                            <div class="list">
+                            	<ul>
+                            		<li>
+                            		    <span class="sign">已审核</span>
+                            		    <a href="#" class="img"><img src="../imagesTemp/microbookManagement/img.jpg" width="326" height="185"></a>
+                            		    <p class="p1"><a href="#">遗唐史：大唐主导体系下的国际交流<img src="../images/worksManagement/icon18.png" width="18" height="16" align="absmiddle"></a></p>
+                            		    <p class="p2"><span class="time left">更新于2019年3月6日</span><span class="a right"><a href="#">预览</a>&nbsp;|&nbsp;<a href="#">下架</a></span></p>
+                            		</li>
+                                    <li>
+                                        <span class="sign">待审核</span>
+                                        <a href="#" class="img"><img src="../imagesTemp/microbookManagement/img.jpg" width="326" height="185"></a>
+                                        <p class="p1"><a href="#">遗唐史：大唐主导体系下的国际交流<img src="../images/worksManagement/icon18.png" width="18" height="16" align="absmiddle"></a></p>
+                                        <p class="p2"><span class="time left">更新于2019年3月6日</span><span class="a right"><a href="#">预览</a>&nbsp;|&nbsp;<a href="#">下架</a></span></p>
+                                    </li>
+                                    <li>
+                                        <span class="sign">已审核</span>
+                                        <a href="#" class="img"><img src="../imagesTemp/microbookManagement/img.jpg" width="326" height="185"></a>
+                                        <p class="p1"><a href="#">遗唐史：大唐主导体系下的国际交流<img src="../images/worksManagement/icon18.png" width="18" height="16" align="absmiddle"></a></p>
+                                        <p class="p2"><span class="time left">更新于2019年3月6日</span><span class="a right"><a href="#">预览</a>&nbsp;|&nbsp;<a href="#">下架</a></span></p>
+                                    </li>
+                                    <li>
+                                        <span class="sign">已审核</span>
+                                        <a href="#" class="img"><img src="../imagesTemp/microbookManagement/img.jpg" width="326" height="185"></a>
+                                        <p class="p1"><a href="#">遗唐史：大唐主导体系下的国际交流<img src="../images/worksManagement/icon18.png" width="18" height="16" align="absmiddle"></a></p>
+                                        <p class="p2"><span class="time left">更新于2019年3月6日</span><span class="a right"><a href="#">预览</a>&nbsp;|&nbsp;<a href="#">下架</a></span></p>
+                                    </li>
+                                    <li>
+                                        <span class="sign">待审核</span>
+                                        <a href="#" class="img"><img src="../imagesTemp/microbookManagement/img.jpg" width="326" height="185"></a>
+                                        <p class="p1"><a href="#">遗唐史：大唐主导体系下的国际交流<img src="../images/worksManagement/icon18.png" width="18" height="16" align="absmiddle"></a></p>
+                                        <p class="p2"><span class="time left">更新于2019年3月6日</span><span class="a right"><a href="#">预览</a>&nbsp;|&nbsp;<a href="#">下架</a></span></p>
+                                    </li>
+                                    <li>
+                                        <span class="sign">已审核</span>
+                                        <a href="#" class="img"><img src="../imagesTemp/microbookManagement/img.jpg" width="326" height="185"></a>
+                                        <p class="p1"><a href="#">遗唐史：大唐主导体系下的国际交流<img src="../images/worksManagement/icon18.png" width="18" height="16" align="absmiddle"></a></p>
+                                        <p class="p2"><span class="time left">更新于2019年3月6日</span><span class="a right"><a href="#">预览</a>&nbsp;|&nbsp;<a href="#">下架</a></span></p>
+                                    </li>
+                                    <li>
+                                        <span class="sign">已审核</span>
+                                        <a href="#" class="img"><img src="../imagesTemp/microbookManagement/img.jpg" width="326" height="185"></a>
+                                        <p class="p1"><a href="#">遗唐史：大唐主导体系下的国际交流<img src="../images/worksManagement/icon18.png" width="18" height="16" align="absmiddle"></a></p>
+                                        <p class="p2"><span class="time left">更新于2019年3月6日</span><span class="a right"><a href="#">预览</a>&nbsp;|&nbsp;<a href="#">下架</a></span></p>
+                                    </li>
+                                    <li>
+                                        <span class="sign">待审核</span>
+                                        <a href="#" class="img"><img src="../imagesTemp/microbookManagement/img.jpg" width="326" height="185"></a>
+                                        <p class="p1"><a href="#">遗唐史：大唐主导体系下的国际交流<img src="../images/worksManagement/icon18.png" width="18" height="16" align="absmiddle"></a></p>
+                                        <p class="p2"><span class="time left">更新于2019年3月6日</span><span class="a right"><a href="#">预览</a>&nbsp;|&nbsp;<a href="#">下架</a></span></p>
+                                    </li>
+                                    <li>
+                                        <span class="sign">已审核</span>
+                                        <a href="#" class="img"><img src="../imagesTemp/microbookManagement/img.jpg" width="326" height="185"></a>
+                                        <p class="p1"><a href="#">遗唐史：大唐主导体系下的国际交流<img src="../images/worksManagement/icon18.png" width="18" height="16" align="absmiddle"></a></p>
+                                        <p class="p2"><span class="time left">更新于2019年3月6日</span><span class="a right"><a href="#">预览</a>&nbsp;|&nbsp;<a href="#">下架</a></span></p>
+                                    </li>
+
+                            	</ul>
+                            </div>
+                            <div class="page"> <a href="?page=1&amp;type=ch&amp;keys=sdfsd&amp;sort=0" class="spec_padding ">首页</a><a href="?page=1&amp;type=ch&amp;keys=sdfsd&amp;sort=0" >上一页</a><a href="?page=1&amp;type=ch&amp;keys=sdfsd&amp;sort=0">01</a><span class="current">02</span><a href="?page=3&amp;type=ch&amp;keys=sdfsd&amp;sort=0">03</a><a href="?page=4&amp;type=ch&amp;keys=sdfsd&amp;sort=0">04</a><a href="?page=5&amp;type=ch&amp;keys=sdfsd&amp;sort=0">05</a><a href="?page=6&amp;type=ch&amp;keys=sdfsd&amp;sort=0">06</a><a href="?page=7&amp;type=ch&amp;keys=sdfsd&amp;sort=0">07</a><span>...</span><a href="?page=37&amp;type=ch&amp;keys=sdfsd&amp;sort=0">37</a><a href="?page=3&amp;type=ch&amp;keys=sdfsd&amp;sort=0">下一页</a><a href="?page=1&amp;type=ch&amp;keys=sdfsd&amp;sort=0" class="spec_padding">末页</a> 
+                            </div> 
+                        </div>
+                    </div>
+                	
+                </div>
+        	</div>
+        </div>
+       <!--footer-->
+        <div class="footer">©&nbsp;&nbsp;2019中国知网&nbsp;京ICP证040431号</div>
+        <!--javascript-->
+        <script>
+            //头部
+           $(".header .dropwrap").click(function(e){
+               $(this).find("ul").slideToggle(200)
+               e.stopPropagation();
+           })
+           $(document).click(function(){
+             $(".header .dropwrap ul").slideUp(200)  
+            })
+            //左侧高度
+            var height=$(".content").height()            
+            $(".sideMenu").height(height) 
+            //side展开收起
+            $(".sideList .nav").click(function(){
+                $(this).addClass("click").siblings().removeClass("click")
+                $(this).toggleClass("toggle")
+                $(this).next("ul").slideToggle()
+            })
+          //调用模拟下拉
+        $.divselect($(".select p"),$(".select ul:not(.select2 ul)"),$(".select ul li:not(.select2 ul li)"));
+        $(".tools .select p").click(function(){
+            $(".lineHeight ul").hide() 
+        });
+        //分类下拉
+        $(".handle .all").click(function(){             
+            $(this).toggleClass("click")
+            $(".classify").slideToggle(300)
+            setTimeout(function(){height=$(".content").height()           
+            $(".sideMenu").height(height)},300)
+        })
+        //表格隔行变色
+        $("table tr:even").addClass("bg")
+        //分享框
+        $(".operate .share").click(function(){
+            $(".mask").show()
+            $(this).find(".sharebox").show()
+        })
+        $(".mask").click(function(){
+            $(this).hide()
+            $(".sharebox").hide()
+        })
+     // 分别设置文本属性，对齐方式，缩进的选中状态
+         $(".textSet").click(function(){
+             $(this).toggleClass("click")
+             })
+        $(".alignSet").click(function(){
+             $(this).addClass("click").siblings(".alignSet").removeClass("click")
+             })
+       $(".sjSet").click(function(){
+             $(this).addClass("click").siblings(".sjSet").removeClass("click")
+             }) 
+       //行距脚本
+        $(".lineHeight").click(function(e){
+            $(".tools ul").hide()
+            $(this).addClass("click")
+            $(this).find("ul").slideDown(200)
+            e.stopPropagation();
+            })
+        $(".lineHeight li").click(function(e){
+          $(this).addClass("select").siblings().removeClass("select")
+          $(this).parents(".lineHeight").removeClass("click")
+          $(this).parent("ul").slideUp(200)
+          e.stopPropagation();
+          })
+        $(document).click(function(){
+        $(".lineHeight").removeClass("click")
+            $(".lineHeight ul").hide();})
+        //radio
+        $(".radios span").click(function(){
+            $(this).addClass("check").siblings().removeClass("check")
+        })
+        </script>
+        
+	</body>
+</html>

@@ -1,0 +1,72 @@
+@charset "utf-8";
+/*我的期刊*/
+.content .bookshelfWrap .ct{ background-image: url(../../images/myBookshelf/icon1.png);}
+.content .bookshelfWrap{ width: 1100px;}
+.content .bookshelfWrap .box{ margin-bottom: 46px; margin-left: 12px;}
+.content .bookshelfWrap .box .top{ height: 28px; padding-bottom: 6px; width: 1104px; border-bottom: 1px solid #E5E5E5; margin-bottom: 20px;}
+.content .bookshelfWrap .box .top span{ height: 28px; line-height: 26px; font-size: 16px; margin-left: 12px; padding-left: 15px; background: url(../../images/myBookshelf/icon2.gif) no-repeat left center;}
+.content .bookshelfWrap .box .top a{ width: 79px; height: 23px; border: 1px solid #D8D8D8; border-radius: 12px; color: #808080; line-height: 23px; text-align: center; margin-left: 14px; box-shadow: 0 0 6px #ECECEC;}
+.content .bookshelfWrap .box ul{ margin-left: 40px; overflow: hidden;}
+.content .bookshelfWrap .box ul li{ width: 175px; height: 276px; padding: 4px 4px 0; border: 1px solid #CBCBCB; border-radius: 6px; margin-right: 24px;}
+.content .bookshelfWrap .box ul li img{ display: block;}
+.content .bookshelfWrap .box ul li p{ line-height: 46px; text-align: center; font-size: 14px; font-weight: bold;}
+.content .bookshelfWrap .box ul li p a{ color: #252525;}
+.content .bookshelfWrap .exhibition{ width: 1098px; border: 1px solid #C3DFCF; border-top: 3px solid #09A553; height: 406px; background-color: #E6FFEC; margin-bottom: 15px;}
+.content .bookshelfWrap .exhibition img{ float: left; margin-left: 55px; margin-top: 45px;border-radius:10px; margin-right: 33px;}
+.content .bookshelfWrap .exhibition .info{ width: 718px; margin-top: 45px;}
+.content .bookshelfWrap .exhibition .info h1{ font-size: 30px; line-height: 63px; color: #0FA652;}
+.content .bookshelfWrap .exhibition .info .item{ font-size: 16px; height: 48px; border-bottom: 1px solid #C4DFD0; line-height: 48px;}
+.content .bookshelfWrap .exhibition .info .item .dl{ width: 349px; padding-left: 9px;}
+.content .bookshelfWrap .exhibition .info .item label{ font-weight: bold;}
+.content .bookshelfWrap .exhibition .info .item span{ }
+.content .bookshelfWrap .exhibition .info .item a{ padding: 3px 14px; color: #09A553; border: 1px solid #09A553; border-radius: 12px; font-size: 12px;}
+.content .bookshelfWrap .searchArea{ width: 1098px; height: 88px; border: 1px solid #D8D8D8; margin-bottom: 15px;}
+.content .bookshelfWrap .years{ padding: 1px; width: 1096px; height: 38px; border: 1px solid #DBDBDB; margin-bottom: 32px;}
+.content .bookshelfWrap .years a{ float: left; width: 88px; text-align: center; height: 38px; line-height: 38px; font-size: 14px; color: #47B272; margin-right: 1px; transition: all .1s linear;}
+.content .bookshelfWrap .years a.cur{ background-color: #09A553; color: #ffffff;}
+.content .bookshelfWrap .years span{ float: left; width: 0px; height: 28px; margin-top:5px; border-left: 1px solid #DBDBDB; margin-right: 1px;}
+.content .bookshelfWrap .ul{ margin-left: 40px; overflow: hidden;}
+.content .bookshelfWrap .ul li{ width: 175px; height: 276px; padding: 4px 4px 0; border: 1px solid #CBCBCB; border-radius: 6px; margin-right: 24px; margin-bottom: 32px;}
+.content .bookshelfWrap .ul li img{ display: block;}
+.content .bookshelfWrap .ul li p{ line-height: 46px; text-align: center; font-size: 14px; font-weight: bold;}
+.content .bookshelfWrap .ul li p a{ color: #252525;}
+/*我的图书*/
+.content .bookshelfWrap .ct.book{ background-image: url(../../images/myBookshelf/icon3.png); position: relative;}
+.content .bookshelfWrap .ct.book .new{ position: absolute; right: 0px; top: 40px; width: 138px; height: 32px; text-align: center; line-height: 32px; font-size: 14px; color: #23AE60; background-color: #D4F6DB; border: 1px dashed #09A553;}
+.content .bookshelfWrap .topcol{ height: 38px; padding-top: 10px; border-top: 1px solid #E5E5E5; border-bottom: 1px solid #E5E5E5; margin-top: -15px; margin-bottom: 33px;}
+.content .bookshelfWrap .topcol .a{ float: left; height: 26px; line-height: 26px; margin-right: 8px; padding: 0 17px; border:  1px solid #1FAD61; color: #262626; border-radius: 13px;}
+.content .bookshelfWrap .topcol .a.cur{ background-color: #1FAD61; color: #ffffff;}
+.content .bookshelfWrap .topcol .rc .select{ position: relative; width: 80px; height: 26px; border: 1px solid #D8D8D8; background: url(../../images/worksManagement/icon11.png) no-repeat 66px center; cursor: pointer; margin-right: 5px;}
+.content .bookshelfWrap .topcol .rc .select p{ padding-left: 8px; line-height: 26px;}
+.content .bookshelfWrap .topcol .rc .select ul{ display: none; position: absolute; width: 80px; left: -1px; top: 26px; border: 1px solid #D8D8D8; background-color: #ffffff; z-index: 10;}
+.content .bookshelfWrap .topcol .rc .select ul li{ padding-left: 8px; height: 26px; line-height: 26px;}
+.content .bookshelfWrap .topcol .rc .search{ width: 316px; height: 26px; border: 1px solid #D8D8D8;}
+.content .bookshelfWrap .topcol .rc .search input{ float: left; padding: 3px; width: 288px; height: 20px; line-height: 20px;}
+.content .bookshelfWrap .topcol .rc .search a{ float: left; width: 22px; height: 26px; background: url(../../images/worksManagement/icon12.png) no-repeat 2px center;}
+.content .bookshelfWrap .booklist{ margin-left: 26px; overflow: hidden;width: calc(100% + 57px);}
+.content .bookshelfWrap .booklist li{ float: left; margin-right: 57px; margin-bottom: 32px; width: 164px; height: 282px;}
+.content .bookshelfWrap .booklist li .img{ display: block; padding: 1px 5px 5px 1px; background: url(../../images/myBookshelf/bookbg.gif) no-repeat center;}
+.content .bookshelfWrap .booklist li .p1{ font-size: 14px; text-align: center; line-height: 42px;}
+.content .bookshelfWrap .booklist li .p1 a{ color: #323232;}
+.content .bookshelfWrap .booklist li .p2{ color:#808080; line-height: 14px;}
+/*新建图书信息*/
+.content .contentBox .route{ margin: 0 12px; line-height: 59px; padding-left: 22px; border-bottom: 1px solid #E5E5E5; font-size: 14px; color: #343434;}
+.content .contentBox .route a{ color: #343434;}
+.content .contentBox .sheet{ padding-left:50px; padding-top: 40px;}
+.content .contentBox .sheet .info {overflow: hidden; }
+.content .contentBox .sheet .info .upload { width:250px; padding-top:255px; height:85px; background: url(../../images/myBookshelf/icon4.gif) no-repeat center;  margin-right: 20px;}
+.content .contentBox .sheet .info .upload .btn { display:block; height:37px; line-height:37px; padding-left:59px; width:86px; text-decoration:none; color:#ffffff; background:#F77225 url(../../images/myBookshelf/icon5.png) no-repeat 29px center; border-radius: 4px; margin:0 auto; font-size: 14px;}
+.content .contentBox .sheet .info .fill .row { margin-bottom:24px; font-family:"Microsoft Yahei"; }
+.content .contentBox .sheet .info .fill label { width:84px; text-align:right; margin-right:14px; line-height:38px; font-size:16px; color:#5d5d5d; height:38px; overflow:hidden;}
+.content .contentBox .sheet .info .fill label i{ color:#ff0000; font-size:18px; font-style:normal; margin-right:5px;}
+.content .contentBox .sheet .info .fill input { float:left; padding:8px 18px; line-height:20px; height:20px; border:1px solid #E3E3E3; font-size:14px; width:398px; }
+.content .contentBox .sheet .info .fill .row span { float:left; width:398px; padding:8px 18px; line-height:20px; height:20px; font-size:14px; border:1px solid #E3E3E3; background-color:#F8F8F8; }
+.content .contentBox .row label{ display: block; line-height: 58px; font-size: 16px;}
+.content .contentBox .row label i{ color:#ff0000; font-size:18px; font-style:normal; margin-right:5px;}
+/*自定义编辑器*/
+.content .contentBox .sheet .row .editBox{ width: 798px; height: 208px; border: 1px solid #D8D8D8;}
+.content .contentBox .sheet .row .editBox .tools{height: 35px; padding-top: 7px; border-bottom: 1px solid #E5E5E5;}
+.content .contentBox .sheet .btns{ padding-top: 60px; height: 45px;padding-bottom:50px;}
+.content .contentBox .sheet .btns a{ width: 138px; height: 43px; line-height: 43px; text-align: center; font-size: 16px; margin-right: 17px; border-radius: 3px; }
+.content .contentBox .sheet .btns .a1{border: 1px solid #F87323; color: #ffffff; background-color: #F87323; box-shadow: 0 0 6px #FCD2B9;}
+.content .contentBox .sheet .btns .a2{ border: 1px solid #FEC7A6; color: #F77225; background-color: #FFF0EC;box-shadow: 0 0 6px #FDE7DB;}

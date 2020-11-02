@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+      <meta charset="utf-8">
+    	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    	<meta name="viewport" content="width=device-width, initial-scale=1">
+    	<link href="../css/public/bootstrap.min.css" rel="stylesheet">  
+    	<link href="../css/public/backstage.css" rel="stylesheet">  
+    	<link href="../css/public/common.css" rel="stylesheet">  
+    	<link href="../css/worksManage/style.css" rel="stylesheet">  
+      <script type="text/javascript" src="../js/jquery-1.10.1.min.js"></script>
+    	<!--[if lt IE 9]>
+      		<script src="js/html5.js"></script>
+      		<script src="js/respond.js"></script>
+    	<![endif]-->
+    </head>
+    <body>
+    <div class="modal fade modal10 kd-modal4">
+       <div class="modal-dialog">
+          	<div class="modal-content">
+             	<div class="modal-header">
+                	<button type="button" class="close" data-dismiss="modal">&times;</button>
+                	<h4 class="modal-title">修改版式</h4>
+             	</div>
+             	<div class="modal-body">
+                <label><input type="checkbox"><span>大图</span></label>
+                <label><input type="checkbox"><span>小图</span></label>
+                <label><input type="checkbox"><span>双栏</span></label>
+              </div>
+             	<div class="modal-footer">
+                 <button type="button" class="btn btn-save" data-dismiss="modal">确定</button>
+                 <button type="button" class="btn btn-cancel" data-dismiss="modal">取消</button>
+             	</div>
+          	</div>
+      	</div>
+    </div><
+    <script type="text/javascript" src="../js/bootstrap.min.js"></script>
+    <script type="text/javascript">
+      $('.modal').modal('show');
+    </script>
+    </body>
+</html>

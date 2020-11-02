@@ -1,0 +1,79 @@
+.kdhSetting{
+    padding-top: 38px;
+    font-size: 14px;
+    font-family: MicrosoftYaHei;
+	color: #262626;
+}
+.kdhSetting .section{
+    position: relative;
+    width: 900px;
+    height: 36px;
+    line-height:28px;
+    margin-bottom:36px;
+    border-bottom:1px solid #e6e6e6;
+}
+.kdhSetting .section::before{
+    content: '';
+    position: absolute;
+    left:0;
+    top: 0;
+    width: 5px;
+	height: 28px;
+	background-color: #0092e5;
+}
+.kdhSetting .section-title{
+    float:left;
+    width: 122px;
+    padding-left:15px;
+    margin-right:18px;
+    font-weight: normal;
+    font-size: 16px;
+}
+.kdhSetting .section-content{
+    float:left;
+}
+.kdhSetting .section-detail{
+    height: auto;
+    border: 0;
+    margin-bottom:62px;
+}
+.kdhSetting .section-detail .section-title{
+    width: 900px;
+    height: 36px;
+    border-bottom: 1px solid #b8e1f8;
+    margin-bottom: 32px;
+}
+.kdhSetting label{
+    float:left;
+    line-height:36px;
+    margin-left:48px;
+    font-family: MicrosoftYaHei;
+	font-size: 14px;
+	font-weight: normal;
+	color: #262626;
+}
+.kdhSetting .form-item-appbg label,.kdhSetting .form-item-pcbg label{
+    line-height: 26px;
+    margin-top: 5px;
+}
+.kdhSetting .form-item-content{
+    float:left;
+    line-height:36px;
+}
+.kdhSetting .form-btns {
+    margin-bottom: 100px;
+}
+.kdhSetting .form-btns .btn2{
+    color: #2e6da4;
+    border-color: #2e6da4;
+}
+.kdhBgSetting .form-item{
+    margin-bottom:15px;
+}
+.kdhBgSetting label{
+    width:112px;
+    margin-right:30px;
+    margin-left:0;
+    font-family: MicrosoftYaHei;
+    text-align:right;
+}

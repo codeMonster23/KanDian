@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,height=device-height,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>看典</title>
+    <link rel="stylesheet" type="text/css" href="../css/public/public.css" />
+    <link rel="stylesheet" type="text/css" href="../css/public/header-and-footer.css" />
+    <link rel="stylesheet" type="text/css" href="../css/kdhSetting/ks.css" />
+    <script src="../js/jQuery-v1.11.1.js" type="text/javascript" charset="utf-8"></script>
+    <script src="../js/jquery.promptToggle.js" type="text/javascript" charset="utf-8"></script>
+</head>
+
+<body>
+    <!--mask-->
+    <div class="mask" style="display: none;"></div>
+    <!--header-->
+    <div class="header">
+        <div class="left slogan">看典内容管理平台</div>
+        <div class="right ewm"><img src="../images/header-and-footer/hfewm.jpg" width="39" height="39"></div>
+        <div class="right dropwrap">
+            <a href="javascript:;" class="name">清华大学出版社</a>
+            <ul>
+                <li><a href="javascript:;">退出账号</a></li>
+            </ul>
+        </div>
+    </div>
+    <!--main-->
+    <div class="content">
+        <!--sidebar-->
+        <div class="sideMenu">
+            <div class="avatar">
+                <img src="../imagesTemp/worksManagement/avatar.png" width="100" height="100">
+                <h1>清华大学出版社</h1>
+            </div>
+            <div class="sideList">
+                <div class="nav nav1">
+                    <a href="javascript:;">首页</a>
+                </div>
+                <div class="nav nav2 click">
+                    <a href="javascript:;">万选号设置</a>
+                </div>
+                <div class="nav nav3">
+                    <a href="javascript:;">作品管理</a>
+                </div>
+                <div class="nav nav4">
+                    <a href="javascript:;">微刊管理</a>
+                </div>
+                <div class="nav nav5">
+                    <a href="javascript:;">我的书架</a>
+                </div>
+                <div class="nav nav6">
+                    <a href="javascript:;">评论管理</a>
+                </div>
+                <div class="nav nav7">
+                    <a href="javascript:;">朗读管理</a>
+                </div>
+                <div class="nav nav8">
+                    <a href="javascript:;">收益管理</a>
+                </div>
+            </div>
+
+        </div>
+        <!--contentBox-->
+        <div class="contentBox">
+            <div class="manageWrap kdhSetting">
+                <h1 class="ct">万选号设置</h1>
+                <div class="tab clearfix">
+                    <a href="javascript:;">万选号资料</a>
+                    <a href="javascript:;" class="cur">主页设置</a>
+                    <a href="javascript:;">轮播图设置</a>
+                </div>
+                <div class="homepageSetting">
+                    <form>
+                        <div class="form-item clearfix">
+                            <label>万选号头像：</label>
+                            <div class="input-wrap clearfix">
+                                <img class="left avatar-img" src="../images/kdhSetting/avatar.jpg" alt="" width="160" height="160">
+                                <div class="left">
+                                    <a class="btn-upload" href="javascript:;">修改</a>
+                                    <p class="tip">要求清晰、健康、代表品牌形象的正方形图片，最大6M，240 x 240 像素</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-item form-item-appbg clearfix">
+                            <label>万选号主页背景：<br>（客户端）</label>
+                            <div class="input-wrap clearfix">
+                                <img class="left avatar-img" src="../images/kdhSetting/avatar.jpg" alt="" width="160" height="160">
+                                <div class="left">
+                                    <a class="btn-upload" href="javascript:;">修改</a>
+                                    <p class="tip">要求清晰、健康图片，最大6M，1080 x 905 像素</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-item form-item-pcbg clearfix">
+                            <label>万选号主页背景：<br>（PC端）</label>
+                            <div class="input-wrap clearfix">
+                                <img class="avatar-img" src="../images/kdhSetting/bg.jpg" alt="" width="665" height="93">
+                                <a class="btn-upload" href="javascript:;">修改</a>
+                                <p class="tip">要求清晰、健康图片，最大6M，1903 x 268 像素</p>
+                            </div>
+                        </div>
+                        <div class="form-btns clearfix">
+                            <a class="btn-submit" href="javascript:;">提交</a>
+                        </div>
+                        <div class="form-btns clearfix">
+                            <a class="btn-submit disabled" href="javascript:;">提交</a>
+                            <div class="submit-tip">资料正在审核中，请耐心等待......</div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--footer-->
+    <div class="footer">©&nbsp;&nbsp;2019中国知网&nbsp;京ICP证040431号</div>
+</body>
+<script src="../js/layui/layui.all.js"></script>
+<script>
+    //左侧高度
+    var height = $(".content").height()
+    $(".sideMenu").height(height)
+
+
+    layer = layui.layer;
+    layer.msg("提交成功，等待系统审核......", {
+        id: 'layer1',
+        area: ['250px', '76px'],
+        time: 2000,
+    });
+</script>
+
+</html>

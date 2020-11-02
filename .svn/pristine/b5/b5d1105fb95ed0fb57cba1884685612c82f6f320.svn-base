@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+      <meta charset="utf-8">
+    	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    	<meta name="viewport" content="width=device-width, initial-scale=1">
+    	<title>作品管理</title>
+    	<link href="../css/public/bootstrap.min.css" rel="stylesheet">  
+      <link href="../css/public/backstage.css" rel="stylesheet">  
+      <link href="../css/public/common.css" rel="stylesheet">  
+    	<link href="../css/accountManage/style.css" rel="stylesheet">  
+    	<link href="../css/worksManage/style.css" rel="stylesheet">  
+      <script type="text/javascript" src="../js/jquery-1.10.1.min.js"></script>
+    	<script type="text/javascript" src="../laydate/laydate.js"></script>
+    	<!--[if lt IE 9]>
+      		<script src="js/html5.js"></script>
+      		<script src="js/respond.js"></script>
+      <![endif]-->
+    </head>
+    <body>
+    <div class="container-fluid">
+      <div class="row main">
+        <div class="col-sm-10 content">
+          <div class="row">
+            <div class="breadcrumb-nav">
+              <a href="">首页></a>
+              <a href="">作品管理></a>
+              <a href="">下架申请</a>
+            </div>
+            <div class="audit">
+              <div class="topnav">
+                <ul class="clearfix">
+                  <li><a href="">作品下架申请</a></li>
+                  <li><a href="">微刊下架申请</a></li>
+                  <li><a href="" class="active">微刊作品删除申请</a></li>
+                </ul>
+              </div>
+              <div class="section">
+                <div class="works">
+                  <div class="col-sm-10 col-sm-offset-1">
+                    <div class="row works-search">
+                      <div class="col-sm-10 col-sm-offset-1 padding0">
+                        <div class="row search-box">
+                          <div class="col-sm-2 padding0">
+                            <div class="dropdown">
+                              <a href="" class="btn btn-default dropdown-toggle" data-toggle="dropdown">微刊名称<span class="caret"></span></a>
+                              <ul class="dropdown-menu">
+                                <li><a href="">微刊名称</a></li>
+                                <li><a href="">微刊CODE</a></li>
+                              </ul>
+                            </div><!--dropdown-->
+                          </div><!--col-sm-2-->
+                          <div class="col-sm-10 padding0 pdl20">
+                            <div class="input-group">
+                              <input type="text" class="form-control search-input">
+                              <div class="input-group-btn"> 
+                                <button class="btn btn-search">搜索</button>
+                              </div>
+                            </div>
+                          </div><!--col-sm-10-->
+                        </div><!--search-box-->
+                      </div><!--col-sm-10-->
+                    </div>
+                    <div class="row works-classify">
+                      <div class="col-sm-10 col-sm-offset-1 padding0">
+                        <span class="works-classify-title pull-left">处理状态：</span>
+                        <div class="dropdown pull-left">
+                          <a href="" class="btn btn-default dropdown-toggle" data-toggle="dropdown">全部<span class="caret"></span></a>
+                          <ul class="dropdown-menu">
+                            <li><a href="">免费</a></li>
+                            <li><a href="">付费</a></li>
+                          </ul>
+                        </div><!--dropdown-->
+                      </div><!--col-sm-10-->
+                    </div> 
+                  </div>
+                </div>
+                <table class="table table-responsive audit-table">
+                  <thead>
+                    <tr>
+                      <th>序号</th>
+                      <th>CODE</th>
+                      <th>微刊名称</th>
+                      <th>所属微刊</th>
+                      <th>价格</th>
+                      <th>看典号</th>
+                      <th>下架原因</th>
+                      <th class="last">操作</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>01</td>
+                      <td>5426ASD6</td>
+                      <td><a href="">古代为什么会出现世袭制？</a></td>
+                      <td><a href="">微刊01000</a></td>
+                      <td>5.00</td>
+                      <td>中国知网（文艺号）</td>
+                      <td>修改编著，重新发布</td>
+                      <td>[<a href="">待处理</a>]</td>
+                    </tr>
+                    <tr>
+                      <td>02</td>
+                      <td>5426ASD6</td>
+                      <td><a href="">古代为什么会出现世袭制？</a></td>
+                      <td><a href="">微刊01000</a></td>
+                      <td>5.00</td>
+                      <td>中国知网（文艺号）</td>
+                      <td>修改编著，重新发布</td>
+                      <td>[<a href="">已处理</a>]</td>
+                    </tr>
+                    <tr class="last">
+                      <td>03</td>
+                      <td>5426ASD6</td>
+                      <td><a href="">古代为什么会出现世袭制？</a></td>
+                      <td><a href="">微刊01000</a></td>
+                      <td>5.00</td>
+                      <td>中国知网（文艺号）</td>
+                      <td>修改编著，重新发布</td>
+                      <td>[<a href="">待处理</a>]</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row footer">
+        <div class="col-sm-10 col-sm-offset-2 text-center">
+            ©《中国学术期刊（光盘版）》电子杂志社有限公司
+        </div>
+      </div>
+    </div>
+    <script type="text/javascript" src="../js/bootstrap.min.js"></script>
+    <script type="text/javascript">
+      $(".table tr:even").css("background-color","#f5f5f5");
+      !function(){
+      laydate.skin('molv');//切换皮肤
+      laydate({elem: '.calendar'});//绑定元素
+      }();
+      //日期范围限制
+      var start = {
+          elem: '#start',
+          format: 'YYYY-MM-DD',
+          min: laydate.now(), //设定最小日期为当前日期
+          max: '2099-06-16', //最大日期
+          istime: true,
+          istoday: false,
+          choose: function(datas){
+                end.min = datas; //开始日选好后，重置结束日的最小日期
+                end.start = datas //将结束日的初始值设定为开始日
+          }
+      };
+      var end = {
+          elem: '#end',
+          format: 'YYYY-MM-DD',
+          min: laydate.now(),
+          max: '2099-06-16',
+          istime: true,
+          istoday: false,
+          choose: function(datas){
+              start.max = datas; //结束日选好后，充值开始日的最大日期
+          }
+      };
+      laydate(start);
+      laydate(end);
+    </script>
+    </body>
+</html>

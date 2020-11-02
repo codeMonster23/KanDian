@@ -1,0 +1,16 @@
+.order-status .export{ width: 100px; height: 30px; padding-left:38px; line-height: 30px; color: #fff; background: #0A92E3 url(../../images/ordersManage/om-icon1.png) no-repeat 12px center; font-size: 12px;}
+.order-status .all{ width: 100px; height: 30px; padding-left:38px; line-height: 30px; color: #fff; background: #E54602 url(../../images/ordersManage/om-icon1.png) no-repeat 12px center; font-size: 12px; margin: 0 10px;}
+.totalCalendar{ top: 12px; background-color:#fff; left: 182px; height: 30px; border-bottom: 1px solid #90c6e5;}
+.totalCalendar ul li{ margin-top: 4px;}
+.audit-table .colorBlue{ color: #0A92E3;}
+.ptip{ line-height:26px; color: #7F7F7F;}
+.ptip input{ width: 26px; text-align: center; height: 21px; border: 1px solid #BEBEBE; vertical-align: middle; margin:0 10px; position: relative;  top: -2px;} 
+.audit-table thead tr .nopa{ padding: 0 !important;} 
+.audit-table thead tr th .little{ width: 100%;}
+.audit-table thead tr th .little td{ background-color: #EAEAEA !important; }
+.audit-table thead tr th .little .bd td{ border-top: 1px solid #fff !important;}
+.audit-table thead tr th .little .bd .bdr{ border-right: 1px solid  #fff !important; }
+.audit-table .eval1,.audit-table .eval2{ padding: 0 !important;}
+.order-status .px{ float: left; width: 98px; height: 30px; margin-right: -1px; line-height: 30px; border: 1px solid #A9C6D4;text-align: center; background-color: #fff;}
+.order-status .px.cur{ background-color: #0192E3; color: #fff;}
+.order-status .px:last-child{ margin-right: 20px;}
